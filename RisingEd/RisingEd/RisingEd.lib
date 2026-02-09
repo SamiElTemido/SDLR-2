@@ -1,0 +1,24 @@
+timestamp=1769440924637
+
+[~A]
+ModifyID=21
+Version=74
+
+[~MFT]
+0=2|0RisingEd.mgf|7177|5935
+1=2|1RisingEd.mgf|19418|19418
+3=2|3RisingEd.mgf|0|0
+
+[risinged]
+A/behavioral=A/Behavioral 21|../src/RisingEd.vhd|13|1*19418
+BinW64/behavioral=3*0
+I=0*1450
+I/behavioral=I/Behavioral 0*7177
+M=11|2|vef|1769182900380|../src/RisingEd.vhd|0*1113*0x3a21772ae07f5a345beb6de760da9ef6f0a69a01|0*1369*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1769440924483|../src/RisingEd.vhd|0*6663*0x8defcf91ee8c29567caf38317140c5be25177ca1|0*7082*0x20116f55b147878295aeff36dce7fc50
+R=../src/RisingEd.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|f74c98e51e7ca3d7eb6be9867f5f46c7bf54c37a5929d0b0bef44c4f98f3ba18822341ad9f70196495d809d1c800fde2
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff48f54e64a56062f3b1989ae654dd71069
+
+[~U]
+risinged=RisingEd 11|0*924|

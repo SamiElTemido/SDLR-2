@@ -1,0 +1,37 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=ReactionTT
+[Library]
+ReactionTT=.\ReactionTT\ReactionTT.lib
+[$LibMap$]
+ReactionTT=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+REFRESH_FLOW=1
+fileopenfolder=C:\My_Designs\SDLR2_std\Timer\src
+[IMPLEMENTATION]
+UCF=
+[Files]
+/ReactionTT.vhd=-1
+/LatchSR.vhd=-1
+/FrCounter.vhd=-1
+/Timer.vhd=-1
+[Files.Data]
+.\src\ReactionTT.vhd=VHDL Source Code
+.\src\LatchSR.vhd=VHDL Source Code
+.\src\FrCounter.vhd=VHDL Source Code
+.\src\Timer.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=reactiontt|Structural|0
+ShowHide=ShowTopLevel
+Selected=

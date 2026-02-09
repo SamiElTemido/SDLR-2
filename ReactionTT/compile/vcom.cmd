@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/SDLR2_std/ReactionTT/compile/ReactionTT.erf -d C:/My_Designs/SDLR2_std/ReactionTT/compile -s C:/My_Designs/SDLR2_std/library.cfg -j C:/My_Designs/SDLR2_std/ReactionTT/projlib.cfg -work ReactionTT -O3 -e 100 -work ReactionTT -2002 C:/My_Designs/SDLR2_std/ReactionTT/src/ReactionTT.vhd 

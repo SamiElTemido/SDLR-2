@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/My_Designs/SDLR2_std/LatchSR/src/LatchSR.vhd" 
+MESSAGE "Compile Entity "LatchSR"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "LatchSR"" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => LatchSR" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

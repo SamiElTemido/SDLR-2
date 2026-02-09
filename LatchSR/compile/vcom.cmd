@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/SDLR2_std/LatchSR/compile/LatchSR.erf -d C:/My_Designs/SDLR2_std/LatchSR/compile -s C:/My_Designs/SDLR2_std/library.cfg -j C:/My_Designs/SDLR2_std/LatchSR/projlib.cfg -work LatchSR -reorder -O3 -e 100 -work LatchSR -2002 C:/My_Designs/SDLR2_std/LatchSR/src/LatchSR.vhd 

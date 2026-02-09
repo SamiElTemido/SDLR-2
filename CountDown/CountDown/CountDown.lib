@@ -1,0 +1,25 @@
+timestamp=1769735553870
+
+[~A]
+ModifyID=11
+Version=74
+
+[~MFT]
+0=2|0CountDown.mgf|4200|2905
+1=2|1CountDown.mgf|9387|9387
+3=2|3CountDown.mgf|0|0
+
+[countdown]
+A/behavioral=A/Behavioral 21|../src/CountDown.vhd|16|1*9387
+BinW64/behavioral=3*0
+I=0*574
+I/behavioral=I/Behavioral 0*4200
+M=11|2|vef|1769441880313|../src/CountDown.vhd|0*209*0xc09ab22893fce49794d7fd5be5d1fc547a8b259c|0*491*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1769735553818|../src/CountDown.vhd|0*3682*0xe889583f55f47ae41a193989ae410fdfd011ee73|0*4103*0x20116f55b147878295aeff36dce7fc50
+R=../src/CountDown.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|f378c2f5d1503b0b9335a455629dfe7d8c1f043cb989abf4de3e412b91b0bf8e885cf5d2045a3cc1a5859e2c72685e6a
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4b732643539f75efd80e74765d7bd139d
+
+[~U]
+countdown=CountDown 11|0*0|
+

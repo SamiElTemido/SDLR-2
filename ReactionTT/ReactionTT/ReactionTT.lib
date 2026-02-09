@@ -1,0 +1,60 @@
+timestamp=1770647810337
+
+[~A]
+ModifyID=6
+Version=74
+
+[~MFT]
+0=2|0ReactionTT.mgf|9340|2346
+1=2|1ReactionTT.mgf|12397|9116
+3=2|3ReactionTT.mgf|5453|3021
+
+[frcounter]
+A/behavioral=A/Behavioral 21|../src/FrCounter.vhd|17|1*7128
+BinW64/behavioral=3*3694
+I=0*3559
+I/behavioral=I/Behavioral 0*6617
+M=11|2|vef|1770647113845|../src/FrCounter.vhd|0*3130*0x819f96926515c4dfae5e0ee57ad9dda2c65fba4a|0*3476*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1770647127954|../src/FrCounter.vhd|0*3802*0x9dcdbe75e434e651218a716b65cfa13e3dcae026|0*4293*0x20116f55b147878295aeff36dce7fc50
+R=../src/FrCounter.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5ee88cbdfe9a3ad1a18c729fba88e76fe711739d3258eb7291525b46820d6d9904d3f0dd78679d553255aa0391c1841e
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4c890fe5e170838f351f6b22fce20f569
+
+[latchsr]
+A/behavioral=A/Behavioral 21|../src/LatchSR.vhd|14|1*6203
+BinW64/behavioral=3*3021
+I=0*1960
+I/behavioral=I/Behavioral 0*6405
+M=11|2|vef|1770647113667|../src/LatchSR.vhd|0*1607*0x08b60f9daae0b442c47203e06eb537fb42112690|0*1881*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1770647127860|../src/LatchSR.vhd|0*2161*0x05a427a00c2adbda22a5eb929935daea424e36f0|0*2593*0x20116f55b147878295aeff36dce7fc50
+R=../src/LatchSR.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|1a7d935fa2e69a240069ba8ab5ad3e7a26527262ddaa47cb266f3a3c4d9b973a9c86f7c989ee8fc401454466284ed067
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4d03d58e6dd4b444eb3dda6dfa1757b68
+
+[reactiontt]
+A/structural=A/Structural 21|../src/ReactionTT.vhd|19|1*12397
+BinW64/structural=3*5453
+I=0*7857
+I/structural=I/Structural 0*9340
+M=11|2|vef|1770647593454|../src/ReactionTT.vhd|0*7375*0x5a953dd4c3993c6b35e1cf759414d3d17fea50a2|0*7772*0x23b75c12e3e89f2ef000564498faa8c2
+M/structural=M/Structural 21|2|vef|1770647810306|../src/ReactionTT.vhd|0*8061*0xdcb06ab3082d6ebe168fd4aab53f950ce1b450e6|0*9241*0x20116f55b147878295aeff36dce7fc50
+R=../src/ReactionTT.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|e6011170d2a32f369249ca36888c7119cbb55381078604dbf419d63b1a9345182d5ce81007d9c43b10738630a67245ee
+Version/structural=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb2717532816cca870dfb2f30f3d730370
+
+[timer]
+A/behavioral=A/Behavioral 21|../src/Timer.vhd|14|1*8452
+BinW64/behavioral=3*4531
+I=0*5193
+I/behavioral=I/Behavioral 0*6871
+M=11|2|vef|1770647113989|../src/Timer.vhd|0*4843*0xfdc44f1b4a45cc44944fe7289341311f76d8b625|0*5118*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1770647128011|../src/Timer.vhd|0*5432*0xd2d258f8caf910031df3d9daa62a6d6ad7bce969|0*5851*0x20116f55b147878295aeff36dce7fc50
+R=../src/Timer.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|c2ae8f0b7b95b6d69da7be83d99f8f49b94984199bbdf48d46c61a39d38803be
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff420d38fb5379cbd09ea8d9af587ff5e22
+
+[~U]
+frcounter=FrCounter 11|0*2898|
+latchsr=LatchSR 11|0*1415|
+reactiontt=ReactionTT 11|0*7121|
+timer=Timer 11|0*4644|

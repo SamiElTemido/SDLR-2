@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design-settings>
+	<plugins>
+		<Aldec.Stimuli.1>
+			<hierarchy activeStimuliSetName="StimuliSet1">
+				<stimuliSet name="StimuliSet1">
+					<stimulus name="Reloj" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="10ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/LatchSR/CLk"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Reset" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="10ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/LatchSR/RST"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Pulse1" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="100ns" enabled="true"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="10ns"/>
+								<entry value="0" time="20ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/LatchSR/SET"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Pulse2" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="200ns" enabled="true"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="50ns"/>
+								<entry value="0" time="60ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/LatchSR/CLR"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+			</hierarchy>
+		</Aldec.Stimuli.1>
+	</plugins>
+</design-settings>

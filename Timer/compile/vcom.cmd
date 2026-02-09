@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/SDLR2_std/Timer/compile/Timer.erf -d C:/My_Designs/SDLR2_std/Timer/compile -s C:/My_Designs/SDLR2_std/library.cfg -j C:/My_Designs/SDLR2_std/Timer/projlib.cfg -work Timer -reorder -O3 -e 100 -work Timer -2002 C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd 

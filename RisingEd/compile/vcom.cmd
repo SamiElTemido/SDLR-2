@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/SDLR2_std/RisingEd/compile/RisingEd.erf -d C:/My_Designs/SDLR2_std/RisingEd/compile -s C:/My_Designs/SDLR2_std/library.cfg -j C:/My_Designs/SDLR2_std/RisingEd/projlib.cfg -work RisingEd -reorder -O3 -e 100 -work RisingEd -2002 C:/My_Designs/SDLR2_std/RisingEd/src/RisingEd.vhd 

@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/SDLR2_std/Toggle/compile/Toggle.erf -d c:/My_Designs/SDLR2_std/Toggle/compile -s c:/My_Designs/SDLR2_std/library.cfg -j c:/My_Designs/SDLR2_std/Toggle/projlib.cfg -work Toggle -reorder -O3 -e 100 -work Toggle -2002 c:/My_Designs/SDLR2_std/Toggle/src/Toggle.vhd 

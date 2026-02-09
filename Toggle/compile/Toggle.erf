@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:/My_Designs/SDLR2_std/Toggle/src/Toggle.vhd" 
+MESSAGE "Compile Entity "Toggle"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "Toggle"" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => Toggle" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 

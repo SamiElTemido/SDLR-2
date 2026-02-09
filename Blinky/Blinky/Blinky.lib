@@ -1,0 +1,48 @@
+timestamp=1770176459719
+
+[~A]
+ModifyID=13
+Version=74
+
+[~MFT]
+0=14|0Blinky.mgf|11914|7473
+1=6|1Blinky.mgf|30225|28314
+3=6|3Blinky.mgf|18467|16898
+
+[blinky]
+A/structural=A/Structural 21|../src/Blinky.vhd|14|1*30225
+BinW64/structural=3*18467
+I=0*11714
+I/structural=I/Structural 0*11914
+M=11|2|vef|1770176459672|../src/Blinky.vhd|0*11384*0xa92e48cd9dfa4f7c0322f1755acca3604bbabf90|0*11637*0x23b75c12e3e89f2ef000564498faa8c2
+M/structural=M/Structural 21|2|vef|1770176459677|../src/Blinky.vhd|0*8960*0xc9b18eb33ff138abc42a7b276d4f430905027c70|0*9619*0x20116f55b147878295aeff36dce7fc50
+R=../src/Blinky.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|8b7f88e0e0750328f161801b8dc268f6010bd834c0e378294afc4b93891ea2d8
+Version/structural=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb371c6d01dd101fe61f6aec6939b6232e
+
+[timer]
+A/behavioral=A/Behavioral 21|../src/Timer.vhd|14|1*28314
+BinW64/behavioral=3*16898
+I=0*1287
+I/behavioral=I/Behavioral 0*10721
+M=11|2|vef|1770176052279|../src/Timer.vhd|0*937*0xfdc44f1b4a45cc44944fe7289341311f76d8b625|0*1212*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1770176459593|../src/Timer.vhd|0*1526*0xd2d258f8caf910031df3d9daa62a6d6ad7bce969|0*1945*0x20116f55b147878295aeff36dce7fc50
+R=../src/Timer.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|c2ae8f0b7b95b6d69da7be83d99f8f49c370ba9fea9accb3629e754fcedc9019
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4ce1c4c2e2b449d3f8c1d15cb029e8ff8
+
+[toggle]
+A/behavioral=A/Behavioral 21|../src/Toggle.vhd|13|1*29346
+BinW64/behavioral=3*17822
+I=0*2794
+I/behavioral=I/Behavioral 0*10971
+M=11|2|vef|1770176052448|../src/Toggle.vhd|0*2469*0x14187bbca08edb470e28e4ccd024f88194fcc1dc|0*2717*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1770176459638|../src/Toggle.vhd|0*2994*0xbf02eaeb4f0d257143be8f9e934a27826b66fd4f|0*3395*0x20116f55b147878295aeff36dce7fc50
+R=../src/Toggle.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5b0a207a1f62c3a8bfad49db1700afc78c2ed4f4b58c0bb790cc2378d0fcac89
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff445f725622004bedbe2f184f7c0c572c2
+
+[~U]
+blinky=Blinky 11|0*11182|
+timer=Timer 11|0*738|
+toggle=Toggle 11|0*2284|

@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/SDLR2_std/Blinky/compile/Blinky.erf -d C:/My_Designs/SDLR2_std/Blinky/compile -s C:/My_Designs/SDLR2_std/library.cfg -j C:/My_Designs/SDLR2_std/Blinky/projlib.cfg -work blinky -reorder -O3 -e 100 -work blinky -2002 C:/My_Designs/SDLR2_std/Blinky/src/Timer.vhd C:/My_Designs/SDLR2_std/Blinky/src/Toggle.vhd C:/My_Designs/SDLR2_std/Blinky/src/Blinky.vhd 

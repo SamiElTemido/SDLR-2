@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/SDLR2_std/FrCounter/compile/FrCounter.erf -d C:/My_Designs/SDLR2_std/FrCounter/compile -s C:/My_Designs/SDLR2_std/library.cfg -j C:/My_Designs/SDLR2_std/FrCounter/projlib.cfg -work FrCounter -reorder -O3 -e 100 -work FrCounter -2002 C:/My_Designs/SDLR2_std/FrCounter/src/FrCounter.vhd 

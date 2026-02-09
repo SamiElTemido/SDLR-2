@@ -1,0 +1,63 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity Blinky is 
+	
+	generic(Ticks: integer:= 50); 
+	port(
+	CLK: in STD_logic;
+	RST: in STD_logic;
+	LED: out std_logic
+	);
+end Blinky;
+
+architecture Structural of Blinky is   	 
+-- Component declaration of the "Timer(Behavioral)" unit defined in
+	-- file: "../src/Timer.vhd"
+	component Timer
+	generic(
+		Ticks : INTEGER := 100
+	);
+	port(
+		CLK : in STD_LOGIC;
+		RST : in STD_LOGIC;
+		EOT : out STD_LOGIC
+	);
+	end component;
+	for all: Timer use entity work.Timer(Behavioral); 
+			-- Component declaration of the "Toggle(Behavioral)" unit defined in
+	-- file: "../src/Toggle.vhd"
+	component Toggle
+	port(
+		CLk : in STD_LOGIC;
+		RST : in STD_LOGIC;
+		TOG : in STD_LOGIC;
+		TGS : out STD_LOGIC
+	);
+	end component;
+	for all: Toggle use entity work.Toggle(Behavioral);
+
+signal SYN: std_logic;
+
+begin
+	
+	Label1 : Timer
+	generic map(
+		Ticks => Ticks
+	)
+	port map(
+		CLK => CLK,
+		RST => RST,
+		EOT => SYN
+	);	
+	Label2 : Toggle
+	port map(
+		CLk => CLk,
+		RST => RST,
+		TOG => SYN,
+		TGS => LED
+	);
+	
+
+
+end Structural;

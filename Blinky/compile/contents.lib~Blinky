@@ -1,0 +1,7 @@
+13
+~E 1 "../src/Blinky.vhd" 4 Blinky
+~A 1 "../src/Blinky.vhd" 14 Structural
+~E 1 "../src/Timer.vhd" 5 Timer
+~A 1 "../src/Timer.vhd" 14 Behavioral
+~E 1 "../src/Toggle.vhd" 4 Toggle
+~A 1 "../src/Toggle.vhd" 13 Behavioral

@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/My_Designs/SDLR2_std/CountDown/src/CountDown.vhd" 
+MESSAGE "Compile Entity "CountDown"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "CountDown"" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => CountDown" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

@@ -1,0 +1,13 @@
+acom -reorder -O3 -e 100 -work RisingEd -2002  $dsn/src/RisingEd.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/RisingEd/src/RisingEd.vhd
+# Compile Entity "RisingEd"
+# Compile Architecture "Behavioral" of Entity "RisingEd"
+# Top-level unit(s) detected:
+# Entity => RisingEd
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# Design: 09:24 a. m., lunes, 26 de enero de 2026
+# Design: Opening design "C:\My_Designs\SDLR2_std\CountDown\CountDown.adf"
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Design: Design "CountDown" has been set as active.

@@ -1,0 +1,3 @@
+3
+~E 1 "../src/Timer.vhd" 5 Timer
+~A 1 "../src/Timer.vhd" 14 Behavioral

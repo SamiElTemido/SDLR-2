@@ -1,0 +1,285 @@
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Architecture "Behavioral" of Entity "Timer"
+# Error: COMP96_0015: Timer.vhd : (1, 13): ';' expected.
+# Error: COMP96_0015: Timer.vhd : (5, 1): ';' expected.
+# Error: COMP96_0016: Timer.vhd : (5, 8): Design unit declaration expected.
+# Error: COMP96_0016: Timer.vhd : (5, 14): Design unit declaration expected.
+# Error: COMP96_0025: Timer.vhd : (17, 25): Identifier or string literal expected.
+# Error: COMP96_0015: Timer.vhd : (22, 6): ';' expected.
+# Error: COMP96_0016: Timer.vhd : (22, 14): Design unit declaration expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Architecture "Behavioral" of Entity "Timer"
+# Error: COMP96_0015: Timer.vhd : (5, 1): ';' expected.
+# Error: COMP96_0016: Timer.vhd : (5, 8): Design unit declaration expected.
+# Error: COMP96_0016: Timer.vhd : (5, 14): Design unit declaration expected.
+# Error: COMP96_0025: Timer.vhd : (17, 25): Identifier or string literal expected.
+# Error: COMP96_0015: Timer.vhd : (22, 6): ';' expected.
+# Error: COMP96_0016: Timer.vhd : (22, 14): Design unit declaration expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# Error: COMP96_0015: Timer.vhd : (6, 17): ':' expected.
+# Error: COMP96_0018: Timer.vhd : (6, 17): Identifier expected.
+# Error: COMP96_0016: Timer.vhd : (6, 20): Design unit declaration expected.
+# Error: COMP96_0025: Timer.vhd : (17, 25): Identifier or string literal expected.
+# Error: COMP96_0015: Timer.vhd : (22, 6): ';' expected.
+# Error: COMP96_0016: Timer.vhd : (22, 14): Design unit declaration expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# Error: COMP96_0018: Timer.vhd : (12, 2): Identifier expected.
+# Error: COMP96_0025: Timer.vhd : (17, 25): Identifier or string literal expected.
+# Error: COMP96_0015: Timer.vhd : (22, 6): ';' expected.
+# Error: COMP96_0016: Timer.vhd : (22, 14): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Error: COMP96_0055: Timer.vhd : (2, 10): Cannot find context item "IEEE.std_logic1164".
+# Error: COMP96_0078: Timer.vhd : (9, 11): Unknown identifier "std_logic".
+# Error: COMP96_0064: Timer.vhd : (9, 11): Unknown type.
+# Error: COMP96_0078: Timer.vhd : (10, 11): Unknown identifier "std_logic".
+# Error: COMP96_0064: Timer.vhd : (10, 11): Unknown type.
+# Error: COMP96_0078: Timer.vhd : (11, 12): Unknown identifier "std_logic".
+# Error: COMP96_0064: Timer.vhd : (11, 12): Unknown type.
+# Error: COMP96_0025: Timer.vhd : (17, 25): Identifier or string literal expected.
+# Error: COMP96_0015: Timer.vhd : (22, 6): ';' expected.
+# Error: COMP96_0016: Timer.vhd : (22, 14): Design unit declaration expected.
+# Compile failure 10 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Error: COMP96_0055: Timer.vhd : (2, 10): Cannot find context item "IEEE.std_logic1164".
+# Error: COMP96_0078: Timer.vhd : (9, 11): Unknown identifier "std_logic".
+# Error: COMP96_0064: Timer.vhd : (9, 11): Unknown type.
+# Error: COMP96_0078: Timer.vhd : (10, 11): Unknown identifier "std_logic".
+# Error: COMP96_0064: Timer.vhd : (10, 11): Unknown type.
+# Error: COMP96_0078: Timer.vhd : (11, 12): Unknown identifier "std_logic".
+# Error: COMP96_0064: Timer.vhd : (11, 12): Unknown type.
+# Error: COMP96_0025: Timer.vhd : (17, 25): Identifier or string literal expected.
+# Error: COMP96_0015: Timer.vhd : (22, 6): ';' expected.
+# Error: COMP96_0016: Timer.vhd : (22, 14): Design unit declaration expected.
+# Compile failure 10 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# Error: COMP96_0025: Timer.vhd : (17, 25): Identifier or string literal expected.
+# Error: COMP96_0015: Timer.vhd : (22, 6): ';' expected.
+# Error: COMP96_0016: Timer.vhd : (22, 14): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
+# Error: COMP96_0015: Timer.vhd : (20, 13): ';' expected.
+# Error: COMP96_0019: Timer.vhd : (20, 27): Keyword 'end' expected.
+# Error: COMP96_0015: Timer.vhd : (22, 6): ';' expected.
+# Error: COMP96_0016: Timer.vhd : (22, 14): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
+# Error: COMP96_0015: Timer.vhd : (20, 13): ';' expected.
+# Error: COMP96_0019: Timer.vhd : (20, 27): Keyword 'end' expected.
+# Error: COMP96_0015: Timer.vhd : (22, 6): ';' expected.
+# Error: COMP96_0016: Timer.vhd : (22, 14): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  46.0 [ms]
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
+# Error: COMP96_0015: Timer.vhd : (20, 13): ';' expected.
+# Error: COMP96_0019: Timer.vhd : (20, 27): Keyword 'end' expected.
+# Error: COMP96_0015: Timer.vhd : (22, 6): ';' expected.
+# Error: COMP96_0016: Timer.vhd : (22, 14): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
+# Error: COMP96_0015: Timer.vhd : (20, 13): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# Error: COMP96_0015: Timer.vhd : (23, 6): ';' expected.
+# Error: COMP96_0019: Timer.vhd : (23, 6): Keyword 'end' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# Error: COMP96_0019: Timer.vhd : (26, 6): Keyword 'if' expected.
+# Error: COMP96_0015: Timer.vhd : (26, 6): ';' expected.
+# Error: COMP96_0046: Timer.vhd : (28, 2): Sequential statement expected.
+# Error: COMP96_0111: Timer.vhd : (35, 14): Labels do not match.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => Timer
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Architecture "Behavioral" of Entity "Timer"
+# Error: COMP96_0143: Timer.vhd : (21, 4): Object "EOT" cannot be written.
+# Error: COMP96_0077: Timer.vhd : (21, 9): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0143: Timer.vhd : (24, 4): Object "EOT" cannot be written.
+# Error: COMP96_0077: Timer.vhd : (24, 9): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => Timer
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Architecture "Behavioral" of Entity "Timer"
+# Error: COMP96_0143: Timer.vhd : (21, 4): Object "EOT" cannot be written.
+# Error: COMP96_0143: Timer.vhd : (24, 4): Object "EOT" cannot be written.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# Top-level unit(s) detected:
+# Entity => Timer
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -reorder -O3 -e 100 -work Timer -2002  $dsn/src/Timer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Timer/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# Top-level unit(s) detected:
+# Entity => Timer
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+asim -O5 +access +r +m+Timer Timer Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5438 kB (elbread=427 elab2=4871 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\SDLR2_std\Timer\src\wave.asdb
+#  09:18 a. m., lunes, 26 de enero de 2026
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Timer Timer Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5438 kB (elbread=427 elab2=4871 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\SDLR2_std\Timer\src\wave.asdb
+#  09:18 a. m., lunes, 26 de enero de 2026
+#  Simulation has been initialized
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/SDLR2_std/Timer/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 1000 ns
+# KERNEL: stopped at time: 2100 ns
+# Waveform file 'C:/My_Designs/SDLR2_std/Timer/src/untitled.awc' connected to 'C:/My_Designs/SDLR2_std/Timer/src/untitled.asdb'.
+# Adding file C:\My_Designs\SDLR2_std\Timer\src\untitled.asdb ... Done
+# Adding file C:\My_Designs\SDLR2_std\Timer\src\untitled.awc ... Done
+# Design: Design "RisingEd" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

@@ -1,0 +1,24 @@
+timestamp=1769440686306
+
+[~A]
+ModifyID=3
+Version=74
+
+[~MFT]
+0=2|0Timer.mgf|1840|544
+1=2|1Timer.mgf|1032|1032
+3=2|3Timer.mgf|0|0
+
+[timer]
+A/behavioral=A/Behavioral 21|../src/Timer.vhd|14|1*1032
+BinW64/behavioral=3*0
+I=0*1093
+I/behavioral=I/Behavioral 0*1840
+M=11|2|vef|1769440683450|../src/Timer.vhd|0*743*0xfdc44f1b4a45cc44944fe7289341311f76d8b625|0*1018*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1769440686264|../src/Timer.vhd|0*1332*0xd2d258f8caf910031df3d9daa62a6d6ad7bce969|0*1751*0x20116f55b147878295aeff36dce7fc50
+R=../src/Timer.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|c2ae8f0b7b95b6d69da7be83d99f8f49f043482db2b5fb7e4af0f1aa3417a96c
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4eb9859ad7385180cc12e16258a5ac4fa
+
+[~U]
+timer=Timer 11|0*544|

@@ -1,0 +1,24 @@
+timestamp=1769181318201
+
+[~A]
+ModifyID=5
+Version=74
+
+[~MFT]
+0=8|0LatchSR.mgf|2817|1545
+1=2|1LatchSR.mgf|3069|3069
+3=2|3LatchSR.mgf|0|0
+
+[latchsr]
+A/behavioral=A/Behavioral 21|../src/LatchSR.vhd|14|1*3069
+BinW64/behavioral=3*0
+I=0*545
+I/behavioral=I/Behavioral 0*2817
+M=11|2|vef|1768836977664|../src/LatchSR.vhd|0*192*0x08b60f9daae0b442c47203e06eb537fb42112690|0*466*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1769181318073|../src/LatchSR.vhd|0*2291*0xbb954bfd9c4af0561a9d0a81cf353c7da108137a|0*2724*0x20116f55b147878295aeff36dce7fc50
+R=../src/LatchSR.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|1a7d935fa2e69a240069ba8ab5ad3e7a26527262ddaa47cb266f3a3c4d9b973a4b0028850d0bb048f73cab13267227cb
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4ba4d5ccf56ba25552a48d2a36f83229f
+
+[~U]
+latchsr=LatchSR 11|0*0|

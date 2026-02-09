@@ -1,0 +1,24 @@
+timestamp=1769438900891
+
+[~A]
+ModifyID=5
+Version=74
+
+[~MFT]
+0=8|0FrCounter.mgf|3574|2082
+1=2|1FrCounter.mgf|1311|1311
+3=2|3FrCounter.mgf|0|0
+
+[frcounter]
+A/behavioral=A/Behavioral 21|../src/FrCounter.vhd|17|1*1311
+BinW64/behavioral=3*0
+I=0*1914
+I/behavioral=I/Behavioral 0*3574
+M=11|2|vef|1769438643803|../src/FrCounter.vhd|0*1485*0x819f96926515c4dfae5e0ee57ad9dda2c65fba4a|0*1831*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1769438900792|../src/FrCounter.vhd|0*2986*0x9dcdbe75e434e651218a716b65cfa13e3dcae026|0*3477*0x20116f55b147878295aeff36dce7fc50
+R=../src/FrCounter.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5ee88cbdfe9a3ad1a18c729fba88e76fe711739d3258eb7291525b46820d6d99a9eb6874e81c275a9008aefa0d1bf9ba
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff41189f1d52dd2d5ee3f55793d4a742023
+
+[~U]
+frcounter=FrCounter 11|0*1253|

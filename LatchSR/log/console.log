@@ -1,0 +1,15 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -reorder -O3 -e 100 -work LatchSR -2002  $dsn/src/LatchSR.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/LatchSR/src/LatchSR.vhd
+# Compile Entity "LatchSR"
+# Compile Architecture "Behavioral" of Entity "LatchSR"
+# Top-level unit(s) detected:
+# Entity => LatchSR
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# Design: 09:20 a. m., viernes, 23 de enero de 2026
+# Design: Opening design "C:\My_Designs\SDLR2_std\RisingEd\RisingEd.adf"
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# Design: Design "RisingEd" has been set as active.

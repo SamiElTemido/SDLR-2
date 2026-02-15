@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/SDLR2_std/SN74LS47/compile/SN74LS47.erf -d C:/My_Designs/SDLR2_std/SN74LS47/compile -s C:/My_Designs/SDLR2_std/library.cfg -j C:/My_Designs/SDLR2_std/SN74LS47/projlib.cfg -work SN74LS47 -reorder -O3 -e 100 -work SN74LS47 -2002 C:/My_Designs/SDLR2_std/SN74LS47/src/SN74LS47.vhd 

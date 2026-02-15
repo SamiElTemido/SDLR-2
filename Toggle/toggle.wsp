@@ -1,11 +1,7 @@
 [COMPILESTATUS|.\src\Toggle.vhd]
-FileTimeLow=648657152
-FileTimeHigh=31230291
-Status=Compiled
-[COMPILESTATUS|.\src\Toggle.vhd]
 FileTimeLow=1469093924
 FileTimeHigh=31230295
-Status=Modified
+Status=Compiled
 [CACHESIMPLE|Aldec.SymbolsCommands.7]
 Built-in symbols=0
 Toggle=0

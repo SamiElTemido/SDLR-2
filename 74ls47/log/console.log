@@ -1,0 +1,25 @@
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work 74ls47 -2002  $dsn/src/74ls47.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Error: VLM_0040: VHDL unit cannot be compiled as the target library name is not a legal VHDL identifier.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -reorder -O3 -e 100 -work 74ls47 -2002  $dsn/src/74ls47.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Error: VLM_0040: VHDL unit cannot be compiled as the target library name is not a legal VHDL identifier.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -reorder -O3 -e 100 -work 74ls47 -2002  $dsn/src/74ls47.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Error: VLM_0040: VHDL unit cannot be compiled as the target library name is not a legal VHDL identifier.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# Design: Design "anodedecoder" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Design: 10:34 a. m., viernes, 13 de febrero de 2026
+# Design: Opening design "C:\My_Designs\SDLR2_std\SN74LS47\SN74LS47.adf"
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

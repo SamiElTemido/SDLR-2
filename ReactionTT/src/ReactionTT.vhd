@@ -5,7 +5,7 @@ entity ReactionTT is
 	generic(
 		Ticks10s: integer:=500_000_000;
 		Ticks1ms: integer :=50_000;
-		Nbits: integer := 9
+		Nbits: integer := 10
 	);
 	port(
 		CLK: in std_logic;

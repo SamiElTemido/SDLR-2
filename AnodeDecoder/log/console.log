@@ -1,0 +1,81 @@
+# Design: Design "AnodeDecoder" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Anode Anode Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+acom -O3 -e 100 -work AnodeDecoder -2002  $dsn/src/AnodeDecoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/AnodeDecoder/src/AnodeDecoder.vhd
+# Compile Entity "AnodeDecoder"
+# Compile Architecture "Behavioral" of Entity "AnodeDecoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\SDLR2_std\AnodeDecoder\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  10:38 a. m., viernes, 13 de febrero de 2026
+#  Simulation has been initialized
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+asim -O5 +access +r +m+AnodeDecoder AnodeDecoder Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\SDLR2_std\AnodeDecoder\src\wave.asdb
+#  10:39 a. m., viernes, 13 de febrero de 2026
+#  Simulation has been initialized
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/SDLR2_std/AnodeDecoder/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /Anode/CLK
+# VSIM: Error: Cannot force signal "/Anode/CLK" with formula "0 0fs, 1 5ns -r 10ns".
+# KERNEL: Error: Cannot find signal /Anode/Qp
+# VSIM: Error: Cannot force signal "/Anode/Qp" with formula "0 0fs, 1 5ns -r 10ns".
+# KERNEL: Error: Cannot find signal /Anode/RST
+# VSIM: Error: Cannot force signal "/Anode/RST" with formula "0 0fs, 1 10ns".
+# KERNEL: Error: Cannot find signal /Anode/SEl
+# VSIM: Error: Cannot force signal "/Anode/SEl" with formula "00 0fs, 01 20ns, 10 40ns, 11 60ns -r 100ns".
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+acom -reorder -O3 -e 100 -work AnodeDecoder -2002  $dsn/src/AnodeDecoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/AnodeDecoder/src/AnodeDecoder.vhd
+# Compile Entity "AnodeDecoder"
+# Compile Architecture "Behavioral" of Entity "AnodeDecoder"
+# Top-level unit(s) detected:
+# Entity => AnodeDecoder
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Design: Design "SN74LS47" has been set as active.

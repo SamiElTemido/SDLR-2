@@ -1,0 +1,5 @@
+.\src\FrCounter.vhd
+.\src\Timer.vhd
+.\src\SN74LS47.vhd
+.\src\AnodeDecoder.vhd
+.\src\DisplayDriver.vhd

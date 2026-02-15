@@ -2,7 +2,7 @@
 <design-settings>
 	<plugins>
 		<Aldec.Stimuli.1>
-			<hierarchy activeStimuliSetName="StimuliSet4">
+			<hierarchy>
 				<stimuliSet name="StimuliSet4">
 					<stimulus name="Reset" strength="default" enabled="true" type="formula">
 						<stimulus_data>

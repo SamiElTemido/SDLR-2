@@ -1,24 +1,24 @@
-timestamp=1768835866577
+timestamp=1770997724610
 
 [~A]
-ModifyID=13
+ModifyID=14
 Version=74
 
 [~MFT]
 0=2|0Toggle.mgf|3982|2780
-1=2|1Toggle.mgf|9736|9736
+1=2|1Toggle.mgf|10615|10615
 3=2|3Toggle.mgf|0|0
 
 [toggle]
-A/behavioral=A/Behavioral 21|../src/Toggle.vhd|13|1*9736
+A/behavioral=A/Behavioral 21|../src/Toggle.vhd|13|1*10615
 BinW64/behavioral=3*0
 I=0*510
 I/behavioral=I/Behavioral 0*3982
 M=11|2|vef|1768834183664|../src/Toggle.vhd|0*185*0x14187bbca08edb470e28e4ccd024f88194fcc1dc|0*433*0x23b75c12e3e89f2ef000564498faa8c2
-M/behavioral=M/Behavioral 21|2|vef|1768835866535|../src/Toggle.vhd|0*3490*0xbf02eaeb4f0d257143be8f9e934a27826b66fd4f|0*3891*0x20116f55b147878295aeff36dce7fc50
+M/behavioral=M/Behavioral 21|2|vef|1770997724505|../src/Toggle.vhd|0*3490*0xbf02eaeb4f0d257143be8f9e934a27826b66fd4f|0*3891*0x20116f55b147878295aeff36dce7fc50
 R=../src/Toggle.vhd|4
 Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5b0a207a1f62c3a8bfad49db1700afc7362230aaed866c29795c181f0ce10a65
-Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff47774355d042492d5f3cf007dfa184d86
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff44db2c87f132a2f2d087d54f1b6a3e3da
 
 [~U]
 toggle=Toggle 11|0*0|

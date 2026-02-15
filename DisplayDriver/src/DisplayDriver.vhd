@@ -1,0 +1,72 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity DisplayDriver is
+	port
+	(
+	CLK: in std_logic;
+	RST: in std_logic;
+	DIG1: in std_logic_vector(3 downto 0);
+	DIG2: in std_logic_vector(3 downto 0);
+	DIG3: in std_logic_vector(3 downto 0);
+	DIG4: in std_logic_vector(3 downto 0);
+	SEG: out std_logic_vector(6 downto 0);
+	ANO: out std_logic_vector(3 downto 0)
+	);
+end DisplayDriver; 
+
+architecture Structural of DisplayDriver is
+	-- Component declaration of the "Timer(Behavioral)" \
+	component Timer
+	generic(
+		Ticks : INTEGER := 100
+	);
+	port(
+		CLK : in STD_LOGIC;
+		RST : in STD_LOGIC;
+		EOT : out STD_LOGIC
+	);
+	end component;
+	for all: Timer use entity work.Timer(Behavioral);
+
+	-- Component declaration of the "FrCounter(Behavioral)" 
+	component FrCounter
+	generic(
+		BusWhidht : INTEGER := 16
+	);
+	port(
+		CLK : in STD_LOGIC;
+		RST : in STD_LOGIC;
+		INC : in STD_LOGIC;
+		CNT : out STD_LOGIC_VECTOR(BusWhidht-1 downto 0)
+	);
+	end component;
+	for all: FrCounter use entity work.FrCounter(Behavioral);  	
+		
+			-- Component declaration of the "AnodeDecoder(Behavioral)" 
+	component AnodeDecoder
+	port(
+		CLK : in STD_LOGIC;
+		RST : in STD_LOGIC;
+		SEL : in STD_LOGIC_VECTOR(1 downto 0);
+		ANO : out STD_LOGIC_VECTOR(3 downto 0)
+	);
+	end component;
+	for all: AnodeDecoder use entity work.AnodeDecoder(Behavioral);
+		
+			-- Component declaration of the "SN74LS47(Behavioral)"
+	component SN74LS47
+	port(
+		CLK : in STD_LOGIC;
+		RST : in STD_LOGIC;
+		NIB : in STD_LOGIC_VECTOR(3 downto 0);
+		SEG : out STD_LOGIC_VECTOR(6 downto 0)
+	);
+	end component;
+	for all: SN74LS47 use entity work.SN74LS47(Behavioral);
+signal SYN; std_logic;
+signal SEL: std_logic_vector(3 downto 0);
+begin
+	
+	
+end Structural;

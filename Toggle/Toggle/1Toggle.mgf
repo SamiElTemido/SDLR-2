@@ -284,13 +284,39 @@ I 000051 55 828           1768835850628 Behavioral
 	(_use(ieee(std_logic_1164))(std(standard)))
 	(_model . Behavioral 2 -1)
 )
-V 000051 55 828           1768835866533 Behavioral
+I 000051 55 828           1768835866533 Behavioral
 (_unit VHDL(toggle 0 4(behavioral 0 13))
 	(_version vef)
 	(_time 1768835866534 2026.01.19 09:17:46)
 	(_source(\../src/Toggle.vhd\))
 	(_parameters tan)
 	(_code b7e2b7e3e6e0e4a1b2b3f4ede3b0b3b1e1b1b0b1b0)
+	(_ent
+		(_time 1768834183664)
+	)
+	(_object
+		(_port(_int CLk -1 0 6(_ent(_in)(_event))))
+		(_port(_int RST -1 0 7(_ent(_in)(_event))))
+		(_port(_int TOG -1 0 8(_ent(_in))))
+		(_port(_int TGS -1 0 9(_ent(_out))))
+		(_sig(_int Qn -1 0 14(_arch(_uni))))
+		(_sig(_int Qp -1 0 14(_arch(_uni))))
+		(_prcs
+			(Combinational(_arch 0 0 16(_prcs(_simple)(_trgt(3)(4))(_sens(2)(5)))))
+			(Sequential(_arch 1 0 26(_prcs(_trgt(5))(_sens(0)(1)(4))(_dssslsensitivity 2))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . Behavioral 2 -1)
+)
+V 000051 55 828           1770997724503 Behavioral
+(_unit VHDL(toggle 0 4(behavioral 0 13))
+	(_version vef)
+	(_time 1770997724504 2026.02.13 09:48:44)
+	(_source(\../src/Toggle.vhd\))
+	(_parameters tan)
+	(_code a9f8a5fef6fefabfacadeaf3fdaeadafffafaeafae)
 	(_ent
 		(_time 1768834183664)
 	)

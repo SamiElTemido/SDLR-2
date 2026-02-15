@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/SDLR2_std/AnodeDecoder/compile/AnodeDecoder.erf -d C:/My_Designs/SDLR2_std/AnodeDecoder/compile -s C:/My_Designs/SDLR2_std/library.cfg -j C:/My_Designs/SDLR2_std/AnodeDecoder/projlib.cfg -work AnodeDecoder -reorder -O3 -e 100 -work AnodeDecoder -2002 C:/My_Designs/SDLR2_std/AnodeDecoder/src/AnodeDecoder.vhd 

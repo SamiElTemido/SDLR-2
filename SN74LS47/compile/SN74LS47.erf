@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/My_Designs/SDLR2_std/SN74LS47/src/SN74LS47.vhd" 
+MESSAGE "Compile Entity "SN74LS47"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "SN74LS47"" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => SN74LS47" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

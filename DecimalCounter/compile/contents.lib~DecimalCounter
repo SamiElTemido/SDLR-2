@@ -1,0 +1,5 @@
+2
+~E 1 "../src/CounterM10.vhd" 5 CounterM10
+~A 1 "../src/CounterM10.vhd" 15 Behavioral
+~E 1 "../src/DecimalCounter.vhd" 3 DecimalCounter
+~A 1 "../src/DecimalCounter.vhd" 14 structural

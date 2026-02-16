@@ -1,0 +1,30 @@
+[General]
+CurrentVersion=103
+[CACHEDOC|Aldec.Project.Generic.7|.\DecimalCounter\DecimalCounter.adf|]
+Path=
+[COMPILESTATUS|.\src\DecimalCounter.vhd]
+FileTimeLow=3469197010
+FileTimeHigh=31235925
+Status=Modified
+[COMPILESTATUS|.\src\CounterM10.vhd]
+FileTimeLow=1911943518
+FileTimeHigh=31235924
+Status=Compiled
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+RisingEd=0
+SN74LS47=0
+Timer=0
+Toggle=0
+DecimalCounter=0
+BiniaryToDecimal=0
+AnodeDecoder=0
+blinky=0
+CountDown=0
+CounterM10=0
+DisplayDriver=0
+FrCounter=0
+LatchSR=0
+ReactionTT=0
+[Gui config]
+RunFor=1000 ns

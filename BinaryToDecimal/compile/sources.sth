@@ -1,0 +1,12 @@
+[Files List]
+C:\Aldec\Active-HDL-13-x64\vlib\std/src/standard.vhd=S
+C:\Aldec\Active-HDL-13-x64\vlib\std/src/textio.vhd=S
+C:\Aldec\Active-HDL-13-x64\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Aldec\Active-HDL-13-x64\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Aldec\Active-HDL-13-x64\vlib\ieee/src/numeric_std.vhdl=S
+C:\Aldec\Active-HDL-13-x64\vlib\ieee/src/numeric_std-body.vhdl=S
+C:\My_Designs\SDLR2_std\BinaryToDecimal/src/CounterM10.vhd=S
+C:\My_Designs\SDLR2_std\BinaryToDecimal/src/DecimalCounter.vhd=S
+C:\My_Designs\SDLR2_std\BinaryToDecimal/src/FrCounter.vhd=S
+C:\My_Designs\SDLR2_std\BinaryToDecimal/src/LatchSR.vhd=S
+C:\My_Designs\SDLR2_std\BinaryToDecimal/src/BinaryToDecimal.vhd=S

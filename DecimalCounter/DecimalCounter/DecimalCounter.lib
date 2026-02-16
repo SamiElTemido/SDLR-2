@@ -1,0 +1,35 @@
+timestamp=1771254216450
+
+[~A]
+ModifyID=2
+Version=74
+
+[~MFT]
+0=8|0DecimalCounter.mgf|4127|501
+1=2|1DecimalCounter.mgf|2079|795
+3=0|3DecimalCounter.mgf|0|0
+
+[counterm10]
+A/behavioral=A/Behavioral 21|../src/CounterM10.vhd|15|1*795
+BinW64/behavioral=3*0
+I=0*2056
+I/behavioral=I/Behavioral 0*2942
+M=11|2|vef|1771254021887|../src/CounterM10.vhd|0*1646*0xa47210e027df47130f1944f7047e455dcb409bf2|0*1971*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1771254021905|../src/CounterM10.vhd|0*2300*0x9d118bca366af9771e4c4f4e05123f04db4547a2|0*2843*0x20116f55b147878295aeff36dce7fc50
+R=../src/CounterM10.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|729b15391c6debe7719f4db6a5cff799ae521df022a0d54a7060b871885e86e25ca1c67930282f38849072b65587b3e4
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff45ca1c67930282f38849072b65587b3e4
+
+[decimalcounter]
+A/structural=21|../src/DecimalCounter.vhd|14|1*2079
+I=0*726
+I/structural=0*4127
+M=11|2|vef|1771254021826|../src/DecimalCounter.vhd|0*232*0xecbd4106495246173367d3b500359fca7a53ae63|0*633*0x23b75c12e3e89f2ef000564498faa8c2
+M/structural=21|2|vef|1771254216446|../src/DecimalCounter.vhd|0*3197*0x26fb45c5b8207b8037eff98308144a11d453c408|0*4020*0x20116f55b147878295aeff36dce7fc50
+R=../src/DecimalCounter.vhd|3
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|05886669562d2119925354213e2b53d72e144e295ea15b7ab8ae2fd7df47a58f7955d7aee344b25b012e779f540c28f3
+Version/structural=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb970c34bc67002175dad8700b1c3d4228
+
+[~U]
+counterm10=CounterM10 11|0*1435|
+decimalcounter=DecimalCounter 11|0*0|

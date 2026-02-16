@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/SDLR2_std/DecimalCounter/compile/DecimalCounter.erf -d C:/My_Designs/SDLR2_std/DecimalCounter/compile -s C:/My_Designs/SDLR2_std/library.cfg -j C:/My_Designs/SDLR2_std/DecimalCounter/projlib.cfg -work DecimalCounter -O3 -e 100 -work DecimalCounter -2002 C:/My_Designs/SDLR2_std/DecimalCounter/src/DecimalCounter.vhd 

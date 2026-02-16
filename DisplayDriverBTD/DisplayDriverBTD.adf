@@ -1,0 +1,86 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=DisplayDriverBTD
+[Library]
+DisplayDriverBTD=.\DisplayDriverBTD\DisplayDriverBTD.lib
+[$LibMap$]
+DisplayDriverBTD=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+REFRESH_FLOW=1
+fileopenfolder=C:\My_Designs\SDLR2_std\SN74LS47\src
+[IMPLEMENTATION]
+UCF=
+[Files]
+/LatchSR.vhd=-1
+/Timer.vhd=-1
+/SN74LS47.vhd=-1
+/FrCounter.vhd=-1
+/CounterM10.vhd=-1
+/AnodeDecoder.vhd=-1
+/DisplayDriver.vhd=-1
+/DecimalCounter.vhd=-1
+/BinaryToDecimal.vhd=-1
+/DisplayDriverBTD.vhd=-1
+[Files.Data]
+.\src\LatchSR.vhd=VHDL Source Code
+.\src\Timer.vhd=VHDL Source Code
+.\src\SN74LS47.vhd=VHDL Source Code
+.\src\FrCounter.vhd=VHDL Source Code
+.\src\CounterM10.vhd=VHDL Source Code
+.\src\AnodeDecoder.vhd=VHDL Source Code
+.\src\DisplayDriver.vhd=VHDL Source Code
+.\src\DecimalCounter.vhd=VHDL Source Code
+.\src\BinaryToDecimal.vhd=VHDL Source Code
+.\src\DisplayDriverBTD.vhd=VHDL Source Code
+[folders]
+name0=ALINT-PRO Workspaces
+directory0=C:\My_Designs\SDLR2_std\DisplayDriverBTD\
+extension0=alintws
+name1=Coverage Databases
+directory1=C:\My_Designs\SDLR2_std\DisplayDriverBTD\
+extension1=acdb
+name2=Dll Libraries
+directory2=C:\My_Designs\SDLR2_std\DisplayDriverBTD\
+extension2=dll
+name3=Event Lists
+directory3=C:\My_Designs\SDLR2_std\DisplayDriverBTD\
+extension3=lst
+name4=HTML Files
+directory4=C:\My_Designs\SDLR2_std\DisplayDriverBTD\
+extension4=htm;html
+name5=Log Files
+directory5=C:\My_Designs\SDLR2_std\DisplayDriverBTD\
+extension5=log;htm;xml;txt
+name6=Matlab/Simulink Files
+directory6=C:\My_Designs\SDLR2_std\
+extension6=m;mdl;slx
+name7=Memory Files
+directory7=C:\My_Designs\SDLR2_std\DisplayDriverBTD\
+extension7=mem;mif;hex
+name8=PDF Files
+directory8=C:\My_Designs\SDLR2_std\DisplayDriverBTD\
+extension8=pdf
+name9=Profiler Databases
+directory9=C:\My_Designs\SDLR2_std\DisplayDriverBTD\
+extension9=tbp
+name10=Script Files
+directory10=C:\My_Designs\SDLR2_std\DisplayDriverBTD\
+extension10=do;tcl;pl
+name11=Waveform Files
+directory11=C:\My_Designs\SDLR2_std\DisplayDriverBTD\
+extension11=asdb;awc;asdbc;asdbe
+[HierarchyViewer]
+HierarchyInformation=binarytodecimal|Structural|0 decimalcounter|structural|0 displaydriverbtd|Structural|0
+ShowHide=ShowTopLevel
+Selected=

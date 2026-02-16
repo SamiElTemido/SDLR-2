@@ -1,0 +1,21 @@
+16
+~E 1 "../src/AnodeDecoder.vhd" 4 AnodeDecoder
+~A 1 "../src/AnodeDecoder.vhd" 13 Behavioral
+~E 1 "../src/BinaryToDecimal.vhd" 4 BinaryToDecimal
+~A 1 "../src/BinaryToDecimal.vhd" 16 Structural
+~E 1 "../src/CounterM10.vhd" 5 CounterM10
+~A 1 "../src/CounterM10.vhd" 15 Behavioral
+~E 1 "../src/DecimalCounter.vhd" 3 DecimalCounter
+~A 1 "../src/DecimalCounter.vhd" 14 structural
+~E 1 "../src/DisplayDriver.vhd" 4 DisplayDriver
+~A 1 "../src/DisplayDriver.vhd" 18 Structural
+~E 1 "../src/DisplayDriverBTD.vhd" 4 DisplayDriverBTD
+~A 1 "../src/DisplayDriverBTD.vhd" 15 Structural
+~E 1 "../src/FrCounter.vhd" 5 FrCounter
+~A 1 "../src/FrCounter.vhd" 17 Behavioral
+~E 1 "../src/LatchSR.vhd" 4 LatchSR
+~A 1 "../src/LatchSR.vhd" 14 Behavioral
+~E 1 "../src/SN74LS47.vhd" 4 SN74LS47
+~A 1 "../src/SN74LS47.vhd" 13 Behavioral
+~E 1 "../src/Timer.vhd" 5 Timer
+~A 1 "../src/Timer.vhd" 14 Behavioral

@@ -1,4 +1,4 @@
-Active-HDL 13.0.375.8320 2026-01-26 09:18:18
+Active-HDL 13.0.375.8320 2026-02-16 14:20:07
 
 Elaboration top modules:
 Architecture                  Behavioral(Timer)
@@ -7,7 +7,7 @@ Architecture                  Behavioral(Timer)
 -------------------------------------------------------------------------------------------
 Entity   | Architecture | Library | Info | Compiler Version          | Compilation Options
 -------------------------------------------------------------------------------------------
-Timer    | Behavioral   | Timer   |      | 13.0.375.8320 (Windows64) | -O3
+Timer    | Behavioral   | timer   |      | 13.0.375.8320 (Windows64) | -O3
 -------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------
@@ -24,9 +24,5 @@ Library                 | Comment
 -------------------------------------------------------------------------------------------
 ieee                    | Standard IEEE packages library
 std                     | Standard VHDL library
-Timer                   | None
+timer                   | None
 -------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+Timer Timer Behavioral
-

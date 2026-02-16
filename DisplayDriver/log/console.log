@@ -1,7 +1,36 @@
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.1 [s].
-# Design: 08:23 a. m., lunes, 16 de febrero de 2026
-# Design: Opening design "C:\My_Designs\SDLR2_std\CounterM10\CounterM10.adf"
+asim -O5 +access +r +m+DisplayDriver DisplayDriver Structural
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-# Design: Design "CounterM10" has been set as active.
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+acom -O3 -e 100 -work DisplayDriver -2002  $dsn/src/SN74LS47.vhd $dsn/src/DisplayDriver.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/DisplayDriver/src/SN74LS47.vhd
+# Compile Entity "SN74LS47"
+# Compile Architecture "Behavioral" of Entity "SN74LS47"
+# File: C:/My_Designs/SDLR2_std/DisplayDriver/src/DisplayDriver.vhd
+# Compile Entity "DisplayDriver"
+# Compile Architecture "Structural" of Entity "DisplayDriver"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6472 kB (elbread=427 elab2=5906 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\SDLR2_std\DisplayDriver\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  02:29 p. m., lunes, 16 de febrero de 2026
+#  Simulation has been initialized
+# Design: Design "DecimalCounter" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

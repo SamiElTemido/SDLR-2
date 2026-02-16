@@ -1,0 +1,5 @@
+.\src\FrCounter.vhd
+.\src\LatchSR.vhd
+.\src\CounterM10.vhd
+.\src\DecimalCounter.vhd
+.\src\BinaryToDecimal.vhd

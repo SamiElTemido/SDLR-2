@@ -1,0 +1,12 @@
+31
+~E 1 "../src/BinaryToDecimal.vhd" 4 BinaryToDecimal
+~A 1 "../src/BinaryToDecimal.vhd" 10 behavioral
+~A 1 "../src/BinaryToDecimal.vhd" 16 Structural
+~E 1 "../src/CounterM10.vhd" 5 CounterM10
+~A 1 "../src/CounterM10.vhd" 15 Behavioral
+~E 1 "../src/DecimalCounter.vhd" 3 DecimalCounter
+~A 1 "../src/DecimalCounter.vhd" 14 structural
+~E 1 "../src/FrCounter.vhd" 5 FrCounter
+~A 1 "../src/FrCounter.vhd" 17 Behavioral
+~E 1 "../src/LatchSR.vhd" 4 LatchSR
+~A 1 "../src/LatchSR.vhd" 14 Behavioral

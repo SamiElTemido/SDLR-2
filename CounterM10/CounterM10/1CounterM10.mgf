@@ -1,4 +1,4 @@
-V 000051 55 1286          1771252954236 Behavioral
+I 000051 55 1286          1771252954236 Behavioral
 (_unit VHDL(counterm10 0 5(behavioral 0 15))
 	(_version vef)
 	(_time 1771252954237 2026.02.16 08:42:34)
@@ -30,4 +30,39 @@ V 000051 55 1286          1771252954236 Behavioral
 	)
 	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
 	(_model . Behavioral 3 -1)
+)
+V 000051 55 1233          1771253703817 Behavioral
+(_unit VHDL(counterm10 0 5(behavioral 0 15))
+	(_version vef)
+	(_time 1771253703818 2026.02.16 08:55:03)
+	(_source(\../src/CounterM10.vhd\))
+	(_parameters tan)
+	(_code f1a2f1a1a6a7a0e7a6a3e5aba5f6f3f7a5f2f0f2f1)
+	(_ent
+		(_time 1771252954231)
+	)
+	(_object
+		(_port(_int CLK -1 0 7(_ent(_in)(_event))))
+		(_port(_int RST -1 0 8(_ent(_in)(_event))))
+		(_port(_int ENI -1 0 9(_ent(_in))))
+		(_port(_int ENO -1 0 10(_ent(_out))))
+		(_type(_int ~STD_LOGIC_VECTOR{3~downto~0}~12 0 11(_array -1((_dto i 3 i 0)))))
+		(_port(_int CNT 0 0 11(_ent(_out))))
+		(_type(_int ~STD_LOGIC_VECTOR{3~downto~0}~13 0 16(_array -1((_dto i 3 i 0)))))
+		(_sig(_int Cp 1 0 16(_arch(_uni))))
+		(_sig(_int Cn 1 0 16(_arch(_uni))))
+		(_prcs
+			(Combinational(_arch 0 0 18(_prcs(_simple)(_trgt(6)(3)(4))(_sens(5)(2)))))
+			(Sequential(_arch 1 0 37(_prcs(_trgt(5))(_sens(0)(1)(6))(_dssslsensitivity 2))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+		(_type(_ext ieee.NUMERIC_STD.UNSIGNED(1 UNSIGNED)))
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC_VECTOR(0 STD_LOGIC_VECTOR)))
+	)
+	(_use(ieee(std_logic_1164))(ieee(NUMERIC_STD))(std(standard)))
+	(_static
+		(50463235)
+		(33686018)
+	)
+	(_model . Behavioral 2 -1)
 )

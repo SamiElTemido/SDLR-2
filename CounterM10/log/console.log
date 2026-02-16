@@ -1,0 +1,165 @@
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+# Design: Design "CounterM10" has been set as active.
+acom -reorder -O3 -e 100 -work CounterM10 -2002  $dsn/src/CounterM10.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Error: COMP96_0018: CounterM10.vhd : (11, 2): Identifier expected.
+# Error: COMP96_0111: CounterM10.vhd : (12, 5): Labels do not match.
+# Error: COMP96_0015: CounterM10.vhd : (42, 4): ';' expected.
+# Error: COMP96_0019: CounterM10.vhd : (43, 7): Keyword 'process' expected.
+# Error: COMP96_0015: CounterM10.vhd : (45, 6): ';' expected.
+# Error: COMP96_0016: CounterM10.vhd : (45, 14): Design unit declaration expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -reorder -O3 -e 100 -work CounterM10 -2002  $dsn/src/CounterM10.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Error: COMP96_0111: CounterM10.vhd : (12, 5): Labels do not match.
+# Error: COMP96_0015: CounterM10.vhd : (42, 4): ';' expected.
+# Error: COMP96_0019: CounterM10.vhd : (43, 7): Keyword 'process' expected.
+# Error: COMP96_0015: CounterM10.vhd : (45, 6): ';' expected.
+# Error: COMP96_0016: CounterM10.vhd : (45, 14): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -reorder -O3 -e 100 -work CounterM10 -2002  $dsn/src/CounterM10.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Error: COMP96_0015: CounterM10.vhd : (42, 4): ';' expected.
+# Error: COMP96_0019: CounterM10.vhd : (43, 7): Keyword 'process' expected.
+# Error: COMP96_0015: CounterM10.vhd : (45, 6): ';' expected.
+# Error: COMP96_0016: CounterM10.vhd : (45, 14): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom -reorder -O3 -e 100 -work CounterM10 -2002  $dsn/src/CounterM10.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Error: COMP96_0019: CounterM10.vhd : (43, 7): Keyword 'process' expected.
+# Error: COMP96_0015: CounterM10.vhd : (45, 6): ';' expected.
+# Error: COMP96_0016: CounterM10.vhd : (45, 14): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -reorder -O3 -e 100 -work CounterM10 -2002  $dsn/src/CounterM10.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => CounterM10
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Error: COMP96_0078: CounterM10.vhd : (21, 5): Unknown identifier "Qn".
+# Error: COMP96_0133: CounterM10.vhd : (21, 5): Cannot find object declaration.
+# Error: COMP96_0078: CounterM10.vhd : (34, 26): Unknown identifier "to_unsigned".
+# Error: COMP96_0133: CounterM10.vhd : (34, 26): Cannot find object declaration.
+# Error: COMP96_0289: CounterM10.vhd : (34, 26): Prefix of index must be an array.
+# Error: COMP96_0149: CounterM10.vhd : (34, 26): Explicit type conversions are allowed between closely related types only.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -reorder -O3 -e 100 -work CounterM10 -2002  $dsn/src/CounterM10.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => CounterM10
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Error: COMP96_0078: CounterM10.vhd : (21, 5): Unknown identifier "Qn".
+# Error: COMP96_0133: CounterM10.vhd : (21, 5): Cannot find object declaration.
+# Error: COMP96_0078: CounterM10.vhd : (34, 26): Unknown identifier "to_unsigned".
+# Error: COMP96_0133: CounterM10.vhd : (34, 26): Cannot find object declaration.
+# Error: COMP96_0289: CounterM10.vhd : (34, 26): Prefix of index must be an array.
+# Error: COMP96_0149: CounterM10.vhd : (34, 26): Explicit type conversions are allowed between closely related types only.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -reorder -O3 -e 100 -work CounterM10 -2002  $dsn/src/CounterM10.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Error: COMP96_0019: CounterM10.vhd : (43, 7): Keyword 'process' expected.
+# Error: COMP96_0015: CounterM10.vhd : (45, 6): ';' expected.
+# Error: COMP96_0016: CounterM10.vhd : (45, 14): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -reorder -O3 -e 100 -work CounterM10 -2002  $dsn/src/CounterM10.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Error: COMP96_0019: CounterM10.vhd : (43, 7): Keyword 'process' expected.
+# Error: COMP96_0015: CounterM10.vhd : (45, 6): ';' expected.
+# Error: COMP96_0016: CounterM10.vhd : (45, 14): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -reorder -O3 -e 100 -work CounterM10 -2002  $dsn/src/CounterM10.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Error: COMP96_0019: CounterM10.vhd : (43, 7): Keyword 'process' expected.
+# Error: COMP96_0015: CounterM10.vhd : (45, 6): ';' expected.
+# Error: COMP96_0016: CounterM10.vhd : (45, 14): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -reorder -O3 -e 100 -work CounterM10 -2002  $dsn/src/CounterM10.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Error: COMP96_0019: CounterM10.vhd : (43, 7): Keyword 'process' expected.
+# Error: COMP96_0015: CounterM10.vhd : (45, 6): ';' expected.
+# Error: COMP96_0016: CounterM10.vhd : (45, 14): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -reorder -O3 -e 100 -work CounterM10 -2002  $dsn/src/CounterM10.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => CounterM10
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Error: COMP96_0078: CounterM10.vhd : (34, 26): Unknown identifier "to_unsigned".
+# Error: COMP96_0133: CounterM10.vhd : (34, 26): Cannot find object declaration.
+# Error: COMP96_0289: CounterM10.vhd : (34, 26): Prefix of index must be an array.
+# Error: COMP96_0149: CounterM10.vhd : (34, 26): Explicit type conversions are allowed between closely related types only.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -reorder -O3 -e 100 -work CounterM10 -2002  $dsn/src/CounterM10.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => CounterM10
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Error: COMP96_0078: CounterM10.vhd : (3, 5): Unknown identifier "iie".
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Error: COMP96_0078: CounterM10.vhd : (35, 26): Unknown identifier "to_unsigned".
+# Error: COMP96_0133: CounterM10.vhd : (35, 26): Cannot find object declaration.
+# Error: COMP96_0289: CounterM10.vhd : (35, 26): Prefix of index must be an array.
+# Error: COMP96_0149: CounterM10.vhd : (35, 26): Explicit type conversions are allowed between closely related types only.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -reorder -O3 -e 100 -work CounterM10 -2002  $dsn/src/CounterM10.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# Top-level unit(s) detected:
+# Entity => CounterM10
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

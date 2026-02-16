@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/SDLR2_std/CounterM10/compile/CounterM10.erf -d C:/My_Designs/SDLR2_std/CounterM10/compile -s C:/My_Designs/SDLR2_std/library.cfg -j C:/My_Designs/SDLR2_std/CounterM10/projlib.cfg -work CounterM10 -reorder -O3 -e 100 -work CounterM10 -2002 C:/My_Designs/SDLR2_std/CounterM10/src/CounterM10.vhd 

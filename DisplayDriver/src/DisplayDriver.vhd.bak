@@ -70,7 +70,7 @@ signal NIB: std_logic_vector(3 downto 0);
 begin
 	u01: Timer
 	generic map(
-	Ticks => 250_000
+	Ticks => 50000
 	)
 	port map(
 	CLK => CLK,
@@ -107,8 +107,8 @@ begin
 	case SEL is
 		when "00" => NIB <= DIG1;
 		when "01" => NIB <= DIG2;
-		when "10" => NIB <= "0010";
-		when "11" => NIB <= "0001";
+		when "10" => NIB <= "0000";
+		when "11" => NIB <= "0000";
 		when others => NIB <= (others => '0');
 	end case; 
 	end process;

@@ -1,67 +1,68 @@
-timestamp=1771001696783
+timestamp=1771182914413
 
 [~A]
-ModifyID=5
+ModifyID=9
 Version=74
 
 [~MFT]
-0=18|0DisplayDriver.mgf|14085|5162
-1=12|1DisplayDriver.mgf|30478|25190
-3=8|3DisplayDriver.mgf|16414|13888
+0=10|0DisplayDriver.mgf|20059|10508
+1=10|1DisplayDriver.mgf|56594|51306
+3=10|3DisplayDriver.mgf|31799|28335
 
 [anodedecoder]
-A/behavioral=A/Behavioral 21|../src/AnodeDecoder.vhd|13|1*27546
-BinW64/behavioral=3*15649
+A/behavioral=A/Behavioral 21|../src/AnodeDecoder.vhd|13|1*55253
+BinW64/behavioral=3*31049
 I=0*4879
-I/behavioral=I/Behavioral 0*13655
+I/behavioral=I/Behavioral 0*19842
 M=11|2|vef|1771001494450|../src/AnodeDecoder.vhd|0*4490*0x70d18ed21a056e5dfa19dc3a8cdbdff502fb5f02|0*4790*0x23b75c12e3e89f2ef000564498faa8c2
-M/behavioral=M/Behavioral 21|2|vef|1771001696558|../src/AnodeDecoder.vhd|0*5085*0xb982942ba75fca4652767489a5e0450ba102b9bb|0*5603*0x20116f55b147878295aeff36dce7fc50
+M/behavioral=M/Behavioral 21|2|vef|1771182914325|../src/AnodeDecoder.vhd|0*5085*0xb982942ba75fca4652767489a5e0450ba102b9bb|0*5603*0x20116f55b147878295aeff36dce7fc50
 R=../src/AnodeDecoder.vhd|4
 Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|891dcffadf13cd5d25d06d23081ec8d811071f4f24042828c267e646d60f631a37058d94193abae237503c852ae485fd
-Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4a46f3135409eb9c2aed0669015557de8
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4da7203f00937ac80d2f7be29c38fba50
 
 [displaydriver]
-A/structural=A/Structural 21|../src/DisplayDriver.vhd|18|1*30478
+A/structural=A/Structural 21|../src/DisplayDriver.vhd|18|1*56594
+BinW64/structural=3*31799
 I=0*777
-I/structural=I/Structural 0*14085
+I/structural=I/Structural 0*20059
 M=11|2|vef|1771001494092|../src/DisplayDriver.vhd|0*236*0xb4c354cd4540e65c1eaf7b2b7c973951ff269b58|0*686*0x23b75c12e3e89f2ef000564498faa8c2
-M/structural=M/Structural 21|2|vef|1771001696761|../src/DisplayDriver.vhd|0*11892*0x7d9511ac7d0113c77ca5efeabba3dde6f84ed7ed|0*12828*0x20116f55b147878295aeff36dce7fc50
+M/structural=M/Structural 21|2|vef|1771182914370|../src/DisplayDriver.vhd|0*17105*0xc6493affbf3eea2d1b5cd224b1ebd9cf171ac474|0*18669*0x20116f55b147878295aeff36dce7fc50
 R=../src/DisplayDriver.vhd|4
 Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|f803f8b3fba317084cfc6e11210f79fefb52baa4bd4148d74fd8d8b82d9aee660ca6bce67aca8abf571c89912ed23c22
-Version/structural=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb253563cc7e6ce4ad6b20d21a76427351
+Version/structural=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb90980d7e53068f21898348c19a411d16
 
 [frcounter]
-A/behavioral=A/Behavioral 21|../src/FrCounter.vhd|17|1*26222
-BinW64/behavioral=3*14812
+A/behavioral=A/Behavioral 21|../src/FrCounter.vhd|17|1*51306
+BinW64/behavioral=3*28335
 I=0*3191
-I/behavioral=I/Behavioral 0*13401
+I/behavioral=I/Behavioral 0*19125
 M=11|2|vef|1771001494317|../src/FrCounter.vhd|0*2762*0x819f96926515c4dfae5e0ee57ad9dda2c65fba4a|0*3108*0x23b75c12e3e89f2ef000564498faa8c2
-M/behavioral=M/Behavioral 21|2|vef|1771001696514|../src/FrCounter.vhd|0*3434*0x9dcdbe75e434e651218a716b65cfa13e3dcae026|0*3925*0x20116f55b147878295aeff36dce7fc50
+M/behavioral=M/Behavioral 21|2|vef|1771182914152|../src/FrCounter.vhd|0*3434*0x9dcdbe75e434e651218a716b65cfa13e3dcae026|0*3925*0x20116f55b147878295aeff36dce7fc50
 R=../src/FrCounter.vhd|5
 Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5ee88cbdfe9a3ad1a18c729fba88e76fe711739d3258eb7291525b46820d6d9900ac6b979ca4ad2e665c0384d8ea24d4
-Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4460e0aad98cc1883ebd9be8161b01ce4
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff464b6db65ca49bb9c5c1d254a8bd47ed7
 
 [sn74ls47]
-A/behavioral=A/Behavioral 21|../src/SN74LS47.vhd|13|1*28887
-BinW64/behavioral=3*16414
+A/behavioral=A/Behavioral 21|../src/SN74LS47.vhd|13|1*53662
+BinW64/behavioral=3*30094
 I=0*6495
-I/behavioral=I/Behavioral 0*13872
+I/behavioral=I/Behavioral 0*19629
 M=11|2|vef|1771001494579|../src/SN74LS47.vhd|0*6130*0x38e0a1b21f22d585913e8e8b0dec93a069c5cf08|0*6414*0x23b75c12e3e89f2ef000564498faa8c2
-M/behavioral=M/Behavioral 21|2|vef|1771001696600|../src/SN74LS47.vhd|0*6697*0xc92cc2435a89b587137fbbc2cd84fed42b2252cf|0*7574*0x20116f55b147878295aeff36dce7fc50
+M/behavioral=M/Behavioral 21|2|vef|1771182914277|../src/SN74LS47.vhd|0*6697*0xc92cc2435a89b587137fbbc2cd84fed42b2252cf|0*7574*0x20116f55b147878295aeff36dce7fc50
 R=../src/SN74LS47.vhd|4
 Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|58db8d3c7e6504043d0500df78434531a29490d24e567fc02c59093a261ef40f805ca27fea634bc3b21eda6ef30115b4
-Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4868e2fc7d5d19efdfc476756d6c8d753
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4d0d7ecb834f6c070b28450c1e801f4e1
 
 [timer]
-A/behavioral=A/Behavioral 21|../src/Timer.vhd|14|1*25190
-BinW64/behavioral=3*13888
+A/behavioral=A/Behavioral 21|../src/Timer.vhd|14|1*52630
+BinW64/behavioral=3*29172
 I=0*1533
-I/behavioral=I/Behavioral 0*13151
+I/behavioral=I/Behavioral 0*19379
 M=11|2|vef|1771001494161|../src/Timer.vhd|0*1183*0xfdc44f1b4a45cc44944fe7289341311f76d8b625|0*1458*0x23b75c12e3e89f2ef000564498faa8c2
-M/behavioral=M/Behavioral 21|2|vef|1771001696473|../src/Timer.vhd|0*1772*0xd2d258f8caf910031df3d9daa62a6d6ad7bce969|0*2191*0x20116f55b147878295aeff36dce7fc50
+M/behavioral=M/Behavioral 21|2|vef|1771182914194|../src/Timer.vhd|0*1772*0xd2d258f8caf910031df3d9daa62a6d6ad7bce969|0*2191*0x20116f55b147878295aeff36dce7fc50
 R=../src/Timer.vhd|5
 Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|c2ae8f0b7b95b6d69da7be83d99f8f4903cfc119342649d55071c3f71b107612
-Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff43ad889486c41f3cdef5215d8db628c59
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff495023eceb9959c20b29384d8f7a855ad
 
 [~U]
 anodedecoder=AnodeDecoder 11|0*4276|

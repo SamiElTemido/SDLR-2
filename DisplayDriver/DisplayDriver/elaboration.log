@@ -1,4 +1,4 @@
-Active-HDL 13.0.375.8320 2026-02-13 10:51:50
+Active-HDL 13.0.375.8320 2026-02-16 08:23:50
 
 Elaboration top modules:
 Architecture                  Structural(DisplayDriver)
@@ -7,7 +7,11 @@ Architecture                  Structural(DisplayDriver)
 ------------------------------------------------------------------------------------------------------
 Entity        | Architecture | Library       | Info | Compiler Version          | Compilation Options
 ------------------------------------------------------------------------------------------------------
-DisplayDriver | Structural   | DisplayDriver |      | 13.0.375.8320 (Windows64) | -O3
+DisplayDriver | Structural   | displaydriver |      | 13.0.375.8320 (Windows64) | -O3
+Timer         | Behavioral   | displaydriver |      | 13.0.375.8320 (Windows64) | -O3
+FrCounter     | Behavioral   | displaydriver |      | 13.0.375.8320 (Windows64) | -O3
+AnodeDecoder  | Behavioral   | displaydriver |      | 13.0.375.8320 (Windows64) | -O3
+SN74LS47      | Behavioral   | displaydriver |      | 13.0.375.8320 (Windows64) | -O3
 ------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------------
@@ -16,12 +20,13 @@ VHDL Package                 | Library       | Info | Compiler Version          
 standard                     | std           |      |                           | <unavailable>
 TEXTIO                       | std           |      | 13.0.375.8320 (Windows64) |  -2019
 std_logic_1164               | ieee          |      | 13.0.375.8320 (Windows64) |  -2008
+NUMERIC_STD                  | ieee          |      | 13.0.375.8320 (Windows64) |  -2008
 ------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------------
 Library                      | Comment
 ------------------------------------------------------------------------------------------------------
-DisplayDriver                | None
+displaydriver                | None
 ieee                         | Standard IEEE packages library
 std                          | Standard VHDL library
 ------------------------------------------------------------------------------------------------------

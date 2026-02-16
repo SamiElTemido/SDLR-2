@@ -71,6 +71,6 @@ name11=Waveform Files
 directory11=C:\My_Designs\SDLR2_std\DisplayDriver\
 extension11=asdb;awc;asdbc;asdbe
 [HierarchyViewer]
-HierarchyInformation=displaydriver|Structural|0 sn74ls47|Behavioral|0
+HierarchyInformation=displaydriver|Structural|0
 ShowHide=ShowTopLevel
 Selected=

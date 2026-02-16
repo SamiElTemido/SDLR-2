@@ -1,4 +1,4 @@
-5
+9
 ~E 1 "../src/AnodeDecoder.vhd" 4 AnodeDecoder
 ~A 1 "../src/AnodeDecoder.vhd" 13 Behavioral
 ~E 1 "../src/DisplayDriver.vhd" 4 DisplayDriver

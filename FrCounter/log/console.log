@@ -1,8 +1,3 @@
-# Warning: The library name is not a legal VHDL name. You will not be able to compile VHDL units to library `74ls47'.
-# Warning: The library name is not a legal VHDL name. You will not be able to compile VHDL units to library `74ls47'.
-# Design: 10:24 a. m., viernes, 13 de febrero de 2026
-# Design: Opening design "C:\My_Designs\SDLR2_std\74ls47\74ls47.adf"
-# Warning: The library name is not a legal VHDL name. You will not be able to compile VHDL units to library `74ls47'.
+# Design: Design "BinaryToDecimal" has been set as active.
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-# Design: Design "74ls47" has been set as active.

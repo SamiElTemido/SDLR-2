@@ -1,4 +1,4 @@
-Active-HDL 13.0.375.8320 2026-02-16 08:55:13
+Active-HDL 13.0.375.8320 2026-02-16 16:24:19
 
 Elaboration top modules:
 Architecture                  Behavioral(CounterM10)
@@ -7,7 +7,7 @@ Architecture                  Behavioral(CounterM10)
 ------------------------------------------------------------------------------------------------
 Entity     | Architecture | Library    | Info | Compiler Version          | Compilation Options
 ------------------------------------------------------------------------------------------------
-CounterM10 | Behavioral   | CounterM10 |      | 13.0.375.8320 (Windows64) | -O3
+CounterM10 | Behavioral   | counterm10 |      | 13.0.375.8320 (Windows64) | -O3
 ------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------
@@ -22,11 +22,7 @@ NUMERIC_STD               | ieee       |      | 13.0.375.8320 (Windows64) |  -20
 ------------------------------------------------------------------------------------------------
 Library                   | Comment
 ------------------------------------------------------------------------------------------------
-CounterM10                | None
+counterm10                | None
 ieee                      | Standard IEEE packages library
 std                       | Standard VHDL library
 ------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+CounterM10 CounterM10 Behavioral
-

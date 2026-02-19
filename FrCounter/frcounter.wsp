@@ -1,7 +1,7 @@
 [COMPILESTATUS|.\src\FrCounter.vhd]
-FileTimeLow=3497438300
-FileTimeHigh=31231698
-Status=Compiled
+FileTimeLow=3835312496
+FileTimeHigh=31235986
+Status=Modified
 [CACHEDOC|Aldec.Hde.HdePlugIn.7|.\RisingEd\src/RisingEd.vhd|]
 CurrentLine=0
 CurrentColumn=0
@@ -15,8 +15,8 @@ CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\FrCounter\FrCounter.adf|]
 Path=
 [CACHEDOC|Aldec.Hde.HdePlugIn.7|.\FrCounter\src/FrCounter.vhd|]
-CurrentLine=0
-CurrentColumn=0
+CurrentLine=12
+CurrentColumn=50
 Bookmarks=-1
 BookmarksLength=3
 ZoomFactor=0
@@ -50,5 +50,13 @@ LatchSR=0
 ReactionTT=0
 RisingEd=0
 Timer=0
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|.\DisplayDriverBTD\src/FrCounter.vhd|]
+CurrentLine=11
+CurrentColumn=52
+Bookmarks=-1
+BookmarksLength=3
+ZoomFactor=0
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////80AAACZAAAAQwQAAIICAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAQAAAA=="
 [Gui config]
 RunFor=100 ns

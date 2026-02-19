@@ -25,7 +25,7 @@ begin
 		else
 			Cn <= Cp;
 		end if;			   
-		CNT<= Cn;
+		CNT<= Cp;
 	end process combinational;
 
 	sequential :process(RST, CLK)
@@ -34,8 +34,6 @@ begin
 			Cp <= (others => '0');
 		elsif CLK'event and CLK = '1' then
 			Cp <= Cn;
-		else
-			Cp <= Cp;
 		end if;
 	end process sequential;
 

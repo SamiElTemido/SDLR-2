@@ -1,4 +1,4 @@
-Active-HDL 13.0.375.8320 2026-02-16 15:34:32
+Active-HDL 13.0.375.8320 2026-02-16 16:23:54
 
 Elaboration top modules:
 Architecture                  Structural(BinaryToDecimal)
@@ -7,11 +7,11 @@ Architecture                  Structural(BinaryToDecimal)
 ----------------------------------------------------------------------------------------------------------
 Entity          | Architecture | Library         | Info | Compiler Version          | Compilation Options
 ----------------------------------------------------------------------------------------------------------
-BinaryToDecimal | Structural   | BinaryToDecimal |      | 13.0.375.8320 (Windows64) | -O3
-LatchSR         | Behavioral   | BinaryToDecimal |      | 13.0.375.8320 (Windows64) | -O3
-FrCounter       | Behavioral   | BinaryToDecimal |      | 13.0.375.8320 (Windows64) | -O3
-DecimalCounter  | structural   | BinaryToDecimal |      | 13.0.375.8320 (Windows64) | -O3
-CounterM10      | Behavioral   | BinaryToDecimal |      | 13.0.375.8320 (Windows64) | -O3
+BinaryToDecimal | Structural   | binarytodecimal |      | 13.0.375.8320 (Windows64) | -O3
+LatchSR         | Behavioral   | binarytodecimal |      | 13.0.375.8320 (Windows64) | -O3
+FrCounter       | Behavioral   | binarytodecimal |      | 13.0.375.8320 (Windows64) | -O3
+DecimalCounter  | structural   | binarytodecimal |      | 13.0.375.8320 (Windows64) | -O3
+CounterM10      | Behavioral   | binarytodecimal |      | 13.0.375.8320 (Windows64) | -O3
 ----------------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------------
@@ -26,7 +26,7 @@ NUMERIC_STD                    | ieee            |      | 13.0.375.8320 (Windows
 ----------------------------------------------------------------------------------------------------------
 Library                        | Comment
 ----------------------------------------------------------------------------------------------------------
-BinaryToDecimal                | None
+binarytodecimal                | None
 ieee                           | Standard IEEE packages library
 std                            | Standard VHDL library
 ----------------------------------------------------------------------------------------------------------

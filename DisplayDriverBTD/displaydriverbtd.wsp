@@ -15,9 +15,9 @@ FileTimeLow=4127879079
 FileTimeHigh=31231702
 Status=Compiled
 [COMPILESTATUS|.\src\BinaryToDecimal.vhd]
-FileTimeLow=1014498562
-FileTimeHigh=31235974
-Status=Compiled
+FileTimeLow=4082165185
+FileTimeHigh=31235986
+Status=Modified
 [COMPILESTATUS|.\src\CounterM10.vhd]
 FileTimeLow=1911943518
 FileTimeHigh=31235924

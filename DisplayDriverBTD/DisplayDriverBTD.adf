@@ -81,6 +81,6 @@ name11=Waveform Files
 directory11=C:\My_Designs\SDLR2_std\DisplayDriverBTD\
 extension11=asdb;awc;asdbc;asdbe
 [HierarchyViewer]
-HierarchyInformation=binarytodecimal|Structural|0 decimalcounter|structural|0 displaydriverbtd|Structural|0
+HierarchyInformation=counterm10|Behavioral|0 displaydriverbtd|Structural|0
 ShowHide=ShowTopLevel
 Selected=

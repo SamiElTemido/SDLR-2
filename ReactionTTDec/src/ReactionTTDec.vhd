@@ -3,7 +3,7 @@ use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
 entity ReactionTTDec is
-    port(
+    port(				 	
         CLK : in std_logic;
         RST : in std_logic;
         BTN : in std_logic;
@@ -40,12 +40,16 @@ architecture Structural of ReactionTTDec is
 	);
 	end component;
 	for all: DisplayDriverBTD use entity work.DisplayDriverBTD(Structural);
-    SIGNAL TIEMPO: std_logic_vector(15 downto 0);
+    SIGNAL TIEMPO: std_logic_vector(15 downto 0); 
+	 signal LEDS: std_logic;
+
+	
    begin
+	   
         UT1: ReactionTT
         generic map(
-            Ticks10s => 5_000_000,
-            Ticks1ms => 50000,
+            Ticks10s => 500_000_000,
+            Ticks1ms => 50_000,
             Nbits => 16
         )
         port map(
@@ -54,7 +58,9 @@ architecture Structural of ReactionTTDec is
             BTN => BTN,
             ALRM => ALRM,
             TIEMPO => TIEMPO
-        );
+        );	
+		 --ALRM<=(others=>LEDS); 
+		
         UT2: DisplayDriverBTD
         port map(
             CLK => CLK,

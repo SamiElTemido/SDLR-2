@@ -1,4 +1,4 @@
-Active-HDL 13.0.375.8320 2026-02-19 20:07:58
+Active-HDL 13.0.375.8320 2026-02-20 09:12:17
 
 Elaboration top modules:
 Architecture                  Structural(ReactionTTDec)
@@ -7,18 +7,18 @@ Architecture                  Structural(ReactionTTDec)
 ---------------------------------------------------------------------------------------------------------
 Entity           | Architecture | Library       | Info | Compiler Version          | Compilation Options
 ---------------------------------------------------------------------------------------------------------
-ReactionTTDec    | Structural   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
-ReactionTT       | Structural   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
-DisplayDriverBTD | Structural   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
-Timer            | Behavioral   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
-LatchSR          | Behavioral   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
-FrCounter        | Behavioral   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
-DisplayDriver    | Structural   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
-BinaryToDecimal  | Structural   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
-AnodeDecoder     | Behavioral   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
-SN74LS47         | Behavioral   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
-DecimalCounter   | structural   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
-CounterM10       | Behavioral   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
+ReactionTTDec    | Structural   | reactionttdec |      | 13.0.375.8320 (Windows64) | -O3
+ReactionTT       | Structural   | reactionttdec |      | 13.0.375.8320 (Windows64) | -O3
+DisplayDriverBTD | Structural   | reactionttdec |      | 13.0.375.8320 (Windows64) | -O3
+Timer            | Behavioral   | reactionttdec |      | 13.0.375.8320 (Windows64) | -O3
+LatchSR          | Behavioral   | reactionttdec |      | 13.0.375.8320 (Windows64) | -O3
+FrCounter        | Behavioral   | reactionttdec |      | 13.0.375.8320 (Windows64) | -O3
+DisplayDriver    | Structural   | reactionttdec |      | 13.0.375.8320 (Windows64) | -O3
+BinaryToDecimal  | Structural   | reactionttdec |      | 13.0.375.8320 (Windows64) | -O3
+AnodeDecoder     | Behavioral   | reactionttdec |      | 13.0.375.8320 (Windows64) | -O3
+SN74LS47         | Behavioral   | reactionttdec |      | 13.0.375.8320 (Windows64) | -O3
+DecimalCounter   | structural   | reactionttdec |      | 13.0.375.8320 (Windows64) | -O3
+CounterM10       | Behavioral   | reactionttdec |      | 13.0.375.8320 (Windows64) | -O3
 ---------------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------
@@ -34,10 +34,6 @@ NUMERIC_STD                     | ieee          |      | 13.0.375.8320 (Windows6
 Library                         | Comment
 ---------------------------------------------------------------------------------------------------------
 ieee                            | Standard IEEE packages library
-ReactionTTDec                   | None
+reactionttdec                   | None
 std                             | Standard VHDL library
 ---------------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+ReactionTTDec ReactionTTDec Structural
-

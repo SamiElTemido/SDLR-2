@@ -1,0 +1,49 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=ReactionTTDec
+[Library]
+ReactionTTDec=.\ReactionTTDec\ReactionTTDec.lib
+[$LibMap$]
+ReactionTTDec=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+REFRESH_FLOW=1
+fileopenfolder=C:\My_Designs\SDLR2_std\DisplayDriverBTD\src
+[IMPLEMENTATION]
+UCF=
+[Files]
+/ReactionTTDec.vhd=-1
+/LatchSR.vhd=-1
+/SN74LS47.vhd=-1
+/Timer.vhd=-1
+/FrCounter.vhd=-1
+/CounterM10.vhd=-1
+/AnodeDecoder.vhd=-1
+/DisplayDriver.vhd=-1
+/DecimalCounter.vhd=-1
+/BinaryToDecimal.vhd=-1
+/ReactionTT.vhd=-1
+/DisplayDriverBTD.vhd=-1
+[Files.Data]
+.\src\ReactionTTDec.vhd=VHDL Source Code
+.\src\LatchSR.vhd=VHDL Source Code
+.\src\SN74LS47.vhd=VHDL Source Code
+.\src\Timer.vhd=VHDL Source Code
+.\src\FrCounter.vhd=VHDL Source Code
+.\src\CounterM10.vhd=VHDL Source Code
+.\src\AnodeDecoder.vhd=VHDL Source Code
+.\src\DisplayDriver.vhd=VHDL Source Code
+.\src\DecimalCounter.vhd=VHDL Source Code
+.\src\BinaryToDecimal.vhd=VHDL Source Code
+.\src\ReactionTT.vhd=VHDL Source Code
+.\src\DisplayDriverBTD.vhd=VHDL Source Code

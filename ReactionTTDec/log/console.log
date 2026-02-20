@@ -1,0 +1,265 @@
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work ReactionTTDec -2002  $dsn/src/FrCounter.vhd $dsn/src/LatchSR.vhd $dsn/src/ReactionTT.vhd $dsn/src/Timer.vhd $dsn/src/AnodeDecoder.vhd $dsn/src/BinaryToDecimal.vhd $dsn/src/CounterM10.vhd $dsn/src/DecimalCounter.vhd $dsn/src/DisplayDriver.vhd $dsn/src/DisplayDriverBTD.vhd $dsn/src/SN74LS47.vhd $dsn/src/ReactionTTDec.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/FrCounter.vhd
+# Compile Entity "FrCounter"
+# Compile Architecture "Behavioral" of Entity "FrCounter"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/LatchSR.vhd
+# Compile Entity "LatchSR"
+# Compile Architecture "Behavioral" of Entity "LatchSR"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTT.vhd
+# Compile Entity "ReactionTT"
+# Compile Architecture "Structural" of Entity "ReactionTT"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/AnodeDecoder.vhd
+# Compile Entity "AnodeDecoder"
+# Compile Architecture "Behavioral" of Entity "AnodeDecoder"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/BinaryToDecimal.vhd
+# Compile Entity "BinaryToDecimal"
+# Compile Architecture "Structural" of Entity "BinaryToDecimal"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DecimalCounter.vhd
+# Compile Entity "DecimalCounter"
+# Compile Architecture "structural" of Entity "DecimalCounter"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriver.vhd
+# Compile Entity "DisplayDriver"
+# Compile Architecture "Structural" of Entity "DisplayDriver"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriverBTD.vhd
+# Compile Entity "DisplayDriverBTD"
+# Compile Architecture "Structural" of Entity "DisplayDriverBTD"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/SN74LS47.vhd
+# Compile Entity "SN74LS47"
+# Compile Architecture "Behavioral" of Entity "SN74LS47"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTTDec.vhd
+# Compile Entity "ReactionTTDec"
+# Compile Architecture "Structural" of Entity "ReactionTTDec"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTTDec.vhd
+# Compile Entity "ReactionTTDec"
+# Compile Architecture "Structural" of Entity "ReactionTTDec"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriver.vhd
+# Compile Architecture "Structural" of Entity "DisplayDriver"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/BinaryToDecimal.vhd
+# Compile Architecture "Structural" of Entity "BinaryToDecimal"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTT.vhd
+# Compile Architecture "Structural" of Entity "ReactionTT"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriverBTD.vhd
+# Compile Architecture "Structural" of Entity "DisplayDriverBTD"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTTDec.vhd
+# Compile Entity "ReactionTTDec"
+# Compile Architecture "Structural" of Entity "ReactionTTDec"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTT.vhd
+# Compile Architecture "Structural" of Entity "ReactionTT"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriverBTD.vhd
+# Compile Architecture "Structural" of Entity "DisplayDriverBTD"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTTDec.vhd
+# Compile Entity "ReactionTTDec"
+# Compile Architecture "Structural" of Entity "ReactionTTDec"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTT.vhd
+# Compile Architecture "Structural" of Entity "ReactionTT"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriverBTD.vhd
+# Compile Architecture "Structural" of Entity "DisplayDriverBTD"
+# Error: COMP96_0018: ReactionTTDec.vhd : (1, 9): Identifier expected.
+# Error: COMP96_0016: ReactionTTDec.vhd : (1, 17): Design unit declaration expected.
+# Error: COMP96_0016: ReactionTTDec.vhd : (1, 21): Design unit declaration expected.
+# Error: COMP96_0078: ReactionTTDec.vhd : (2, 5): Unknown identifier "IEEE".
+# Error: COMP96_0078: ReactionTTDec.vhd : (3, 5): Unknown identifier "IEEE".
+# Error: COMP96_0078: ReactionTTDec.vhd : (7, 18): Unknown identifier "std_logic".
+# Error: COMP96_0064: ReactionTTDec.vhd : (7, 18): Unknown type.
+# Error: COMP96_0078: ReactionTTDec.vhd : (8, 18): Unknown identifier "std_logic".
+# Error: COMP96_0064: ReactionTTDec.vhd : (8, 18): Unknown type.
+# Error: COMP96_0078: ReactionTTDec.vhd : (9, 18): Unknown identifier "std_logic".
+# Error: COMP96_0064: ReactionTTDec.vhd : (9, 18): Unknown type.
+# Error: COMP96_0078: ReactionTTDec.vhd : (10, 20): Unknown identifier "std_logic".
+# Error: COMP96_0064: ReactionTTDec.vhd : (10, 20): Unknown type.
+# Error: COMP96_0078: ReactionTTDec.vhd : (11, 19): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: ReactionTTDec.vhd : (11, 19): Unknown type.
+# Error: COMP96_0078: ReactionTTDec.vhd : (12, 19): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: ReactionTTDec.vhd : (12, 19): Unknown type.
+# Error: COMP96_0056: ReactionTTDec.vhd : (15, 1): Cannot find referenced entity declaration "ReactionTTDec".
+# Error: COMP96_0115: ReactionTT.vhd : (75, 10): Actual is not a globally static expression.
+# Error: COMP96_0115: DisplayDriverBTD.vhd : (78, 10): Actual is not a globally static expression.
+# Compile failure 20 Errors 0 Warnings  Analysis time :  2.0 [s]
+acom -reorder -O3 -e 100 -work ReactionTTDec -2002  $dsn/src/FrCounter.vhd $dsn/src/LatchSR.vhd $dsn/src/ReactionTT.vhd $dsn/src/Timer.vhd $dsn/src/AnodeDecoder.vhd $dsn/src/BinaryToDecimal.vhd $dsn/src/CounterM10.vhd $dsn/src/DecimalCounter.vhd $dsn/src/DisplayDriver.vhd $dsn/src/DisplayDriverBTD.vhd $dsn/src/SN74LS47.vhd $dsn/src/ReactionTTDec.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/FrCounter.vhd
+# Compile Entity "FrCounter"
+# Compile Architecture "Behavioral" of Entity "FrCounter"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/LatchSR.vhd
+# Compile Entity "LatchSR"
+# Compile Architecture "Behavioral" of Entity "LatchSR"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTT.vhd
+# Compile Entity "ReactionTT"
+# Compile Architecture "Structural" of Entity "ReactionTT"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/AnodeDecoder.vhd
+# Compile Entity "AnodeDecoder"
+# Compile Architecture "Behavioral" of Entity "AnodeDecoder"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/BinaryToDecimal.vhd
+# Compile Entity "BinaryToDecimal"
+# Compile Architecture "Structural" of Entity "BinaryToDecimal"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DecimalCounter.vhd
+# Compile Entity "DecimalCounter"
+# Compile Architecture "structural" of Entity "DecimalCounter"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriver.vhd
+# Compile Entity "DisplayDriver"
+# Compile Architecture "Structural" of Entity "DisplayDriver"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriverBTD.vhd
+# Compile Entity "DisplayDriverBTD"
+# Compile Architecture "Structural" of Entity "DisplayDriverBTD"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/SN74LS47.vhd
+# Compile Entity "SN74LS47"
+# Compile Architecture "Behavioral" of Entity "SN74LS47"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTTDec.vhd
+# Compile Entity "ReactionTTDec"
+# Compile Architecture "Structural" of Entity "ReactionTTDec"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => ReactionTT
+# Entity => ReactionTTDec
+# Entity => DisplayDriverBTD
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriver.vhd
+# Compile Architecture "Structural" of Entity "DisplayDriver"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/BinaryToDecimal.vhd
+# Compile Architecture "Structural" of Entity "BinaryToDecimal"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTT.vhd
+# Compile Architecture "Structural" of Entity "ReactionTT"
+# Error: COMP96_0115: ReactionTT.vhd : (75, 10): Actual is not a globally static expression.
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriverBTD.vhd
+# Compile Architecture "Structural" of Entity "DisplayDriverBTD"
+# Error: COMP96_0115: DisplayDriverBTD.vhd : (78, 10): Actual is not a globally static expression.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -reorder -O3 -e 100 -work ReactionTTDec -2002  $dsn/src/FrCounter.vhd $dsn/src/LatchSR.vhd $dsn/src/ReactionTT.vhd $dsn/src/Timer.vhd $dsn/src/AnodeDecoder.vhd $dsn/src/BinaryToDecimal.vhd $dsn/src/CounterM10.vhd $dsn/src/DecimalCounter.vhd $dsn/src/DisplayDriver.vhd $dsn/src/DisplayDriverBTD.vhd $dsn/src/SN74LS47.vhd $dsn/src/ReactionTTDec.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/FrCounter.vhd
+# Compile Entity "FrCounter"
+# Compile Architecture "Behavioral" of Entity "FrCounter"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/LatchSR.vhd
+# Compile Entity "LatchSR"
+# Compile Architecture "Behavioral" of Entity "LatchSR"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTT.vhd
+# Compile Entity "ReactionTT"
+# Compile Architecture "Structural" of Entity "ReactionTT"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/AnodeDecoder.vhd
+# Compile Entity "AnodeDecoder"
+# Compile Architecture "Behavioral" of Entity "AnodeDecoder"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/BinaryToDecimal.vhd
+# Compile Entity "BinaryToDecimal"
+# Compile Architecture "Structural" of Entity "BinaryToDecimal"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DecimalCounter.vhd
+# Compile Entity "DecimalCounter"
+# Compile Architecture "structural" of Entity "DecimalCounter"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriver.vhd
+# Compile Entity "DisplayDriver"
+# Compile Architecture "Structural" of Entity "DisplayDriver"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriverBTD.vhd
+# Compile Entity "DisplayDriverBTD"
+# Compile Architecture "Structural" of Entity "DisplayDriverBTD"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/SN74LS47.vhd
+# Compile Entity "SN74LS47"
+# Compile Architecture "Behavioral" of Entity "SN74LS47"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTTDec.vhd
+# Compile Entity "ReactionTTDec"
+# Compile Architecture "Structural" of Entity "ReactionTTDec"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => ReactionTT
+# Entity => ReactionTTDec
+# Entity => DisplayDriverBTD
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriver.vhd
+# Compile Architecture "Structural" of Entity "DisplayDriver"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/BinaryToDecimal.vhd
+# Compile Architecture "Structural" of Entity "BinaryToDecimal"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTT.vhd
+# Compile Architecture "Structural" of Entity "ReactionTT"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriverBTD.vhd
+# Compile Architecture "Structural" of Entity "DisplayDriverBTD"
+# Error: COMP96_0115: DisplayDriverBTD.vhd : (78, 10): Actual is not a globally static expression.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.7 [s]
+acom -reorder -O3 -e 100 -work ReactionTTDec -2002  $dsn/src/FrCounter.vhd $dsn/src/LatchSR.vhd $dsn/src/ReactionTT.vhd $dsn/src/Timer.vhd $dsn/src/AnodeDecoder.vhd $dsn/src/BinaryToDecimal.vhd $dsn/src/CounterM10.vhd $dsn/src/DecimalCounter.vhd $dsn/src/DisplayDriver.vhd $dsn/src/DisplayDriverBTD.vhd $dsn/src/SN74LS47.vhd $dsn/src/ReactionTTDec.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/FrCounter.vhd
+# Compile Entity "FrCounter"
+# Compile Architecture "Behavioral" of Entity "FrCounter"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/LatchSR.vhd
+# Compile Entity "LatchSR"
+# Compile Architecture "Behavioral" of Entity "LatchSR"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTT.vhd
+# Compile Entity "ReactionTT"
+# Compile Architecture "Structural" of Entity "ReactionTT"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/AnodeDecoder.vhd
+# Compile Entity "AnodeDecoder"
+# Compile Architecture "Behavioral" of Entity "AnodeDecoder"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/BinaryToDecimal.vhd
+# Compile Entity "BinaryToDecimal"
+# Compile Architecture "Structural" of Entity "BinaryToDecimal"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DecimalCounter.vhd
+# Compile Entity "DecimalCounter"
+# Compile Architecture "structural" of Entity "DecimalCounter"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriver.vhd
+# Compile Entity "DisplayDriver"
+# Compile Architecture "Structural" of Entity "DisplayDriver"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriverBTD.vhd
+# Compile Entity "DisplayDriverBTD"
+# Compile Architecture "Structural" of Entity "DisplayDriverBTD"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/SN74LS47.vhd
+# Compile Entity "SN74LS47"
+# Compile Architecture "Behavioral" of Entity "SN74LS47"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTTDec.vhd
+# Compile Entity "ReactionTTDec"
+# Compile Architecture "Structural" of Entity "ReactionTTDec"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => ReactionTT
+# Entity => ReactionTTDec
+# Entity => DisplayDriverBTD
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/DisplayDriver.vhd
+# Compile Architecture "Structural" of Entity "DisplayDriver"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/BinaryToDecimal.vhd
+# Compile Architecture "Structural" of Entity "BinaryToDecimal"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTT.vhd
+# Compile Architecture "Structural" of Entity "ReactionTT"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -reorder -O3 -e 100 -work ReactionTTDec -2002  $dsn/src/ReactionTTDec.vhd $dsn/src/LatchSR.vhd $dsn/src/SN74LS47.vhd $dsn/src/Timer.vhd $dsn/src/FrCounter.vhd $dsn/src/CounterM10.vhd $dsn/src/AnodeDecoder.vhd $dsn/src/DisplayDriver.vhd $dsn/src/DecimalCounter.vhd $dsn/src/BinaryToDecimal.vhd $dsn/src/ReactionTT.vhd $dsn/src/DisplayDriverBTD.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/ReactionTTDec.vhd
+# Compile Entity "ReactionTTDec"
+# Compile Architecture "Structural" of Entity "ReactionTTDec"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/LatchSR.vhd
+# Compile Entity "LatchSR"
+# Compile Architecture "Behavioral" of Entity "LatchSR"
+# File: C:/My_Designs/SDLR2_std/ReactionTTDec/src/SN74LS47.vhd
+# Compile Entity "SN74LS47"
+# Compile Architecture "Behavioral" of Ent

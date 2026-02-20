@@ -34,7 +34,7 @@ architecture Structural of ReactionTTDec is
 	port(
 		CLK : in STD_LOGIC;
 		RST : in STD_LOGIC;
-		DIN : in STD_LOGIC_VECTOR(9 downto 0);
+		DIN : in STD_LOGIC_VECTOR(15 downto 0);
 		SEG : out STD_LOGIC_VECTOR(6 downto 0);
 		ANO : out STD_LOGIC_VECTOR(3 downto 0)
 	);
@@ -44,7 +44,7 @@ architecture Structural of ReactionTTDec is
    begin
         UT1: ReactionTT
         generic map(
-            Ticks10s => 500000000,
+            Ticks10s => 5_000_000,
             Ticks1ms => 50000,
             Nbits => 16
         )
@@ -63,5 +63,5 @@ architecture Structural of ReactionTTDec is
             SEG => SEG,
             ANO => ANO
         );
-        
+
 end Structural;

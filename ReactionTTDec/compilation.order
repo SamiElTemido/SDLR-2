@@ -1,12 +1,12 @@
-.\src\ReactionTTDec.vhd
-.\src\LatchSR.vhd
 .\src\SN74LS47.vhd
 .\src\Timer.vhd
+.\src\LatchSR.vhd
 .\src\FrCounter.vhd
 .\src\CounterM10.vhd
 .\src\AnodeDecoder.vhd
-.\src\DisplayDriver.vhd
 .\src\DecimalCounter.vhd
-.\src\BinaryToDecimal.vhd
 .\src\ReactionTT.vhd
+.\src\DisplayDriver.vhd
+.\src\BinaryToDecimal.vhd
 .\src\DisplayDriverBTD.vhd
+.\src\ReactionTTDec.vhd

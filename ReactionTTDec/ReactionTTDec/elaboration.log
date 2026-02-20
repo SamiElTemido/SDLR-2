@@ -1,28 +1,43 @@
-Active-HDL 13.0.375.8320 2026-02-19 19:33:00
+Active-HDL 13.0.375.8320 2026-02-19 20:07:58
 
 Elaboration top modules:
 Architecture                  Structural(ReactionTTDec)
 
 
-------------------------------------------------------------------------------------------------------
-Entity        | Architecture | Library       | Info | Compiler Version          | Compilation Options
-------------------------------------------------------------------------------------------------------
-ReactionTTDec | Structural   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
-------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+Entity           | Architecture | Library       | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------------
+ReactionTTDec    | Structural   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
+ReactionTT       | Structural   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
+DisplayDriverBTD | Structural   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
+Timer            | Behavioral   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
+LatchSR          | Behavioral   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
+FrCounter        | Behavioral   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
+DisplayDriver    | Structural   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
+BinaryToDecimal  | Structural   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
+AnodeDecoder     | Behavioral   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
+SN74LS47         | Behavioral   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
+DecimalCounter   | structural   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
+CounterM10       | Behavioral   | ReactionTTDec |      | 13.0.375.8320 (Windows64) | -O3
+---------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------------------------
-VHDL Package                 | Library       | Info | Compiler Version          | Compilation Options
-------------------------------------------------------------------------------------------------------
-standard                     | std           |      |                           | <unavailable>
-TEXTIO                       | std           |      | 13.0.375.8320 (Windows64) |  -2019
-std_logic_1164               | ieee          |      | 13.0.375.8320 (Windows64) |  -2008
-NUMERIC_STD                  | ieee          |      | 13.0.375.8320 (Windows64) |  -2008
-------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+VHDL Package                    | Library       | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------------
+standard                        | std           |      |                           | <unavailable>
+TEXTIO                          | std           |      | 13.0.375.8320 (Windows64) |  -2019
+std_logic_1164                  | ieee          |      | 13.0.375.8320 (Windows64) |  -2008
+NUMERIC_STD                     | ieee          |      | 13.0.375.8320 (Windows64) |  -2008
+---------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------------------------
-Library                      | Comment
-------------------------------------------------------------------------------------------------------
-ieee                         | Standard IEEE packages library
-ReactionTTDec                | None
-std                          | Standard VHDL library
-------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+Library                         | Comment
+---------------------------------------------------------------------------------------------------------
+ieee                            | Standard IEEE packages library
+ReactionTTDec                   | None
+std                             | Standard VHDL library
+---------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+ReactionTTDec ReactionTTDec Structural
+

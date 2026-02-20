@@ -5,7 +5,7 @@ entity DisplayDriverBTD is
 	port (
 		CLK : in std_logic;
 		RST : in std_logic;
-		DIN : in std_logic_vector(9 downto 0);
+		DIN : in std_logic_vector(15 downto 0);
 		SEG : out std_logic_vector(6 downto 0);
 		ANO : out std_logic_vector(3 downto 0)
 	);
@@ -58,7 +58,7 @@ signal ONE, TEN, HUN, THO : std_logic_vector(3 downto 0);
 signal	EOT : std_logic;
 Signal FDIN: std_logic_vector(15 downto 0);
 begin												  
-	FDIN<=	"000000" & DIN;
+	FDIN <= DIN;
 	-- Instantiation of the "DisplayDriver(Structural)" 
 	DisplayDriver_1 : DisplayDriver
 	port map(

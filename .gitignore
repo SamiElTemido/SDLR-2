@@ -18,6 +18,7 @@
 # Logs and build directories
 /compile/
 /log/
+BiniaryToDecimal/
 
 # User-specific files
 *.tds
@@ -38,3 +39,4 @@ Desktop.ini
 *.aws
 *.wsw
 *.cfg
+# directories

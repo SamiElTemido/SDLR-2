@@ -52,6 +52,6 @@ UCF=
 .\src\untitled.asdb=Accelerated Waveform File
 .\src\untitled.awc=Accelerated Waveform Configuration
 [HierarchyViewer]
-HierarchyInformation=latchsr|Behavioral|0 reactiontt|Structural|0 reactionttdec|Structural|0
+HierarchyInformation=reactionttdec|Structural|0
 ShowHide=ShowTopLevel
 Selected=

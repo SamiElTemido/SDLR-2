@@ -1,0 +1,40 @@
+# Ignore compilation and temporary files for Quartus projects
+*.qpf
+*.qsf
+*.qws
+*.sopcinfo
+*.db
+*.qdb
+*.pin
+*.rpt
+*.srr
+*.pof
+*.sof
+*.jic
+*.vqm
+*.pof
+*.edif
+
+# Logs and build directories
+/compile/
+/log/
+
+# User-specific files
+*.tds
+*.vhd~
+*.sv~
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Other
+*.bak
+*~
+
+# Git keep
+!.gitignore
+# active
+*.aws
+*.wsw
+*.cfg

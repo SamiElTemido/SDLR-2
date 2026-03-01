@@ -1,0 +1,40 @@
+acom -reorder -O3 -e 100 -work CounterMN -2002  $dsn/src/CounterMN.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/CounterMN/src/CounterMN.vhd
+# Compile Entity "CounterMN"
+# Compile Architecture "Behavioral" of Entity "CounterMN"
+# Top-level unit(s) detected:
+# Entity => CounterMN
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+CounterMN CounterMN Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5567 kB (elbread=427 elab2=5001 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\SDLR2_std\CounterMN\src\wave.asdb
+#  01:21 p. m., domingo, 1 de marzo de 2026
+#  Simulation has been initialized
+# VSIM: 7 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/SDLR2_std/CounterMN/src/wave.asdb'.
+run 100 ms
+# KERNEL: stopped at time: 100 ms
+# Design: 01:56 p. m., domingo, 1 de marzo de 2026
+# Design: Opening design "C:\My_Designs\SDLR2_std\PWMServo\PWMServo.adf"
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Design: Design "PWMServo" has been set as active.

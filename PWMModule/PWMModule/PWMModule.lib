@@ -1,0 +1,48 @@
+timestamp=1772209636769
+
+[~A]
+ModifyID=27
+Version=74
+
+[~MFT]
+0=13|0PWMModule.mgf|23095|17973
+1=6|1PWMModule.mgf|82495|80139
+3=5|3PWMModule.mgf|56962|55015
+
+[frcounter]
+A/behavioral=A/Behavioral 21|../src/FrCounter.vhd|17|1*81171
+BinW64/behavioral=3*55937
+I=0*2207
+I/behavioral=I/Behavioral 0*21968
+M=11|2|vef|1772206821121|../src/FrCounter.vhd|0*1778*0x819f96926515c4dfae5e0ee57ad9dda2c65fba4a|0*2124*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1772209636687|../src/FrCounter.vhd|0*2450*0x48f62b370e7f8972f422b8ab5e3ef309487c6c0c|0*2926*0x20116f55b147878295aeff36dce7fc50
+R=../src/FrCounter.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5ee88cbdfe9a3ad1a18c729fba88e76fe711739d3258eb7291525b46820d6d99baaaaee299e78096630cb4a969ea97e3
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4e6427f05c8fe7bfb26da36aa8893f040
+
+[pwmmodule]
+A/structural=A/Structural 21|../src/PWMModule.vhd|15|1*82495
+BinW64/structural=3*56962
+I=0*22892
+I/structural=I/Structural 0*23095
+M=11|2|vef|1772209636725|../src/PWMModule.vhd|0*22469*0x0d977cdaf6c638aa0272ff932072d2e0faabf5c9|0*22809*0x23b75c12e3e89f2ef000564498faa8c2
+M/structural=M/Structural 21|2|vef|1772209636732|../src/PWMModule.vhd|0*6636*0x9283fd178429246af7996e460b7f6bd13cec5e22|0*7511*0x20116f55b147878295aeff36dce7fc50
+R=../src/PWMModule.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|fb6406da52901815fb96162e27f47bff0f35ea33f062537ade0f669a8850af9589c59fa4091488bf71f4fb8ac3d5d29c
+Version/structural=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eba4b95421863ad9db325b0f65bd1a011a
+
+[timer]
+A/behavioral=A/Behavioral 21|../src/Timer.vhd|14|1*80139
+BinW64/behavioral=3*55015
+I=0*549
+I/behavioral=I/Behavioral 0*21718
+M=11|2|vef|1772206820994|../src/Timer.vhd|0*199*0xfdc44f1b4a45cc44944fe7289341311f76d8b625|0*474*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1772209636644|../src/Timer.vhd|0*788*0xd2d258f8caf910031df3d9daa62a6d6ad7bce969|0*1207*0x20116f55b147878295aeff36dce7fc50
+R=../src/Timer.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|c2ae8f0b7b95b6d69da7be83d99f8f49b1276b10503def0f482afcc47e950d46
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4870a41fad34479bf6221a07d0c1b5641
+
+[~U]
+frcounter=FrCounter 11|0*1546|
+pwmmodule=PWMModule 11|0*22222|
+timer=Timer 11|0*0|

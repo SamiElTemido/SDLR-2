@@ -1,0 +1,31 @@
+[COMPILESTATUS|.\src\CounterMN.vhd]
+FileTimeLow=2055721471
+FileTimeHigh=31238576
+Status=Compiled
+[General]
+CurrentVersion=103
+[CACHEDOC|Aldec.Project.Generic.7|.\CounterMN\CounterMN.adf|]
+Path=
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+DisplayDriverBTD=0
+FrCounter=0
+LatchSR=0
+PWMModule=0
+ReactionTT=0
+ReactionTTDec=0
+RisingEd=0
+SN74LS47=0
+Timer=0
+Toggle=0
+AnodeDecoder=0
+PWMServo=0
+BinaryToDecimal=0
+blinky=0
+CountDown=0
+CounterM10=0
+CounterMN=0
+DecimalCounter=0
+DisplayDriver=0
+[Gui config]
+RunFor=100 ms

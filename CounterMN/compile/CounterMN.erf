@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/My_Designs/SDLR2_std/CounterMN/src/CounterMN.vhd" 
+MESSAGE "Compile Entity "CounterMN"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "CounterMN"" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => CounterMN" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

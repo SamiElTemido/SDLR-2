@@ -255,3 +255,6 @@ acom -reorder -O3 -e 100 -work PWMServo -2002  $dsn/src/Timer.vhd $dsn/src/Count
 # Top-level unit(s) detected:
 # Entity => PWMServo
 # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Warning: The synthesis tool has not been selected.
+# Warning: Use 'Flow Configuration Settings' option to specify this tool.
+# Warning: The synthesis tool has not been selected.

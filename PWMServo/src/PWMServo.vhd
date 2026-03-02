@@ -4,8 +4,8 @@ use ieee.numeric_std.all;
 
 entity PWMServo is
     generic(
-        step : integer := 4;	--8
-        ofsfset : integer := 1000  --500
+        step : integer := 10;	--4
+        ofsfset : integer := 450  --1000
     );
     port(
         CLK : in std_logic;
@@ -31,7 +31,7 @@ architecture structural of PWMServo is
 			-- Component declaration of the "CounterMN(Behavioral)" 
 	component CounterMN
 	generic(
-		Module : INTEGER := 20000;--
+		Module : INTEGER := 18000;--
 		NBits : INTEGER := 16
 	);
 	port(
@@ -43,14 +43,14 @@ architecture structural of PWMServo is
 	);
 	end component;
 	for all: CounterMN use entity work.CounterMN(Behavioral);
--- Señales internas
-signal EOT : std_logic; -- fin de tick del Timer (pulsos de 1 us)
+-- Señales----
+signal EOT : std_logic; -- fin del Timer de 1 us
 signal CNT : std_logic_vector(15 downto 0); -- contador de 0..19999 (20 ms)
 signal duty_cycle : std_logic_vector(15 downto 0); -- ancho del pulso en ticks
 begin 
 	TIMER1US: Timer
     generic map(
-        Ticks => 50 -- 1 us
+        Ticks => 55 -- 1 us
     )
     port map(
         CLK => CLK,
@@ -59,7 +59,7 @@ begin
     );
     CONTADORMODULO20_000: CounterMN
     generic map(
-        Module => 20000,
+        Module => 1800,
         NBits => 16
     )
     port map(
@@ -71,7 +71,7 @@ begin
     );
      -- Escala DUTY (0-255) a (0-1000) bits: multiplica por 4 y suma offset.
      -- Resultado: número de ticks (us) que la salida estará en '1'.
-     duty_cycle <= std_logic_vector(unsigned(DUTY) * 4 + ofsfset);
+     duty_cycle <= std_logic_vector(unsigned(DUTY) * step + ofsfset);
      pwm_out <= '1' when unsigned(CNT) < unsigned(duty_cycle) else '0';
 
 end structural;

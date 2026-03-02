@@ -45,3 +45,7 @@ SPEED=
 SCRIPTS_COPIED=0
 [IMPLEMENTATION]
 FLOW_STEPS_RESET=1
+[HierarchyViewer]
+HierarchyInformation=pwmservo|structural|0
+ShowHide=ShowTopLevel
+Selected=

@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/SDLR2_std/DeathTimeGen/compile/DeathTimeGen.erf -d C:/My_Designs/SDLR2_std/DeathTimeGen/compile -s C:/My_Designs/SDLR2_std/library.cfg -j C:/My_Designs/SDLR2_std/DeathTimeGen/projlib.cfg -work DeathTimeGen -reorder -O3 -e 100 -work DeathTimeGen -2002 C:/My_Designs/SDLR2_std/DeathTimeGen/src/DeathTimeGen.vhd 

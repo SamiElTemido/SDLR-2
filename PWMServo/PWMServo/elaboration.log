@@ -1,4 +1,4 @@
-Active-HDL 13.0.375.8320 2026-03-01 14:20:31
+Active-HDL 13.0.375.8320 2026-03-02 08:41:49
 
 Elaboration top modules:
 Architecture                  structural(PWMServo)
@@ -7,9 +7,9 @@ Architecture                  structural(PWMServo)
 ---------------------------------------------------------------------------------------------
 Entity    | Architecture | Library  | Info | Compiler Version          | Compilation Options
 ---------------------------------------------------------------------------------------------
-PWMServo  | structural   | PWMServo |      | 13.0.375.8320 (Windows64) | -O3
-Timer     | Behavioral   | PWMServo |      | 13.0.375.8320 (Windows64) | -O3
-CounterMN | Behavioral   | PWMServo |      | 13.0.375.8320 (Windows64) | -O3
+PWMServo  | structural   | pwmservo |      | 13.0.375.8320 (Windows64) | -O3
+Timer     | Behavioral   | pwmservo |      | 13.0.375.8320 (Windows64) | -O3
+CounterMN | Behavioral   | pwmservo |      | 13.0.375.8320 (Windows64) | -O3
 ---------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------
@@ -25,10 +25,6 @@ NUMERIC_STD              | ieee     |      | 13.0.375.8320 (Windows64) |  -2008
 Library                  | Comment
 ---------------------------------------------------------------------------------------------
 ieee                     | Standard IEEE packages library
-PWMServo                 | None
+pwmservo                 | None
 std                      | Standard VHDL library
 ---------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+PWMServo PWMServo structural
-

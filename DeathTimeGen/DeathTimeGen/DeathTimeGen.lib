@@ -1,0 +1,24 @@
+timestamp=1772463340892
+
+[~A]
+ModifyID=4
+Version=74
+
+[~MFT]
+0=2|0DeathTimeGen.mgf|2114|617
+1=2|1DeathTimeGen.mgf|1109|1109
+3=2|3DeathTimeGen.mgf|0|0
+
+[deathtimegen]
+A/behavioral=A/Behavioral 21|../src/DeathTimeGen.vhd|16|1*1109
+BinW64/behavioral=3*0
+I=0*1260
+I/behavioral=I/Behavioral 0*2114
+M=11|2|vef|1772463139548|../src/DeathTimeGen.vhd|0*839*0x4a602182d10483341264d1f814c27c98973266b9|0*1171*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1772463340863|../src/DeathTimeGen.vhd|0*1506*0x62cbe1a1140c93b7ad436e379d6e5f9a59a25bbb|0*2011*0x20116f55b147878295aeff36dce7fc50
+R=../src/DeathTimeGen.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5662925bce0efa7645d5451a9bcf0994bf866e87ecbb710e345d36dd92060e59f2cf8142c2cef36fc58ae1fe14913698
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff48e7faa28ddbb987efacfc64867488f29
+
+[~U]
+deathtimegen=DeathTimeGen 11|0*617|

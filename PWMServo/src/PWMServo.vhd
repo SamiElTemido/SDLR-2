@@ -16,7 +16,6 @@ entity PWMServo is
 end PWMServo;
 architecture structural of PWMServo is
 	-- Componente: Timer
-	-- Genera un pulso EOT cada N ticks (aquí se configura para 1 us)
 	component Timer
 	generic(
 		Ticks : INTEGER := 100
@@ -43,9 +42,9 @@ architecture structural of PWMServo is
 	);
 	end component;
 	for all: CounterMN use entity work.CounterMN(Behavioral);
--- Señales----
+		
 signal EOT : std_logic; -- fin del Timer de 1 us
-signal CNT : std_logic_vector(15 downto 0); -- contador de 0..19999 (20 ms)
+signal CNT : std_logic_vector(15 downto 0); -- contador de 0..19999 
 signal duty_cycle : std_logic_vector(15 downto 0); -- ancho del pulso en ticks
 begin 
 	TIMER1US: Timer
@@ -59,7 +58,7 @@ begin
     );
     CONTADORMODULO20_000: CounterMN
     generic map(
-        Module => 1800,
+        Module => 18000,
         NBits => 16
     )
     port map(
@@ -69,8 +68,7 @@ begin
         ENO => open,
         CNT => CNT
     );
-     -- Escala DUTY (0-255) a (0-1000) bits: multiplica por 4 y suma offset.
-     -- Resultado: número de ticks (us) que la salida estará en '1'.
+     -- Escala DUTY (0-255) a (0-102022)  multiplica por step y suma offset.
      duty_cycle <= std_logic_vector(unsigned(DUTY) * step + ofsfset);
      pwm_out <= '1' when unsigned(CNT) < unsigned(duty_cycle) else '0';
 

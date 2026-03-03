@@ -1,4 +1,4 @@
-9
+12
 ~E 1 "../src/CounterMN.vhd" 5 CounterMN
 ~A 1 "../src/CounterMN.vhd" 19 Behavioral
 ~E 1 "../src/PWMServo.vhd" 5 PWMServo

@@ -1,4 +1,4 @@
-Active-HDL 13.0.375.8320 2026-03-02 09:01:14
+Active-HDL 13.0.375.8320 2026-03-02 20:51:17
 
 Elaboration top modules:
 Architecture                  Behavioral(DeathTimeGen)
@@ -26,7 +26,3 @@ deathtimegen                | None
 ieee                        | Standard IEEE packages library
 std                         | Standard VHDL library
 ----------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+DeathTimeGen DeathTimeGen Behavioral
-

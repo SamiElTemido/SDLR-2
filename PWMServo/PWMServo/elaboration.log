@@ -1,4 +1,4 @@
-Active-HDL 13.0.375.8320 2026-03-02 20:55:25
+Active-HDL 13.0.375.8320 2026-03-04 21:20:51
 
 Elaboration top modules:
 Architecture                  structural(PWMServo)
@@ -28,7 +28,3 @@ ieee                     | Standard IEEE packages library
 pwmservo                 | None
 std                      | Standard VHDL library
 ---------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+PWMServo PWMServo structural
-

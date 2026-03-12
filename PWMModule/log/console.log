@@ -1,7 +1,25 @@
 # ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.1 [s].
-# Design: 01:16 p. m., domingo, 1 de marzo de 2026
-# Design: Opening design "C:\My_Designs\SDLR2_std\CounterMN\CounterMN.adf"
+# ELBREAD: Elaboration time 0.0 [s].
+# Warning: WAVEFORM: Object matching /PWMModule/SYN not found in C:/My_Designs/SDLR2_std/PWMHL/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /PWMModule/CNT not found in C:/My_Designs/SDLR2_std/PWMHL/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /PWMModule/RST not found in C:/My_Designs/SDLR2_std/PWMHL/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /PWMModule/CLK not found in C:/My_Designs/SDLR2_std/PWMHL/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /PWMModule/DUTY not found in C:/My_Designs/SDLR2_std/PWMHL/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /PWMModule/PWM not found in C:/My_Designs/SDLR2_std/PWMHL/src/wave.asdb.
+acom -reorder -O3 -e 100 -work PWMModule -2002  $dsn/src/Timer.vhd $dsn/src/FrCounter.vhd $dsn/src/PWMModule.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/PWMModule/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# File: C:/My_Designs/SDLR2_std/PWMModule/src/FrCounter.vhd
+# Compile Entity "FrCounter"
+# Compile Architecture "Behavioral" of Entity "FrCounter"
+# File: C:/My_Designs/SDLR2_std/PWMModule/src/PWMModule.vhd
+# Compile Entity "PWMModule"
+# Compile Architecture "Structural" of Entity "PWMModule"
+# Top-level unit(s) detected:
+# Entity => PWMModule
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+# Design: Design "PWMHL" has been set as active.
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-# Design: Design "CounterMN" has been set as active.

@@ -1,11 +1,11 @@
 [COMPILESTATUS|.\src\PWMModule.vhd]
 FileTimeLow=3969224280
 FileTimeHigh=31238149
-Status=Compiled
+Status=Modified
 [COMPILESTATUS|.\src\Timer.vhd]
 FileTimeLow=4127879079
 FileTimeHigh=31231702
-Status=Compiled
+Status=Modified
 [COMPILESTATUS|.\src\FrCounter.vhd]
 FileTimeLow=438110690
 FileTimeHigh=31235980

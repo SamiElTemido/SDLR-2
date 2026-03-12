@@ -4,13 +4,13 @@ use IEEE.numeric_std.all;
 
 entity FrCounter is
 	generic (
-		BusWhidht: integer := 16
+		BusWidth: integer := 16
 	);
 	Port(
 	CLK: in 	std_logic;
 	RST: in 	std_logic;
 	INC: in 	std_logic;
-	CNT: out	std_logic_vector(BusWhidht-1 downto 0)
+	CNT: out	std_logic_vector(BusWidth-1 downto 0)
 	);
 end FrCounter;
 

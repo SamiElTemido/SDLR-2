@@ -1,16 +1,16 @@
 Library IEEE;
 use IEEE.std_logic_1164.all;
-use IEEE.numeric_std.all;
-use IEEE.math_real.all;
+
+
 
 entity PWMModule is 
 	generic(
-	frequency : integer := 24_000;
-		NBITs : integer := 8
+	frequency : integer := 50000;
+		NBITs : integer := 10
 		);
 	port(
-		CLK : in std_logic;
 		RST : in std_logic;
+		CLK : in std_logic;
 		DUTY : in std_logic_vector(NBITs-1 downto 0);
 		PWM : out std_logic);
 end PWMModule;
@@ -18,13 +18,13 @@ architecture Structural of PWMModule is
 	-- Component declaration of the "FrCounter(Behavioral)" 
 	component FrCounter
 	generic(
-		BusWidth : INTEGER := 16
+		BusWhidht : INTEGER := 16
 	);
 	port(
 		CLK : in STD_LOGIC;
 		RST : in STD_LOGIC;
 		INC : in STD_LOGIC;
-		CNT : out STD_LOGIC_VECTOR(BusWidth-1 downto 0)
+		CNT : out STD_LOGIC_VECTOR(BusWhidht-1 downto 0)
 	);
 	end component;
 	for all: FrCounter use entity work.FrCounter(Behavioral);
@@ -47,7 +47,7 @@ begin
 	-- Instantiation of the "Timer(Behavioral)" 
 	Timer_Inst : Timer
 	generic map(
-		Ticks => integer(round(5.0e7 / real(frequency * 2**NBITs)))
+		Ticks => 5e7/(frequency * 2**NBITs)
 	)
 	port map(
 		CLK => CLK,
@@ -57,7 +57,7 @@ begin
 	-- Instantiation of the "FrCounter(Behavioral)" 
 	FrCounter_Inst : FrCounter
 	generic map(
-		BusWidth => NBITs
+		BusWhidht => NBITs
 	)
 	port map(
 		CLK => CLK,
@@ -65,6 +65,6 @@ begin
 		INC => SYN,
 		CNT => CNT
 	);
-	PWM <= '1' when unsigned(CNT) < unsigned(DUTY) else '0';
+	PWM <= '1' when CNT < DUTY else '0';
 	
 end Structural;

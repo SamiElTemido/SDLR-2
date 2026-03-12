@@ -29,7 +29,7 @@ begin
 	begin 
 		if RST ='0' then
 			Cp <= 0;
-		elsif CLK'event and CLK ='1' then
+		elsif CLK'event and CLk ='1' then
 			Cp <= Cn;
 		end if;
 	end process Sequential;

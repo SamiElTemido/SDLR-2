@@ -2305,7 +2305,7 @@ I 000051 55 1273          1772209443050 Behavioral
 	(_use(std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
 	(_model . Behavioral 4 -1)
 )
-V 000051 55 981           1772209636642 Behavioral
+I 000051 55 981           1772209636642 Behavioral
 (_unit VHDL(timer 0 5(behavioral 0 14))
 	(_version vef)
 	(_time 1772209636643 2026.02.27 10:27:16)
@@ -2333,7 +2333,7 @@ V 000051 55 981           1772209636642 Behavioral
 	(_use(std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
 	(_model . Behavioral 3 -1)
 )
-V 000051 55 1273          1772209636685 Behavioral
+I 000051 55 1273          1772209636685 Behavioral
 (_unit VHDL(frcounter 0 5(behavioral 0 17))
 	(_version vef)
 	(_time 1772209636686 2026.02.27 10:27:16)
@@ -2365,7 +2365,7 @@ V 000051 55 1273          1772209636685 Behavioral
 	(_use(std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
 	(_model . Behavioral 4 -1)
 )
-V 000051 55 2214          1772209636730 Structural
+I 000051 55 2214          1772209636730 Structural
 (_unit VHDL(pwmmodule 0 4(structural 0 15))
 	(_version vef)
 	(_time 1772209636731 2026.02.27 10:27:16)
@@ -2374,6 +2374,153 @@ V 000051 55 2214          1772209636730 Structural
 	(_code 7b2f2f7b2e2c7b6d2b793d212e7c7e7d287d7e7c7b)
 	(_ent
 		(_time 1772209636726)
+	)
+	(_comp
+		(Timer
+			(_object
+				(_gen(_int Ticks -1 0 32(_ent((i 100)))))
+				(_port(_int CLK -2 0 35(_ent (_in))))
+				(_port(_int RST -2 0 36(_ent (_in))))
+				(_port(_int EOT -2 0 37(_ent (_out))))
+			)
+		)
+		(FrCounter
+			(_object
+				(_gen(_int BusWhidht -1 0 19(_ent((i 16)))))
+				(_port(_int CLK -2 0 22(_ent (_in))))
+				(_port(_int RST -2 0 23(_ent (_in))))
+				(_port(_int INC -2 0 24(_ent (_in))))
+				(_type(_int ~STD_LOGIC_VECTOR{BusWhidht-1~downto~0}~13 0 25(_array -2((_dto c 1 i 0)))))
+				(_port(_int CNT 2 0 25(_ent (_out))))
+			)
+		)
+	)
+	(_inst Timer_Inst 0 46(_comp Timer)
+		(_gen
+			((Ticks)(_code 2))
+		)
+		(_port
+			((CLK)(CLK))
+			((RST)(RST))
+			((EOT)(SYN))
+		)
+		(_use(_ent . Timer Behavioral)
+			(_gen
+				((Ticks)(_code 3))
+			)
+		)
+	)
+	(_inst FrCounter_Inst 0 56(_comp FrCounter)
+		(_gen
+			((BusWhidht)(_code 4))
+		)
+		(_port
+			((CLK)(CLK))
+			((RST)(RST))
+			((INC)(SYN))
+			((CNT)(CNT))
+		)
+		(_use(_ent . FrCounter Behavioral)
+			(_gen
+				((BusWhidht)(_code 5))
+			)
+			(_port
+				((CLK)(CLK))
+				((RST)(RST))
+				((INC)(INC))
+				((CNT)(CNT))
+			)
+		)
+	)
+	(_object
+		(_gen(_int frequency -1 0 6 \24000\ (_ent((i 24000)))))
+		(_gen(_int NBITs -1 0 7 \8\ (_ent gms((i 8)))))
+		(_port(_int RST -2 0 10(_ent(_in))))
+		(_port(_int CLK -2 0 11(_ent(_in))))
+		(_type(_int ~STD_LOGIC_VECTOR{NBITs-1~downto~0}~12 0 12(_array -2((_dto c 6 i 0)))))
+		(_port(_int DUTY 0 0 12(_ent(_in))))
+		(_port(_int PWM -2 0 13(_ent(_out))))
+		(_sig(_int SYN -2 0 41(_arch(_uni))))
+		(_type(_int ~STD_LOGIC_VECTOR{NBITs-1~downto~0}~13 0 42(_array -2((_dto c 7 i 0)))))
+		(_sig(_int CNT 1 0 42(_arch(_uni))))
+		(_prcs
+			(line__66(_arch 0 0 66(_assignment(_trgt(3))(_sens(2)(5)))))
+		)
+		(_type(_ext std.standard.INTEGER(0 INTEGER)))
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(1 STD_LOGIC)))
+	)
+	(_use(std(standard))(ieee(std_logic_1164)))
+	(_model . Structural 8 -1)
+)
+V 000051 55 981           1772682209436 Behavioral
+(_unit VHDL(timer 0 5(behavioral 0 14))
+	(_version vef)
+	(_time 1772682209437 2026.03.04 21:43:29)
+	(_source(\../src/Timer.vhd\))
+	(_parameters tan)
+	(_code 929c919d99c59284959080c9c7949b94c694979590)
+	(_ent
+		(_time 1772206820994)
+	)
+	(_object
+		(_gen(_int Ticks -1 0 6 \100\ (_ent gms((i 100)))))
+		(_port(_int CLK -2 0 9(_ent(_in)(_event))))
+		(_port(_int RST -2 0 10(_ent(_in)(_event))))
+		(_port(_int EOT -2 0 11(_ent(_out))))
+		(_type(_int ~INTEGER~range~0~to~Ticks~13 0 15(_scalar (_to i 0 c 2))))
+		(_sig(_int Cp 0 0 15(_arch(_uni))))
+		(_sig(_int Cn 0 0 15(_arch(_uni))))
+		(_prcs
+			(Combinational(_arch 0 0 17(_prcs(_simple)(_trgt(4)(2))(_sens(3)))))
+			(Sequential(_arch 1 0 28(_prcs(_trgt(3))(_sens(0)(1)(4))(_dssslsensitivity 2))))
+		)
+		(_type(_ext std.standard.INTEGER(0 INTEGER)))
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(1 STD_LOGIC)))
+	)
+	(_use(std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_model . Behavioral 3 -1)
+)
+V 000051 55 1273          1772682209508 Behavioral
+(_unit VHDL(frcounter 0 5(behavioral 0 17))
+	(_version vef)
+	(_time 1772682209509 2026.03.04 21:43:29)
+	(_source(\../src/FrCounter.vhd\))
+	(_parameters tan)
+	(_code d0dfd183d28787c684d0c58ad4d7d4d6d5d7d2d6d6)
+	(_ent
+		(_time 1772206821121)
+	)
+	(_object
+		(_gen(_int BusWhidht -1 0 7 \16\ (_ent gms((i 16)))))
+		(_port(_int CLK -2 0 10(_ent(_in)(_event))))
+		(_port(_int RST -2 0 11(_ent(_in)(_event))))
+		(_port(_int INC -2 0 12(_ent(_in))))
+		(_type(_int ~STD_LOGIC_VECTOR{BusWhidht-1~downto~0}~12 0 13(_array -2((_dto c 2 i 0)))))
+		(_port(_int CNT 0 0 13(_ent(_out))))
+		(_type(_int ~STD_LOGIC_VECTOR{BusWhidht-1~downto~0}~13 0 18(_array -2((_dto c 3 i 0)))))
+		(_sig(_int Cp 1 0 18(_arch(_uni))))
+		(_sig(_int Cn 1 0 18(_arch(_uni))))
+		(_prcs
+			(combinational(_arch 0 0 21(_prcs(_simple)(_trgt(3)(5))(_sens(2)(4)))))
+			(sequential(_arch 1 0 31(_prcs(_trgt(4))(_sens(0)(1)(5))(_dssslsensitivity 2))))
+		)
+		(_type(_ext std.standard.INTEGER(0 INTEGER)))
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(1 STD_LOGIC)))
+		(_type(_ext ieee.NUMERIC_STD.UNSIGNED(2 UNSIGNED)))
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC_VECTOR(1 STD_LOGIC_VECTOR)))
+	)
+	(_use(std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_model . Behavioral 4 -1)
+)
+V 000051 55 2214          1772682209602 Structural
+(_unit VHDL(pwmmodule 0 4(structural 0 15))
+	(_version vef)
+	(_time 1772682209603 2026.03.04 21:43:29)
+	(_source(\../src/PWMModule.vhd\))
+	(_parameters tan)
+	(_code 2e20262b7c792e387e2c68747b292b287d282b292e)
+	(_ent
+		(_time 1772209636725)
 	)
 	(_comp
 		(Timer

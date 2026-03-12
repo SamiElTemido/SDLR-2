@@ -1,4 +1,4 @@
-27
+28
 ~E 1 "../src/FrCounter.vhd" 5 FrCounter
 ~A 1 "../src/FrCounter.vhd" 17 Behavioral
 ~E 1 "../src/PWMModule.vhd" 4 PWMModule

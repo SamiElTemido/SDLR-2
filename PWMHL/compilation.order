@@ -1,0 +1,5 @@
+.\src\Timer.vhd
+.\src\DeathTimeGen.vhd
+.\src\FrCounter.vhd
+.\src\PWMModule.vhd
+.\src\PWMHL.vhd

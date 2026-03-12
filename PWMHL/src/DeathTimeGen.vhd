@@ -26,13 +26,13 @@ begin
 		end if;
 	end process combinational;
 
-	Sequential : process(CLK, RST)
+	Sequencial : process(CLK, RST)
 	begin
 	if RST = '0' then
 		Cp <= (DTCycles-1 downto 0 => '0');
 	elsif CLK'event and CLK = '1' then
 		Cp <= Cn;
 	end if;
-	end process Sequential;
+	end process Sequencial;
 	
 end Behavioral;

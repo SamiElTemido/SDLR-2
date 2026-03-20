@@ -2,9 +2,9 @@ Library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 entity PWMHL is
     Generic(
-        frequency : INTEGER := 24000;
+        frequency : INTEGER := 20000;
         NBITs : INTEGER := 8;
-        DTCycles : INTEGER := 20
+        DTCycles : INTEGER := 10
     );
     Port ( CLK : in STD_LOGIC;
            RST : in STD_LOGIC;
@@ -62,7 +62,7 @@ begin
 	pwm_xin_n <= not(pwm_xin);
 	Label2 : DeathTimeGen
 	generic map(
-		DTCycles => DTCycles+1
+		DTCycles => DTCycles
 	)
 	port map(
 		CLK => CLK,

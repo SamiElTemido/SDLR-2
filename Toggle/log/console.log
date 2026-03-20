@@ -1,31 +1,3 @@
-asim -O5 +access +r +m+Toggle Toggle Behavioral
+# Design: Design "LoadRegister" has been set as active.
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-acom -O3 -e 100 -work Toggle -2002  $dsn/src/Toggle.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/SDLR2_std/Toggle/src/Toggle.vhd
-# Compile Entity "Toggle"
-# Compile Architecture "Behavioral" of Entity "Toggle"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.1 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\My_Designs\SDLR2_std\Toggle\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet4" has been made inactive.
-#  09:48 a. m., viernes, 13 de febrero de 2026
-#  Simulation has been initialized
-# Design: Design "AnodeDecoder" has been set as active.

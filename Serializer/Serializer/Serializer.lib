@@ -1,0 +1,24 @@
+timestamp=1774023954128
+
+[~A]
+ModifyID=10
+Version=74
+
+[~MFT]
+0=8|0Serializer.mgf|3838|2367
+1=2|1Serializer.mgf|10152|10152
+3=2|3Serializer.mgf|0|0
+
+[serializar]
+A/behavioral=A/Behavioral 21|../src/Serializer.vhd|18|1*10152
+BinW64/behavioral=3*0
+I=0*695
+I/behavioral=I/Behavioral 0*3838
+M=11|2|vef|1774023088344|../src/Serializer.vhd|0*245*0x00276d62e9bdee4e1481c01ac7a8fc58b4167605|0*610*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1774023954098|../src/Serializer.vhd|0*3266*0x1578c63170887c5287a7b21d54c576863f17600f|0*3739*0x20116f55b147878295aeff36dce7fc50
+R=../src/Serializer.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|202ff2913c6957d4e736d68eedc9c4523b7925d084a1f2f196a8c1ad393472b4b4f61f404686d5e2234c144ef5db8f5c
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff462473184d174b51e635cb5a4fb79abdc
+
+[~U]
+serializar=Serializar 11|0*0|

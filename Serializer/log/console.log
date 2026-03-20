@@ -1,0 +1,279 @@
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work Serializer -2002  $dsn/src/Serializer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Serializer/src/Serializer.vhd
+# Compile Entity "Serializar"
+# Compile Architecture "Behavioral" of Entity "Serializar"
+# Error: COMP96_0019: Serializer.vhd : (26, 52): Keyword 'end' expected.
+# Error: COMP96_0019: Serializer.vhd : (27, 9): Keyword 'end' expected.
+# Error: COMP96_0015: Serializer.vhd : (29, 13): ';' expected.
+# Error: COMP96_0016: Serializer.vhd : (29, 15): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work Serializer -2002  $dsn/src/Serializer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Serializer/src/Serializer.vhd
+# Compile Entity "Serializar"
+# Compile Architecture "Behavioral" of Entity "Serializar"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Design: Design "Serializer" has been set as active.
+acom -reorder -O3 -e 100 -work Serializer -2002  $dsn/src/Serializer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Serializer/src/Serializer.vhd
+# Compile Entity "Serializar"
+# Compile Architecture "Behavioral" of Entity "Serializar"
+# Top-level unit(s) detected:
+# Entity => Serializar
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Serializar Serializar Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6423 kB (elbread=427 elab2=5856 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\SDLR2_std\Serializer\src\wave.asdb
+#  10:12 a. m., viernes, 20 de marzo de 2026
+#  Simulation has been initialized
+# VSIM: 8 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/SDLR2_std/Serializer/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+acom -reorder -O3 -e 100 -work Serializer -2002  $dsn/src/Serializer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Serializer/src/Serializer.vhd
+# Compile Entity "Serializar"
+# Compile Architecture "Behavioral" of Entity "Serializar"
+# Top-level unit(s) detected:
+# Entity => Serializar
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work Serializer -2002  $dsn/src/Serializer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Serializer/src/Serializer.vhd
+# Compile Entity "Serializar"
+# Compile Architecture "Behavioral" of Entity "Serializar"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work Serializer -2002  $dsn/src/Serializer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Serializer/src/Serializer.vhd
+# Compile Entity "Serializar"
+# Compile Architecture "Behavioral" of Entity "Serializar"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Serializer -2002  $dsn/src/Serializer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Serializer/src/Serializer.vhd
+# Compile Entity "Serializar"
+# Compile Architecture "Behavioral" of Entity "Serializar"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+Serializar Serializar Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6423 kB (elbread=427 elab2=5856 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\SDLR2_std\Serializer\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  10:16 a. m., viernes, 20 de marzo de 2026
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/SDLR2_std/Serializer/src/wave.asdb'.
+# VSIM: 8 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/SDLR2_std/Serializer/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+acom -O3 -e 100 -work Serializer -2002  $dsn/src/Serializer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Serializer/src/Serializer.vhd
+# Compile Entity "Serializar"
+# Compile Architecture "Behavioral" of Entity "Serializar"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Serializar Serializar Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6423 kB (elbread=427 elab2=5856 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\SDLR2_std\Serializer\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  10:23 a. m., viernes, 20 de marzo de 2026
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/SDLR2_std/Serializer/src/wave.asdb'.
+acom -O3 -e 100 -work Serializer -2002  $dsn/src/Serializer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Serializer/src/Serializer.vhd
+# Compile Entity "Serializar"
+# Compile Architecture "Behavioral" of Entity "Serializar"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# VSIM: 8 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/SDLR2_std/Serializer/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+acom -O3 -e 100 -work Serializer -2002  $dsn/src/Serializer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/Serializer/src/Serializer.vhd
+# Compile Entity "Serializar"
+# Compile Architecture "Behavioral" of Entity "Serializar"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Serializar Serializar Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4833 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\SDLR2_std\Serializer\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  10:25 a. m., viernes, 20 de marzo de 2026
+#  Simulation has been initialized
+# VSIM: 8 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/SDLR2_std/Serializer/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Serializar Serializar Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4833 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\SDLR2_std\Serializer\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  10:32 a. m., viernes, 20 de marzo de 2026
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/SDLR2_std/Serializer/src/wave.asdb'.
+# VSIM: 8 object(s) traced.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+# Design: 10:34 a. m., viernes, 20 de marzo de 2026
+# Design: Opening design "C:\My_Designs\SDLR2_std\Deserializaer\Deserializaer.adf"
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Design: Design "Deserializaer" has been set as active.

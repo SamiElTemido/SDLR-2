@@ -1,0 +1,43 @@
+[COMPILESTATUS|.\src\LoadRegister.vhd]
+FileTimeLow=2050133848
+FileTimeHigh=31242369
+Status=Compiled
+[General]
+CurrentVersion=103
+[CACHEDOC|Aldec.Project.Generic.7|.\LoadRegister\LoadRegister.adf|]
+Path=
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|.\Toggle\src/Toggle.vhd|]
+CurrentLine=2
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+ZoomFactor=0
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////yUBAAB9AAAAQwQAALYBAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAQAAAA=="
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+DisplayDriver=0
+DisplayDriverBTD=0
+FrCounter=0
+LatchSR=0
+LoadRegister=0
+PWMHL=0
+PWMModule=0
+PWMServo=0
+ReactionTT=0
+ReactionTTDec=0
+AnodeDecoder=0
+RisingEd=0
+SN74LS47=0
+Timer=0
+Toggle=0
+Serializer=0
+BinaryToDecimal=0
+blinky=0
+CountDown=0
+CounterM10=0
+CounterMN=0
+DeathTimeGen=0
+DecimalCounter=0
+[Gui config]
+RunFor=500 ns

@@ -1,0 +1,26 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Deserializaer
+[Library]
+Deserializaer=.\Deserializaer\Deserializaer.lib
+[$LibMap$]
+Deserializaer=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+REFRESH_FLOW=1
+[IMPLEMENTATION]
+UCF=
+[Files]
+/Deserializer.vhd=-1
+[Files.Data]
+.\src\Deserializer.vhd=VHDL Source Code

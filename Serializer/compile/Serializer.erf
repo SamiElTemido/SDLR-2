@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/My_Designs/SDLR2_std/Serializer/src/Serializer.vhd" 
+MESSAGE "Compile Entity "Serializar"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "Serializar"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 

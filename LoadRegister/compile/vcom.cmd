@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/SDLR2_std/LoadRegister/compile/LoadRegister.erf -d C:/My_Designs/SDLR2_std/LoadRegister/compile -s C:/My_Designs/SDLR2_std/library.cfg -j C:/My_Designs/SDLR2_std/LoadRegister/projlib.cfg -work LoadRegister -O3 -e 100 -work LoadRegister -2002 C:/My_Designs/SDLR2_std/LoadRegister/src/LoadRegister.vhd 

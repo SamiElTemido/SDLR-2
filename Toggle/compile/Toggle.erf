@@ -2,4 +2,4 @@ WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line break
 MESSAGE "File: C:/My_Designs/SDLR2_std/Toggle/src/Toggle.vhd" 
 MESSAGE "Compile Entity "Toggle"" 
 MESSAGE "Compile Architecture "Behavioral" of Entity "Toggle"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

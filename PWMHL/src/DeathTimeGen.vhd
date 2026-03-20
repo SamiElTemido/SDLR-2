@@ -4,7 +4,7 @@ use ieee.numeric_std.all;
 
 Entity DeathTimeGen is
 	generic(
-		DTCycles : integer := 10
+		DTCycles : integer := 3
 	);
 	port(
 		CLK : in std_logic;
@@ -14,24 +14,28 @@ Entity DeathTimeGen is
 	);
 end DeathTimeGen;
 architecture Behavioral of DeathTimeGen is
-	SIGNAL Cn, Cp : std_logic_vector(DTCycles-1 downto 0);
+	SIGNAL Qn, Qp : std_logic_vector(DTCycles-1 downto 0);
+	signal Qx : std_logic_vector(DTCycles-2 downto 0);
 begin
-	combinational : process(XIN, Cp)
+	combinational : process(XIN, Qp, Qx)
 	begin
-		Cn <= Cp(DTCycles-2 downto 0) & XIN;
-		if Cp = (DTCycles-1 downto 0 => '1') then
-			XOUT <= '1';
-		else
-			XOUT <= '0';
-		end if;
+		Qn <= XIN & Qp(DTCycles-1 downto 1); 
+		
+		Qx(0) <= Qp(0) and Qp(1);  
+		
+		for i in 1 to DTCycles-2 loop  
+			Qx(i) <= Qx(i-1) and Qp(i+1);
+		end loop;
 	end process combinational;
-
+	
+	XOUT <= Qx(DTCycles-2)
+	;
 	Sequencial : process(CLK, RST)
 	begin
 	if RST = '0' then
-		Cp <= (DTCycles-1 downto 0 => '0');
+		Qp <= (DTCycles-1 downto 0 => '0');
 	elsif CLK'event and CLK = '1' then
-		Cp <= Cn;
+		Qp <= Qn;
 	end if;
 	end process Sequencial;
 	

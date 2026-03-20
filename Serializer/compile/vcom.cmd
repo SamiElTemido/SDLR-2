@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/SDLR2_std/Serializer/compile/Serializer.erf -d C:/My_Designs/SDLR2_std/Serializer/compile -s C:/My_Designs/SDLR2_std/library.cfg -j C:/My_Designs/SDLR2_std/Serializer/projlib.cfg -work Serializer -O3 -e 100 -work Serializer -2002 C:/My_Designs/SDLR2_std/Serializer/src/Serializer.vhd 

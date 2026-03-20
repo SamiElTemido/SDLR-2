@@ -1,0 +1,24 @@
+timestamp=1774021917767
+
+[~A]
+ModifyID=6
+Version=74
+
+[~MFT]
+0=8|0LoadRegister.mgf|3015|1540
+1=2|1LoadRegister.mgf|6543|6543
+3=2|3LoadRegister.mgf|0|0
+
+[loadregister]
+A/behavioral=A/Behavioral 21|../src/LoadRegister.vhd|16|1*6543
+BinW64/behavioral=3*0
+I=0*709
+I/behavioral=I/Behavioral 0*3015
+M=11|2|vef|1774021450878|../src/LoadRegister.vhd|0*243*0x105520b5688a6f858f85ca65bf29209dd89a9be0|0*620*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1774021917698|../src/LoadRegister.vhd|0*2455*0xe0ce41121d6c6fec3a8b513078c7bd31bb795dac|0*2912*0x20116f55b147878295aeff36dce7fc50
+R=../src/LoadRegister.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|50e4ad23671a9d874f33ff14c55dc1b2d39e84b27320372ed2e41c63998986cb7f5fe5884eef267a9051bb7aa434d95e
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff49f737ab247eb11f4a2c73b9fbd981593
+
+[~U]
+loadregister=LoadRegister 11|0*0|

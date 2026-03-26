@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/My_Designs/SDLR2_std/AsyncronousTransmitter/src/AsyncronousTransmitter.vhd" 
+MESSAGE "Compile Entity "AsyncronousTransmitter"" 
+MESSAGE "Compile Architecture "Structural" of Entity "AsyncronousTransmitter"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

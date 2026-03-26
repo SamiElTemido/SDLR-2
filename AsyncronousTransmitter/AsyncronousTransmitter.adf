@@ -1,0 +1,41 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=AsyncronousTransmitter
+[Library]
+AsyncronousTransmitter=.\AsyncronousTransmitter\AsyncronousTransmitter.lib
+[$LibMap$]
+AsyncronousTransmitter=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+REFRESH_FLOW=1
+fileopenfolder=C:\My_Designs\SDLR2_std\Serializer\src
+[IMPLEMENTATION]
+UCF=
+[Files]
+/RisingEd.vhd=-1
+/Timer.vhd=-1
+/Serializer.vhd=-1
+/CountDown.vhd=-1
+/LatchSR.vhd=-1
+/AsyncronousTransmitter.vhd=-1
+[Files.Data]
+.\src\RisingEd.vhd=VHDL Source Code
+.\src\Timer.vhd=VHDL Source Code
+.\src\Serializer.vhd=VHDL Source Code
+.\src\CountDown.vhd=VHDL Source Code
+.\src\LatchSR.vhd=VHDL Source Code
+.\src\AsyncronousTransmitter.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=asyncronoustransmitter|Structural|0
+ShowHide=ShowTopLevel
+Selected=

@@ -1,1 +1,3 @@
-0
+1
+~E 1 "../src/Deserializer.vhd" 3 Serializer
+~A 1 "../src/Deserializer.vhd" 15 Behavioral

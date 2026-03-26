@@ -17,7 +17,9 @@ architecture Behavioral of CountDown is
 signal Cn,Cp : integer ;
 begin  
 
-	Combinational: process(Cp)
+	RDY <= '1' when Cp = 0 else '0';
+
+	Combinational: process(Cp, DEC)
 	begin  
 		if DEC = '1' then
 			if Cp > 0 then 
@@ -26,10 +28,7 @@ begin
 				Cn<= 0;
 			end if;
 		else
-		if Cp > 0 then 
-				RDY<='1';
-			else
-				RDY<='0'; 
+			Cn <= Cp;
 		end if;
 	end process Combinational;
 	

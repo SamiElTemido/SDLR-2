@@ -1,0 +1,6 @@
+i<>.\src\AsyncronousTransmitter.vhd
+i<>.\src\CountDown.vhd
+i<>.\src\Timer.vhd
+i<>.\src\LatchSR.vhd
+i<>.\src\RisingEd.vhd
+i<>.\src\Serializer.vhd

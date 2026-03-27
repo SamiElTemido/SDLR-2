@@ -14,11 +14,26 @@
 *.vqm
 *.pof
 *.edif
+*.duser
+*.asdb
+*.mgf
+*.log
+*.epr
+*.erf
+*.sth
+*.cmd
+*.error
+*error_ready
+*.asdbw
+*.top
+
 
 # Logs and build directories
 /compile/
 /log/
 BiniaryToDecimal/
+FalingEd/
+psw
 
 # User-specific files
 *.tds

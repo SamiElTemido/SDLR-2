@@ -1,23 +1,23 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;  
 
-entity RisingEd is
+entity FallingEd is
 Port( 
 	CLk: in		std_logic;
 	RST: in		std_logic;
 	XIN: in 	std_logic;
 	XRE: out 	std_logic
 	);
-end RisingEd;
+end FallingEd;
 
-architecture Behavioral of RisingEd is	
+architecture Behavioral of FallingEd is	
 signal Qn,Qp: std_logic_vector(4 downto 0);
 begin
 	combinational: process(XIN, Qp)  
 begin
     Qn <= Qp(3 downto 0) & XIN;
 
-    if Qp = "01111" then
+    if Qp = "11110" then
         XRE <= '1';
     else
         XRE <= '0';

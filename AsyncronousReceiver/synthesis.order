@@ -1,0 +1,7 @@
+i<>.\src\AsyncronousReceiver.vhd
+i<>.\src\CountDown.vhd
+i<>.\src\LatchSR.vhd
+i<>.\src\Timer.vhd
+i<>.\src\Deserializer.vhd
+i<>.\src\FallingEd.vhd
+i<>.\src\Toggle.vhd

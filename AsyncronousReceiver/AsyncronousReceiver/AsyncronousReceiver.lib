@@ -1,0 +1,96 @@
+timestamp=1774575935438
+
+[~A]
+ModifyID=2
+Version=74
+
+[~MFT]
+0=15|0AsyncronousReceiver.mgf|11700|1316
+1=13|1AsyncronousReceiver.mgf|12188|6100
+3=13|3AsyncronousReceiver.mgf|9475|4912
+
+[asyncronousreceiver]
+A/structural=A/Structural 21|../src/AsyncronousReceiver.vhd|14|1*6100
+BinW64/structural=3*4912
+I=0*736
+I/structural=I/Structural 0*10371
+M=11|2|vef|1774575923761|../src/AsyncronousReceiver.vhd|0*257*0x5a12b57121687e6f7d1425af6317aa2f84e514db|0*633*0x23b75c12e3e89f2ef000564498faa8c2
+M/structural=M/Structural 21|2|vef|1774575935052|../src/AsyncronousReceiver.vhd|0*10064*0xc4a8aed1352b53286be67f95a1383d11b469666a|0*10254*0x20116f55b147878295aeff36dce7fc50
+R=../src/AsyncronousReceiver.vhd|3
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|8de1c529bc3b637fd8f187a7b0b2ed660d78689e7d4e6faecbfccededbbe525f91d265679395641217c2db691d4128e9
+Version/structural=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3ebccd7273c9dd3883866f06fbfde7e5672
+
+[countdown]
+A/behavioral=A/Behavioral 21|../src/CountDown.vhd|16|1*6967
+BinW64/behavioral=3*5204
+I=0*1523
+I/behavioral=I/Behavioral 0*10595
+M=11|2|vef|1774575923823|../src/CountDown.vhd|0*1158*0xc09ab22893fce49794d7fd5be5d1fc547a8b259c|0*1440*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1774575935134|../src/CountDown.vhd|0*1726*0x2b5deea6c8611deccf2bb18e9e7ba81e1852d34c|0*2182*0x20116f55b147878295aeff36dce7fc50
+R=../src/CountDown.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|f378c2f5d1503b0b9335a455629dfe7d8c1f043cb989abf4de3e412b91b0bf8e07bc46a5e71968a1195e3fe38c4f0448
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4b70595f4f0740538c858e97b8360f636
+
+[fallinged]
+A/behavioral=A/Behavioral 21|../src/FallingEd.vhd|13|1*11177
+BinW64/behavioral=3*8766
+I=0*7720
+I/behavioral=I/Behavioral 0*11486
+M=11|2|vef|1774575924322|../src/FallingEd.vhd|0*7377*0xb565b67f84d47d2048f487cd076f645ae77ee727|0*7637*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1774575935298|../src/FallingEd.vhd|0*7923*0xf76ff98fba15883560e7edea902edf36d2b4acfe|0*8340*0x20116f55b147878295aeff36dce7fc50
+R=../src/FallingEd.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|c15af40ab55fcaacaf1531ef9c2f1c57dfc7522c7c3381981427e4f29033fa88c2cc9acc7e502e642b05385d8fb68c06
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff49816ab823a40e47018c8f0b3c6360973
+
+[latchsr]
+A/behavioral=A/Behavioral 21|../src/LatchSR.vhd|14|1*7995
+BinW64/behavioral=3*5930
+I=0*3038
+I/behavioral=I/Behavioral 0*10809
+M=11|2|vef|1774575923967|../src/LatchSR.vhd|0*2685*0x08b60f9daae0b442c47203e06eb537fb42112690|0*2959*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1774575935187|../src/LatchSR.vhd|0*3239*0x05a427a00c2adbda22a5eb929935daea424e36f0|0*3671*0x20116f55b147878295aeff36dce7fc50
+R=../src/LatchSR.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|1a7d935fa2e69a240069ba8ab5ad3e7a26527262ddaa47cb266f3a3c4d9b973a83957565f34c7cb257461b00e54671b0
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff457e7c51a33fb9111d219f83a15f2514d
+
+[serializer]
+A/behavioral=A/Behavioral 21|../src/Deserializer.vhd|15|1*9952
+BinW64/behavioral=3*7524
+I=0*6194
+I/behavioral=I/Behavioral 0*11271
+M=11|2|vef|1774575924210|../src/Deserializer.vhd|0*5761*0x359f4db2d68fa8f324b38403315f4bd7bc0cafe0|0*6107*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1774575935256|../src/Deserializer.vhd|0*6398*0x10a83a5d6bde9f50dce005b8323e50b812a1fab1|0*6870*0x20116f55b147878295aeff36dce7fc50
+R=../src/Deserializer.vhd|3
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|63061616f5788977b59da2da356bd1556ea3df7e20d107e6345c4ca729f442a4ee85930bb6c7a00c73e54f8181cd064e
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff47c2995804dc718ca4ab021a8d668af04
+
+[timer]
+A/behavioral=A/Behavioral 21|../src/Timer.vhd|14|1*8920
+BinW64/behavioral=3*6600
+I=0*4525
+I/behavioral=I/Behavioral 0*11021
+M=11|2|vef|1774575924083|../src/Timer.vhd|0*4175*0xfdc44f1b4a45cc44944fe7289341311f76d8b625|0*4450*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1774575935224|../src/Timer.vhd|0*4764*0xd2d258f8caf910031df3d9daa62a6d6ad7bce969|0*5183*0x20116f55b147878295aeff36dce7fc50
+R=../src/Timer.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|c2ae8f0b7b95b6d69da7be83d99f8f49ee37102eab1d275693161b6ca2b032b1
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4a88ba58f3c9088727707cca53ae611f9
+
+[toggle]
+A/behavioral=A/Behavioral 21|../src/Toggle.vhd|13|1*12188
+BinW64/behavioral=3*9475
+I=0*9161
+I/behavioral=I/Behavioral 0*11700
+M=11|2|vef|1774575924454|../src/Toggle.vhd|0*8836*0x14187bbca08edb470e28e4ccd024f88194fcc1dc|0*9084*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1774575935342|../src/Toggle.vhd|0*9361*0xbf02eaeb4f0d257143be8f9e934a27826b66fd4f|0*9762*0x20116f55b147878295aeff36dce7fc50
+R=../src/Toggle.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5b0a207a1f62c3a8bfad49db1700afc716b2abccd3c29f695082714252c2175c
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4ec7566da3df7ced029a8aef8664ebd9a
+
+[~U]
+asyncronousreceiver=AsyncronousReceiver 11|0*0|
+countdown=CountDown 11|0*949|
+fallinged=FallingEd 11|0*7186|
+latchsr=LatchSR 11|0*2493|
+serializer=Serializer 11|0*5522|
+timer=Timer 11|0*3976|
+toggle=Toggle 11|0*8651|

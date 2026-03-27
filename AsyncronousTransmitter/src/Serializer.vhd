@@ -1,7 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity Serializar is 
+entity Serializer is 
     generic (
         busWidth : integer := 8
     );
@@ -13,9 +13,9 @@ entity Serializar is
         SHF : in std_logic;
         BOUT : out std_logic
     );
-end Serializar;
+end Serializer;
 
-architecture Behavioral of Serializar is
+architecture Behavioral of Serializer is
     signal Qn,QP : std_logic_vector(busWidth-1 downto 0);
 begin
  combinational : process(Qn, LDR, SHF)

@@ -13,12 +13,18 @@ end RisingEd;
 architecture Behavioral of RisingEd is	
 signal Qn,Qp: std_logic_vector(4 downto 0);
 begin
-	combinational: process(XIN,Qp)  
-	begin
-	Qn<=Qp(3 downto 0) & XIN;
-	XRE <= '1' when Qp = "11110" else '0';
-		
-	end process combinational;
+	combinational: process(XIN, Qp)  
+begin
+    Qn <= Qp(3 downto 0) & XIN;
+
+    if Qp = "01111" then
+        XRE <= '1';
+    else
+        XRE <= '0';
+    end if;
+
+end process;
+	
 	sequentia: process(CLK,RST)
 	begin
 		if RST = '0' then

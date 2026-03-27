@@ -29,22 +29,36 @@ WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////80AAACZAAAAQwQAAIICAAA
 Path=
 [CACHEDOC|Aldec.Project.Generic.7|.\BiniaryToDecimal\BiniaryToDecimal.adf|]
 Path=
+[CACHEDOC|Aldec.Project.Generic.7|.\FalingEd\FalingEd.adf|]
+Path=
 [CACHESIMPLE|Aldec.SymbolsCommands.7]
 Built-in symbols=0
+DecimalCounter=0
+deserializaer=0
+DisplayDriver=0
+DisplayDriverBTD=0
+FalingEd=0
+FrCounter=0
+LatchSR=0
+LoadRegister=0
+PWMHL=0
+PWMModule=0
+AnodeDecoder=0
+PWMServo=0
+ReactionTT=0
+ReactionTTDec=0
 RisingEd=0
+Serializer=0
 SN74LS47=0
 Timer=0
 Toggle=0
-DecimalCounter=0
-BiniaryToDecimal=0
+FallingEd=0
+AsyncronousTransmitter=0
 BinaryToDecimal=0
-AnodeDecoder=0
 blinky=0
 CountDown=0
 CounterM10=0
-DisplayDriver=0
-FrCounter=0
-LatchSR=0
-ReactionTT=0
+CounterMN=0
+DeathTimeGen=0
 [Gui config]
 RunFor=100 ns

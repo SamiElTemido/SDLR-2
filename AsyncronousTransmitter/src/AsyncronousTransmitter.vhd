@@ -62,7 +62,7 @@ architecture Structural of AsyncronousTransmitter is
 	end component;
 	for all: Timer use entity work.Timer(Behavioral); 
 			-- Component declaration of the "Serializar(Behavioral)" 
-	component Serializar
+	component Serializer
 	generic(
 		busWidth : INTEGER := 8
 	);
@@ -75,21 +75,24 @@ architecture Structural of AsyncronousTransmitter is
 		BOUT : out STD_LOGIC
 	);
 	end component;
-	for all: Serializar use entity work.Serializar(Behavioral);
+	for all: Serializer use entity work.Serializer(Behavioral);
 
-	Signal XRE,EOC,ENA,SYN: std_logic; 
+	Signal XRE,EOC,ENA,SYN,NBTN: std_logic; 
 	Signal DIN_C :std_logic_vector(busWidth downto 0);
 begin	 
+	
+	NBTN <= NOT(STR);
+	
 	Label1 : RisingEd
 	port map(
-		CLk => CLk,
+		CLk => CLK,
 		RST => RST,
-		XIN => STR,
+		XIN => NBTN,
 		XRE => XRE
 	);		
 	Label2 : LatchSR
 	port map(
-		CLk => CLk,
+		CLk => CLK,
 		RST => RST,
 		CLR => EOC,
 		SET => XRE,
@@ -106,7 +109,7 @@ begin
 	);		 
 	Label4 : CountDown
 	generic map(
-		N => 9
+		N => 10
 	)
 	port map(
 		CLK => CLK,
@@ -114,7 +117,7 @@ begin
 		DEC => SYN,
 		RDY => EOC
 	); 
-	Label5: Serializar
+	Label5: Serializer
 	generic map(
 		busWidth => busWidth+1
 	)
@@ -122,7 +125,7 @@ begin
 		CLK => CLK,
 		RST => RST,
 		DIN => DIN_C,
-		LDR => STR,
+		LDR => XRE,
 		SHF => SYN,
 		BOUT => TXD
 	);

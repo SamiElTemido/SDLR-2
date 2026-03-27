@@ -1,0 +1,10 @@
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+# Warning: The library name is not a legal VHDL name. You will not be able to compile VHDL units to library `AsyncronousReceiver_'.
+# Design: 07:29 p. m., jueves, 26 de marzo de 2026
+# Design: Opening design "C:\My_Designs\SDLR2_std\AsyncronousReceiver\AsyncronousReceiver.adf"
+# Design: Design "AsyncronousReceiver" has been set as active.

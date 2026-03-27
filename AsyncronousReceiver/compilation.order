@@ -1,7 +1,7 @@
-.\src\AsyncronousReceiver.vhd
-.\src\CountDown.vhd
+.\src\Deserializer.vhd
 .\src\LatchSR.vhd
 .\src\Timer.vhd
-.\src\Deserializer.vhd
-.\src\FallingEd.vhd
 .\src\Toggle.vhd
+.\src\FallingEd.vhd
+.\src\CountDown.vhd
+.\src\AsyncronousReceiver.vhd

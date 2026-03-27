@@ -1,8 +1,10 @@
-2
+31
 ~E 1 "../src/AsyncronousReceiver.vhd" 3 AsyncronousReceiver
 ~A 1 "../src/AsyncronousReceiver.vhd" 14 Structural
 ~E 1 "../src/CountDown.vhd" 4 CountDown
 ~A 1 "../src/CountDown.vhd" 16 Behavioral
+~E 1 "../src/Deserializer.vhd" 3 Deserializer
+~A 1 "../src/Deserializer.vhd" 15 Behavioral
 ~E 1 "../src/FallingEd.vhd" 4 FallingEd
 ~A 1 "../src/FallingEd.vhd" 13 Behavioral
 ~E 1 "../src/LatchSR.vhd" 4 LatchSR

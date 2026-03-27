@@ -1,6 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
-entity Serializer is
+entity Deserializer is
     generic (
         busWidth : integer := 8
     );
@@ -11,11 +11,11 @@ entity Serializer is
         SHF : in std_logic;
         DOUT : out std_logic_vector(busWidth-1 downto 0)
     );
-end Serializer;
-architecture Behavioral of Serializer is
+end Deserializer;
+architecture Behavioral of Deserializer is
     signal Qn,Qp : std_logic_vector(busWidth-1 downto 0);
 begin
-    combinational : process(BIN, Qn)
+    combinational : process(BIN, Qn,SHF)
     begin
         if SHF = '1' then
             Qp <= BIN & Qn(busWidth-1 downto 1);
@@ -30,7 +30,7 @@ begin
         if RST = '0' then
             Qn <= (others => '0');
         elsif Clk'event and Clk = '1' then
-            Qn <= QP;
+            Qn <= Qp;
         end if;
     end process sequiential;
 end Behavioral;

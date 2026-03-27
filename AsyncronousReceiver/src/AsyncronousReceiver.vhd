@@ -6,7 +6,7 @@ port(
     CLK : in std_logic;
     RST : in std_logic;
     RXD : in std_logic;
-    DOUT : out std_logic_vector (busWidth-1 downto 0);
+    DOUT : out std_logic_vector (busWidth+1 downto 0);
     RDY : out std_logic
     );	 
 end AsyncronousReceiver;	
@@ -46,8 +46,9 @@ architecture Structural of AsyncronousReceiver is
 	);
 	end component;
 	for all: LatchSR use entity work.LatchSR(Behavioral);
-			-- Component declaration of the "Serializer(Behavioral)" 
-	component Serializer
+		-- Component declaration of the "Deserializer(Behavioral)" unit defined in
+	-- file: "../src/Deserializer.vhd"
+	component Deserializer
 	generic(
 		busWidth : INTEGER := 8
 	);
@@ -59,8 +60,8 @@ architecture Structural of AsyncronousReceiver is
 		DOUT : out STD_LOGIC_VECTOR(busWidth-1 downto 0)
 	);
 	end component;
-	for all: Serializer use entity work.Serializer(Behavioral);
-			-- Component declaration of the "Timer(Behavioral)" 
+	for all: Deserializer use entity work.Deserializer(Behavioral);
+
 	component Timer
 	generic(
 		Ticks : INTEGER := 100
@@ -81,8 +82,62 @@ architecture Structural of AsyncronousReceiver is
 		TGS : out STD_LOGIC
 	);
 	end component;
-	for all: Toggle use entity work.Toggle(Behavioral);
-signal
+	for all: Toggle use entity work.Toggle(Behavioral); 
+    signal XRE, TGS, EOC, ENA, SHF, SYN : std_logic;
+	 Signal DOUT_8 : std_logic_vector(busWidth-1 downto 0);
 begin
-
+	Label1 : FallingEd
+	port map(
+		CLk => CLk,
+		RST => RST,
+		XIN => RXD,
+		XRE => XRE
+	); 
+	Label2 : LatchSR
+	port map(
+		CLk => CLk,
+		RST => RST,
+		CLR => EOC,
+		SET => XRE,
+		SOUT => ENA
+	);
+	Label3 : Timer
+	generic map(
+		Ticks => 217
+	)
+	port map(
+		CLK => CLK,
+		RST => ENA,
+		EOT => SYN
+	); 
+	Label4 : Toggle
+	port map(
+		CLk => CLk,
+		RST => ENA,
+		TOG => SYN,
+		TGS => TGS
+	);	
+	Label5 : Deserializer
+	generic map(
+		busWidth => busWidth
+	)
+	port map(
+		CLK => CLK,
+		RST => RST,
+		BIN => RXD,
+		SHF => SHF,
+		DOUT => DOUT_8
+	);	 
+DOUT<="00"&DOUT_8;	
+	Label6 : CountDown
+	generic map(
+		N => busWidth+1
+	)
+	port map(
+		CLK => CLK,
+		RST => ENA,
+		DEC => SHF,
+		RDY => EOC
+	);
+    SHF <= SYN AND NOT TGS;
 end Structural;

@@ -1,7 +1,1 @@
-Serializer ENTITY
-LatchSR ENTITY
-Timer ENTITY
-Toggle ENTITY
-FallingEd ENTITY
-CountDown ENTITY
 AsyncronousReceiver ENTITY

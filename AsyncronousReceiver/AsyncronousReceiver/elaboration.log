@@ -1,4 +1,4 @@
-Active-HDL 13.0.375.8320 2026-03-26 19:45:39
+Active-HDL 13.0.375.8320 2026-03-26 21:12:21
 
 Elaboration top modules:
 Architecture                  Structural(AsyncronousReceiver)
@@ -8,6 +8,12 @@ Architecture                  Structural(AsyncronousReceiver)
 Entity              | Architecture | Library             | Info | Compiler Version          | Compilation Options
 ------------------------------------------------------------------------------------------------------------------
 AsyncronousReceiver | Structural   | AsyncronousReceiver |      | 13.0.375.8320 (Windows64) | -O3
+FallingEd           | Behavioral   | AsyncronousReceiver |      | 13.0.375.8320 (Windows64) | -O3
+LatchSR             | Behavioral   | AsyncronousReceiver |      | 13.0.375.8320 (Windows64) | -O3
+Timer               | Behavioral   | AsyncronousReceiver |      | 13.0.375.8320 (Windows64) | -O3
+Toggle              | Behavioral   | AsyncronousReceiver |      | 13.0.375.8320 (Windows64) | -O3
+Deserializer        | Behavioral   | AsyncronousReceiver |      | 13.0.375.8320 (Windows64) | -O3
+CountDown           | Behavioral   | AsyncronousReceiver |      | 13.0.375.8320 (Windows64) | -O3
 ------------------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------------------------
@@ -16,6 +22,7 @@ VHDL Package                       | Library             | Info | Compiler Versi
 standard                           | std                 |      |                           | <unavailable>
 TEXTIO                             | std                 |      | 13.0.375.8320 (Windows64) |  -2019
 std_logic_1164                     | ieee                |      | 13.0.375.8320 (Windows64) |  -2008
+NUMERIC_STD                        | ieee                |      | 13.0.375.8320 (Windows64) |  -2008
 ------------------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------------------------

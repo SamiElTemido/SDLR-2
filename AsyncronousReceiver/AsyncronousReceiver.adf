@@ -22,18 +22,22 @@ fileopenfolder=C:\My_Designs\SDLR2_std\Toggle\src
 [IMPLEMENTATION]
 UCF=
 [Files]
-/AsyncronousReceiver.vhd=-1
-/CountDown.vhd=-1
+/Deserializer.vhd=-1
 /LatchSR.vhd=-1
 /Timer.vhd=-1
-/Deserializer.vhd=-1
-/FallingEd.vhd=-1
 /Toggle.vhd=-1
+/FallingEd.vhd=-1
+/CountDown.vhd=-1
+/AsyncronousReceiver.vhd=-1
 [Files.Data]
-.\src\AsyncronousReceiver.vhd=VHDL Source Code
-.\src\CountDown.vhd=VHDL Source Code
+.\src\Deserializer.vhd=VHDL Source Code
 .\src\LatchSR.vhd=VHDL Source Code
 .\src\Timer.vhd=VHDL Source Code
-.\src\Deserializer.vhd=VHDL Source Code
-.\src\FallingEd.vhd=VHDL Source Code
 .\src\Toggle.vhd=VHDL Source Code
+.\src\FallingEd.vhd=VHDL Source Code
+.\src\CountDown.vhd=VHDL Source Code
+.\src\AsyncronousReceiver.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=asyncronousreceiver|Structural|0
+ShowHide=ShowTopLevel
+Selected=

@@ -1,0 +1,16 @@
+.\src\FrCounter.vhd
+.\src\Timer.vhd
+.\src\Toggle.vhd
+.\src\RisingEd.vhd
+.\src\SN74LS47.vhd
+.\src\LatchSR.vhd
+.\src\CounterM10.vhd
+.\src\Deserializer.vhd
+.\src\CountDown.vhd
+.\src\AnodeDecoder.vhd
+.\src\DecimalCounter.vhd
+.\src\DisplayDriver.vhd
+.\src\SPIMaster.vhd
+.\src\BinaryToDecimal.vhd
+.\src\DisplayDriverBTD.vhd
+.\src\TCDisplay.vhd

@@ -1,7 +1,117 @@
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.1 [s].
-# Design: 07:24 p. m., jueves, 19 de febrero de 2026
-# Design: Opening design "C:\My_Designs\SDLR2_std\ReactionTTDec\ReactionTTDec.adf"
+# Design: Design "DisplayDriverBTD" has been set as active.
+acom -reorder -O3 -e 100 -work DisplayDriverBTD -2002  $dsn/src/LatchSR.vhd $dsn/src/Timer.vhd $dsn/src/SN74LS47.vhd $dsn/src/FrCounter.vhd $dsn/src/CounterM10.vhd $dsn/src/AnodeDecoder.vhd $dsn/src/DisplayDriver.vhd $dsn/src/DecimalCounter.vhd $dsn/src/BinaryToDecimal.vhd $dsn/src/DisplayDriverBTD.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/LatchSR.vhd
+# Compile Entity "LatchSR"
+# Compile Architecture "Behavioral" of Entity "LatchSR"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/SN74LS47.vhd
+# Compile Entity "SN74LS47"
+# Compile Architecture "Behavioral" of Entity "SN74LS47"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/FrCounter.vhd
+# Compile Entity "FrCounter"
+# Compile Architecture "Behavioral" of Entity "FrCounter"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/AnodeDecoder.vhd
+# Compile Entity "AnodeDecoder"
+# Compile Architecture "Behavioral" of Entity "AnodeDecoder"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/DisplayDriver.vhd
+# Compile Entity "DisplayDriver"
+# Compile Architecture "Structural" of Entity "DisplayDriver"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/DecimalCounter.vhd
+# Compile Entity "DecimalCounter"
+# Compile Architecture "structural" of Entity "DecimalCounter"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/BinaryToDecimal.vhd
+# Compile Entity "BinaryToDecimal"
+# Compile Architecture "Structural" of Entity "BinaryToDecimal"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/DisplayDriverBTD.vhd
+# Compile Entity "DisplayDriverBTD"
+# Compile Architecture "Structural" of Entity "DisplayDriverBTD"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => DisplayDriverBTD
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/DisplayDriverBTD.vhd
+# Compile Architecture "Structural" of Entity "DisplayDriverBTD"
+# Error: COMP96_0115: DisplayDriverBTD.vhd : (78, 10): Actual is not a globally static expression.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -reorder -O3 -e 100 -work DisplayDriverBTD -2002  $dsn/src/LatchSR.vhd $dsn/src/Timer.vhd $dsn/src/SN74LS47.vhd $dsn/src/FrCounter.vhd $dsn/src/CounterM10.vhd $dsn/src/AnodeDecoder.vhd $dsn/src/DisplayDriver.vhd $dsn/src/DecimalCounter.vhd $dsn/src/BinaryToDecimal.vhd $dsn/src/DisplayDriverBTD.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/LatchSR.vhd
+# Compile Entity "LatchSR"
+# Compile Architecture "Behavioral" of Entity "LatchSR"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/SN74LS47.vhd
+# Compile Entity "SN74LS47"
+# Compile Architecture "Behavioral" of Entity "SN74LS47"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/FrCounter.vhd
+# Compile Entity "FrCounter"
+# Compile Architecture "Behavioral" of Entity "FrCounter"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/AnodeDecoder.vhd
+# Compile Entity "AnodeDecoder"
+# Compile Architecture "Behavioral" of Entity "AnodeDecoder"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/DisplayDriver.vhd
+# Compile Entity "DisplayDriver"
+# Compile Architecture "Structural" of Entity "DisplayDriver"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/DecimalCounter.vhd
+# Compile Entity "DecimalCounter"
+# Compile Architecture "structural" of Entity "DecimalCounter"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/BinaryToDecimal.vhd
+# Compile Entity "BinaryToDecimal"
+# Compile Architecture "Structural" of Entity "BinaryToDecimal"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/DisplayDriverBTD.vhd
+# Compile Entity "DisplayDriverBTD"
+# Compile Architecture "Structural" of Entity "DisplayDriverBTD"
+# Top-level unit(s) detected:
+# Entity => DisplayDriver
+# Entity => BinaryToDecimal
+# Error: COMP96_0019: DisplayDriverBTD.vhd : (87, 2): Keyword 'when' expected.
+# Error: COMP96_0015: DisplayDriverBTD.vhd : (87, 2): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -reorder -O3 -e 100 -work DisplayDriverBTD -2002  $dsn/src/LatchSR.vhd $dsn/src/Timer.vhd $dsn/src/SN74LS47.vhd $dsn/src/FrCounter.vhd $dsn/src/CounterM10.vhd $dsn/src/AnodeDecoder.vhd $dsn/src/DisplayDriver.vhd $dsn/src/DecimalCounter.vhd $dsn/src/BinaryToDecimal.vhd $dsn/src/DisplayDriverBTD.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/LatchSR.vhd
+# Compile Entity "LatchSR"
+# Compile Architecture "Behavioral" of Entity "LatchSR"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/SN74LS47.vhd
+# Compile Entity "SN74LS47"
+# Compile Architecture "Behavioral" of Entity "SN74LS47"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/FrCounter.vhd
+# Compile Entity "FrCounter"
+# Compile Architecture "Behavioral" of Entity "FrCounter"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/CounterM10.vhd
+# Compile Entity "CounterM10"
+# Compile Architecture "Behavioral" of Entity "CounterM10"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/AnodeDecoder.vhd
+# Compile Entity "AnodeDecoder"
+# Compile Architecture "Behavioral" of Entity "AnodeDecoder"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/DisplayDriver.vhd
+# Compile Entity "DisplayDriver"
+# Compile Architecture "Structural" of Entity "DisplayDriver"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/DecimalCounter.vhd
+# Compile Entity "DecimalCounter"
+# Compile Architecture "structural" of Entity "DecimalCounter"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/BinaryToDecimal.vhd
+# Compile Entity "BinaryToDecimal"
+# Compile Architecture "Structural" of Entity "BinaryToDecimal"
+# File: C:/My_Designs/SDLR2_std/DisplayDriverBTD/src/DisplayDriverBTD.vhd
+# Compile Entity "DisplayDriverBTD"
+# Compile Architecture "Structural" of Entity "DisplayDriverBTD"
+# Top-level unit(s) detected:
+# Entity => DisplayDriverBTD
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-# Design: Design "ReactionTTDec" has been set as active.
+# Design: Design "TCDisplay" has been set as active.

@@ -6,8 +6,10 @@ port(
     CLK : in std_logic;
     RST : in std_logic;
     RXD : in std_logic;
+	ACK : in std_logic;
     DOUT : out std_logic_vector (busWidth+1 downto 0);
-    RDY : out std_logic
+    INT : out std_logic
+	
     );	 
 end AsyncronousReceiver;	
 
@@ -83,7 +85,7 @@ architecture Structural of AsyncronousReceiver is
 	);
 	end component;
 	for all: Toggle use entity work.Toggle(Behavioral); 
-    signal XRE, TGS, EOC, ENA, SHF, SYN : std_logic;
+    signal XRE, TGS, EOC, ENA, SHF, SYN,LED,NACK: std_logic;
 	 Signal DOUT_8 : std_logic_vector(busWidth-1 downto 0);
 begin
 	Label1 : FallingEd
@@ -93,6 +95,7 @@ begin
 		XIN => RXD,
 		XRE => XRE
 	); 
+	
 	Label2 : LatchSR
 	port map(
 		CLk => CLk,
@@ -101,6 +104,7 @@ begin
 		SET => XRE,
 		SOUT => ENA
 	);
+	
 	Label3 : Timer
 	generic map(
 		Ticks => 217
@@ -110,13 +114,15 @@ begin
 		RST => ENA,
 		EOT => SYN
 	); 
+	
 	Label4 : Toggle
 	port map(
 		CLk => CLk,
 		RST => ENA,
 		TOG => SYN,
 		TGS => TGS
-	);	
+	);
+	
 	Label5 : Deserializer
 	generic map(
 		busWidth => busWidth
@@ -127,8 +133,10 @@ begin
 		BIN => RXD,
 		SHF => SHF,
 		DOUT => DOUT_8
-	);	 
-DOUT<="00"&DOUT_8;	
+	);	
+	
+	DOUT<=LED & '0' & DOUT_8;
+	
 	Label6 : CountDown
 	generic map(
 		N => busWidth+1
@@ -139,5 +147,18 @@ DOUT<="00"&DOUT_8;
 		DEC => SHF,
 		RDY => EOC
 	);
+	
     SHF <= SYN AND NOT TGS;
+	 INT <= LED;
+	 NACK <= NOT ACK;
+	
+	Label7 : LatchSR
+	port map(
+		CLk => CLk,
+		RST => RST,
+		CLR => NACK,
+		SET => EOC,
+		SOUT => LED
+	);
+		
 end Structural;

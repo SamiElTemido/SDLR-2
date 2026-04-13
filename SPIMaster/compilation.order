@@ -1,0 +1,7 @@
+.\src\LatchSR.vhd
+.\src\Timer.vhd
+.\src\Toggle.vhd
+.\src\RisingEd.vhd
+.\src\Deserializer.vhd
+.\src\CountDown.vhd
+.\src\SPIMaster.vhd

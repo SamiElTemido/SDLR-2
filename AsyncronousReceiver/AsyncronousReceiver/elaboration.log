@@ -1,4 +1,4 @@
-Active-HDL 13.0.375.8320 2026-03-26 21:12:21
+Active-HDL 13.0.375.8320 2026-04-08 19:41:19
 
 Elaboration top modules:
 Architecture                  Structural(AsyncronousReceiver)
@@ -7,13 +7,13 @@ Architecture                  Structural(AsyncronousReceiver)
 ------------------------------------------------------------------------------------------------------------------
 Entity              | Architecture | Library             | Info | Compiler Version          | Compilation Options
 ------------------------------------------------------------------------------------------------------------------
-AsyncronousReceiver | Structural   | AsyncronousReceiver |      | 13.0.375.8320 (Windows64) | -O3
-FallingEd           | Behavioral   | AsyncronousReceiver |      | 13.0.375.8320 (Windows64) | -O3
-LatchSR             | Behavioral   | AsyncronousReceiver |      | 13.0.375.8320 (Windows64) | -O3
-Timer               | Behavioral   | AsyncronousReceiver |      | 13.0.375.8320 (Windows64) | -O3
-Toggle              | Behavioral   | AsyncronousReceiver |      | 13.0.375.8320 (Windows64) | -O3
-Deserializer        | Behavioral   | AsyncronousReceiver |      | 13.0.375.8320 (Windows64) | -O3
-CountDown           | Behavioral   | AsyncronousReceiver |      | 13.0.375.8320 (Windows64) | -O3
+AsyncronousReceiver | Structural   | asyncronousreceiver |      | 13.0.375.8320 (Windows64) | -O3
+FallingEd           | Behavioral   | asyncronousreceiver |      | 13.0.375.8320 (Windows64) | -O3
+LatchSR             | Behavioral   | asyncronousreceiver |      | 13.0.375.8320 (Windows64) | -O3
+Timer               | Behavioral   | asyncronousreceiver |      | 13.0.375.8320 (Windows64) | -O3
+Toggle              | Behavioral   | asyncronousreceiver |      | 13.0.375.8320 (Windows64) | -O3
+Deserializer        | Behavioral   | asyncronousreceiver |      | 13.0.375.8320 (Windows64) | -O3
+CountDown           | Behavioral   | asyncronousreceiver |      | 13.0.375.8320 (Windows64) | -O3
 ------------------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ NUMERIC_STD                        | ieee                |      | 13.0.375.8320 
 ------------------------------------------------------------------------------------------------------------------
 Library                            | Comment
 ------------------------------------------------------------------------------------------------------------------
-AsyncronousReceiver                | None
+asyncronousreceiver                | None
 ieee                               | Standard IEEE packages library
 std                                | Standard VHDL library
 ------------------------------------------------------------------------------------------------------------------

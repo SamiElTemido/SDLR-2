@@ -4,7 +4,7 @@ VCS=0
 version=4
 Current Config=compile
 [Configurations]
-compile=DisplayDriverBTD
+compile=displaydriverbtd
 [Library]
 DisplayDriverBTD=.\DisplayDriverBTD\DisplayDriverBTD.lib
 [$LibMap$]

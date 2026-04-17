@@ -1,0 +1,72 @@
+timestamp=1776305292731
+
+[~A]
+ModifyID=21
+Version=74
+
+[~MFT]
+0=16|0PhaseAngleControl.mgf|47513|38838
+1=10|1PhaseAngleControl.mgf|119593|115303
+3=10|3PhaseAngleControl.mgf|45779|42433
+
+[frcounter]
+A/behavioral=A/Behavioral 21|../src/FrCounter.vhd|17|1*118269
+BinW64/behavioral=3*44736
+I=0*5140
+I/behavioral=I/Behavioral 0*45774
+M=11|2|vef|1776283654494|../src/FrCounter.vhd|0*4711*0x819f96926515c4dfae5e0ee57ad9dda2c65fba4a|0*5057*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1776305292659|../src/FrCounter.vhd|0*5383*0x48f62b370e7f8972f422b8ab5e3ef309487c6c0c|0*5859*0x20116f55b147878295aeff36dce7fc50
+R=../src/FrCounter.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5ee88cbdfe9a3ad1a18c729fba88e76fe711739d3258eb7291525b46820d6d99e7ef4a8c555e8a3a1c9e6ebb866eb970
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4b1c03080da080e1dd3bec0688adfe647
+
+[latchsr]
+A/behavioral=A/Behavioral 21|../src/LatchSR.vhd|14|1*116335
+BinW64/behavioral=3*43357
+I=0*2091
+I/behavioral=I/Behavioral 0*45349
+M=11|2|vef|1776283654218|../src/LatchSR.vhd|0*1738*0x08b60f9daae0b442c47203e06eb537fb42112690|0*2012*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1776305292574|../src/LatchSR.vhd|0*2292*0x05a427a00c2adbda22a5eb929935daea424e36f0|0*2724*0x20116f55b147878295aeff36dce7fc50
+R=../src/LatchSR.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|1a7d935fa2e69a240069ba8ab5ad3e7a26527262ddaa47cb266f3a3c4d9b973ab117d32a4027a5327545e6263f7796db
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff44fb6778388fc5f50001542024d722d77
+
+[phaseanglecontrol]
+A/structural=21|../src/PhaseAngleControl.vhd|14|1*119593
+BinW64/structural=3*45779
+I=0*9301
+I/structural=0*47513
+M=11|2|vef|1776284677379|../src/PhaseAngleControl.vhd|0*8810*0xf60d3695e9356f840e86bc635fe38715980dbad3|0*9202*0x23b75c12e3e89f2ef000564498faa8c2
+M/structural=21|2|vef|1776305292694|../src/PhaseAngleControl.vhd|0*46028*0x72ed2ff69b96b0721cc13d31fd6a3437dc449719|0*47400*0x20116f55b147878295aeff36dce7fc50
+R=../src/PhaseAngleControl.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|3d8bc9c50f48a80827c2c744e8c8ab4fcb49966f484ec41492ec903227f43b41c89573a48296b5f0cee60b1a91af4424
+Version/structural=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb874a037eb43a33f6ad6a5649008c957a
+
+[risinged]
+A/behavioral=A/Behavioral 21|../src/RisingEd.vhd|13|1*117260
+BinW64/behavioral=3*44027
+I=0*3555
+I/behavioral=I/Behavioral 0*45561
+M=11|2|vef|1776283654365|../src/RisingEd.vhd|0*3218*0x3a21772ae07f5a345beb6de760da9ef6f0a69a01|0*3474*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1776305292615|../src/RisingEd.vhd|0*3757*0xfc6b1a6a393fd5eb13e83be89ab459d60bc4ef12|0*4171*0x20116f55b147878295aeff36dce7fc50
+R=../src/RisingEd.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|f74c98e51e7ca3d7eb6be9867f5f46c7bf54c37a5929d0b0bef44c4f98f3ba18b883d8aa0965c101fe0edeeee664f5ca
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff48fca1b6275bd39aad25ca82e148f3067
+
+[timer]
+A/behavioral=A/Behavioral 21|../src/Timer.vhd|14|1*115303
+BinW64/behavioral=3*42433
+I=0*549
+I/behavioral=I/Behavioral 0*45099
+M=11|2|vef|1776283654069|../src/Timer.vhd|0*199*0xfdc44f1b4a45cc44944fe7289341311f76d8b625|0*474*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1776305292494|../src/Timer.vhd|0*788*0xd2d258f8caf910031df3d9daa62a6d6ad7bce969|0*1207*0x20116f55b147878295aeff36dce7fc50
+R=../src/Timer.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|c2ae8f0b7b95b6d69da7be83d99f8f4976061a884356a49c19f1702e74fa964c
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4ef336fcb2bf82040b6ec21fcecd7a41d
+
+[~U]
+frcounter=FrCounter 11|0*4479|
+latchsr=LatchSR 11|0*1546|
+phaseanglecontrol=PhaseAngleControl 11|0*8572|
+risinged=RisingEd 11|0*3029|
+timer=Timer 11|0*0|

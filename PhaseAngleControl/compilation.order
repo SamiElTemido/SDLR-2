@@ -1,0 +1,5 @@
+.\src\Timer.vhd
+.\src\LatchSR.vhd
+.\src\RisingEd.vhd
+.\src\FrCounter.vhd
+.\src\PhaseAngleControl.vhd

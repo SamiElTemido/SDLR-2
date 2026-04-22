@@ -31,34 +31,41 @@ Path=
 Path=
 [CACHEDOC|Aldec.Project.Generic.7|.\FalingEd\FalingEd.adf|]
 Path=
+[CACHEDOC|Aldec.Project.Generic.7|.\PureSineInverte\PureSineInverte.adf|]
+Path=
 [CACHESIMPLE|Aldec.SymbolsCommands.7]
 Built-in symbols=0
+DeathTimeGen=0
 DecimalCounter=0
 deserializaer=0
 DisplayDriver=0
-DisplayDriverBTD=0
-FalingEd=0
+displaydriverbtd=0
+FallingEd=0
 FrCounter=0
 LatchSR=0
 LoadRegister=0
+PhaseAngleControl=0
+AnodeDecoder=0
+PureSineInverte=0
 PWMHL=0
 PWMModule=0
-AnodeDecoder=0
 PWMServo=0
 ReactionTT=0
 ReactionTTDec=0
 RisingEd=0
 Serializer=0
 SN74LS47=0
+SPIMaster=0
+AsyncronousReceiver=0
+TCDisplay=0
 Timer=0
 Toggle=0
-FallingEd=0
+PureSineInverter=0
 AsyncronousTransmitter=0
 BinaryToDecimal=0
 blinky=0
 CountDown=0
 CounterM10=0
 CounterMN=0
-DeathTimeGen=0
 [Gui config]
 RunFor=100 ns

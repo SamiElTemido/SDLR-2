@@ -1,0 +1,72 @@
+timestamp=1776733101838
+
+[~A]
+ModifyID=27
+Version=74
+
+[~MFT]
+0=16|0PureSineInverter.mgf|71413|57552
+1=10|1PureSineInverter.mgf|204234|197546
+3=10|3PureSineInverter.mgf|119941|114502
+
+[countermn]
+A/behavioral=A/Behavioral 21|../src/CounterMN.vhd|19|1*201442
+BinW64/behavioral=3*117592
+I=0*2259
+I/behavioral=I/Behavioral 0*69217
+M=11|2|vef|1776720618614|../src/CounterMN.vhd|0*1791*0x828403520f426e047e3d5ca7887ae5c1bd59940b|0*2176*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1776733101764|../src/CounterMN.vhd|0*2502*0x7a0e43230782febb82bfd32eb30885677cc36183|0*3092*0x20116f55b147878295aeff36dce7fc50
+R=../src/CounterMN.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|a0f9b2588043b0b98947639424bb2d5c50c4b6dd3333f88a08b01e61079c21fa3a91b8c738ad7fbb3a05eb2adf478b72
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff485702a333c7dac95485cb082f2215134
+
+[frcounter]
+A/behavioral=A/Behavioral 21|../src/FrCounter.vhd|17|1*202913
+BinW64/behavioral=3*118916
+I=0*4101
+I/behavioral=I/Behavioral 0*69471
+M=11|2|vef|1776720618678|../src/FrCounter.vhd|0*3674*0xd9271923aebce870a6d2b7cfd43230dacd2c8892|0*4018*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1776733101787|../src/FrCounter.vhd|0*8268*0x0183de22a4689f741969b231a1bff5b2af80c1a8|0*8743*0x20116f55b147878295aeff36dce7fc50
+R=../src/FrCounter.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5ee88cbdfe9a3ad1a18c729fba88e76fe711739d3258eb7291525b46820d6d99c6a54a0d2066ad4f5600cc964ad244d1
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff41b8655893daa8c5d86f0c642e25863f6
+
+[puresineinverter]
+A/structural=A/Structural 21|../src/PureSineInverter.vhd|13|1*204234
+BinW64/structural=3*119941
+I=0*61616
+I/structural=I/Structural 0*71413
+M=11|2|vef|1776732600890|../src/PureSineInverter.vhd|0*61174*0x5e46ec8cab0b6480c3beb22eb46c326ce89f1f33|0*61519*0x23b75c12e3e89f2ef000564498faa8c2
+M/structural=M/Structural 21|2|vef|1776733101802|../src/PureSineInverter.vhd|0*69725*0x87392d2a361d8e13bdb818b7383d0d65d7daac63|0*71302*0x20116f55b147878295aeff36dce7fc50
+R=../src/PureSineInverter.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|61bfa9fb531f1231e5f1ca9284df4accf33918bc2b20a8655cf2c70d768a0b3e6e4396b297475eb2423c51320f7f854a
+Version/structural=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3ebf9ba13b0c5a792726cabcf8a54b71e08
+
+[sinelut]
+A/dataflow=A/DataFlow 21|../src/SineLUT.vhd|11|1*198578
+BinW64/dataflow=3*115426
+I=0*4860
+I/dataflow=I/DataFlow 0*69007
+M=11|2|vef|1776720618717|../src/SineLUT.vhd|0*4541*0x064a52451ef6e371d9f8eaeb9ba5e526005eea84|0*4781*0x23b75c12e3e89f2ef000564498faa8c2
+M/dataflow=M/DataFlow 21|2|vef|1776733101735|../src/SineLUT.vhd|0*51683*0xf699730c31e7dcad672148ef72f7aa4ac4e704d7|0*56761*0x20116f55b147878295aeff36dce7fc50
+R=../src/SineLUT.vhd|4
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|bd9ae3450cad1d27a6d4dd21dfa4f5bd26527262ddaa47cb266f3a3c4d9b973a7812b24b9ed427a0aee68af1c8166bdd
+Version/dataflow=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|0f4ede524a2b2b6a78d09660b7f488344a07c75f2fa40568c09e9134eae7466b087889a763c3e22d2fa53a443ba27ff7
+
+[timer]
+A/behavioral=A/Behavioral 21|../src/Timer.vhd|14|1*197546
+BinW64/behavioral=3*114502
+I=0*549
+I/behavioral=I/Behavioral 0*68757
+M=11|2|vef|1776720618544|../src/Timer.vhd|0*199*0xfdc44f1b4a45cc44944fe7289341311f76d8b625|0*474*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1776733101717|../src/Timer.vhd|0*788*0xd2d258f8caf910031df3d9daa62a6d6ad7bce969|0*1207*0x20116f55b147878295aeff36dce7fc50
+R=../src/Timer.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|c2ae8f0b7b95b6d69da7be83d99f8f49d92a58df995858f7d6962ccd290a579f
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff41794e73a7e24c8ba9165bfff14746257
+
+[~U]
+countermn=CounterMN 11|0*1546|
+frcounter=FrCounter 11|0*3443|
+puresineinverter=PureSineInverter 11|0*60959|
+sinelut=SineLUT 11|0*4344|
+timer=Timer 11|0*0|

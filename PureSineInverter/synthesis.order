@@ -1,0 +1,5 @@
+i<>.\src\PureSineInverter.vhd
+i<>.\src\Timer.vhd
+i<>.\src\CounterMN.vhd
+i<>.\src\FrCounter.vhd
+i<>.\src\SineLUT.vhd

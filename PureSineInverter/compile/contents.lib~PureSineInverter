@@ -1,0 +1,11 @@
+27
+~E 1 "../src/CounterMN.vhd" 5 CounterMN
+~A 1 "../src/CounterMN.vhd" 19 Behavioral
+~E 1 "../src/FrCounter.vhd" 5 FrCounter
+~A 1 "../src/FrCounter.vhd" 17 Behavioral
+~E 1 "../src/PureSineInverter.vhd" 4 PureSineInverter
+~A 1 "../src/PureSineInverter.vhd" 13 Structural
+~E 1 "../src/SineLUT.vhd" 4 SineLUT
+~A 1 "../src/SineLUT.vhd" 11 DataFlow
+~E 1 "../src/Timer.vhd" 5 Timer
+~A 1 "../src/Timer.vhd" 14 Behavioral

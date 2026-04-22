@@ -69,9 +69,9 @@ signal TON: std_logic_vector(7 downto 0);
 begin 
     label1: RisingEd port map(CLK, RST, ZCR, RED); 
     label2: LatchSR port map(CLK, RST, EOT, RED, ENA);
-    label3: Timer generic map(27000) port map(CLK, ENA, EOT);-- 40000 ticks at 50Mhz is 0.8ms, which is the time of one half period of a 50Hz signal	
+    label3: Timer generic map(42000) port map(CLK, ENA, EOT);-- 40000 ticks at 50Mhz is 0.8ms, which is the time of one half period of a 50Hz signal	
 	RSS <= RST AND NOT(EOT);
-	label4: Timer generic map(1620) port map(CLK, RSS, SYN);
+	label4: Timer generic map(1627) port map(CLK, RSS, SYN);
 	label5: FrCounter generic map(8) port map(CLK, RSS, SYN, CNT);
 	TON <= std_logic_vector(255 - unsigned(DUTY));
 	GATE <= '1' when CNT > TON else '0';

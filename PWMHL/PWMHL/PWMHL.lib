@@ -1,72 +1,72 @@
-timestamp=1773418553609
+timestamp=1776903402249
 
 [~A]
-ModifyID=38
+ModifyID=39
 Version=74
 
 [~MFT]
-0=8|0PWMHL.mgf|78496|69023
-1=2|1PWMHL.mgf|291201|285213
-3=2|3PWMHL.mgf|161594|157264
+0=18|0PWMHL.mgf|80744|71271
+1=10|1PWMHL.mgf|300258|294270
+3=10|3PWMHL.mgf|166546|162191
 
 [deathtimegen]
-A/behavioral=A/Behavioral 21|../src/DeathTimeGen.vhd|16|1*283176
-BinW64/behavioral=3*158186
+A/behavioral=A/Behavioral 21|../src/DeathTimeGen.vhd|16|1*295302
+BinW64/behavioral=3*163115
 I=0*57138
-I/behavioral=I/Behavioral 0*76143
+I/behavioral=I/Behavioral 0*79029
 M=11|2|vef|1773416151229|../src/DeathTimeGen.vhd|0*56717*0xfae70fdc30df9e7243e5462863ec8c7484aebd1e|0*57049*0x23b75c12e3e89f2ef000564498faa8c2
-M/behavioral=M/Behavioral 21|2|vef|1773418181906|../src/DeathTimeGen.vhd|0*75420*0x33adbb568846638cd1a6906a432164b000ec40ba|0*76040*0x20116f55b147878295aeff36dce7fc50
+M/behavioral=M/Behavioral 21|2|vef|1776903401834|../src/DeathTimeGen.vhd|0*75420*0x33adbb568846638cd1a6906a432164b000ec40ba|0*76040*0x20116f55b147878295aeff36dce7fc50
 R=../src/DeathTimeGen.vhd|5
 Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5662925bce0efa7645d5451a9bcf0994bf866e87ecbb710e345d36dd92060e595f22161d82389c3c99b18b05c4463eb5
-Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff49e55138eb048658f72c3ec67ab5dccac
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4802651817d5b8e8589abba9166f86024
 
 [frcounter]
-A/behavioral=A/Behavioral 21|../src/FrCounter.vhd|17|1*284541
-BinW64/behavioral=3*159841
+A/behavioral=A/Behavioral 21|../src/FrCounter.vhd|17|1*296667
+BinW64/behavioral=3*164793
 I=0*1534
-I/behavioral=I/Behavioral 0*76400
+I/behavioral=I/Behavioral 0*79286
 M=11|2|vef|1772681028466|../src/FrCounter.vhd|0*1105*0x819f96926515c4dfae5e0ee57ad9dda2c65fba4a|0*1451*0x23b75c12e3e89f2ef000564498faa8c2
-M/behavioral=M/Behavioral 21|2|vef|1773418181989|../src/FrCounter.vhd|0*1777*0x48f62b370e7f8972f422b8ab5e3ef309487c6c0c|0*2253*0x20116f55b147878295aeff36dce7fc50
+M/behavioral=M/Behavioral 21|2|vef|1776903401952|../src/FrCounter.vhd|0*1777*0x48f62b370e7f8972f422b8ab5e3ef309487c6c0c|0*2253*0x20116f55b147878295aeff36dce7fc50
 R=../src/FrCounter.vhd|5
 Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5ee88cbdfe9a3ad1a18c729fba88e76fe711739d3258eb7291525b46820d6d99c96a700b9239d687aa996b4753946a26
-Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4972a33dbd7f789bfac2183369ada33da
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4035b9e38a2e2ee5d35f4af24c3850d1d
 
 [pwmhl]
-A/structural=A/Structural 21|../src/PWMHL.vhd|16|1*291201
-BinW64/structural=3*161594
-I=0*61421
-I/structural=I/Structural 0*78496
-M=11|2|vef|1773416151588|../src/PWMHL.vhd|0*60959*0x0bd5f3c05576e7676ce23247cf368db4aea562ee|0*61346*0x23b75c12e3e89f2ef000564498faa8c2
-M/structural=M/Structural 21|2|vef|1773418553538|../src/PWMHL.vhd|0*77217*0xd3c78c8129dd8d752ef9f719abfcffec7857ec86|0*78407*0x20116f55b147878295aeff36dce7fc50
+A/structural=A/Structural 21|../src/PWMHL.vhd|16|1*300258
+BinW64/structural=3*166546
+I=0*80545
+I/structural=I/Structural 0*80744
+M=11|2|vef|1776903402121|../src/PWMHL.vhd|0*80083*0x2fb922858128defc229995e543de4f6f8bad5f2f|0*80470*0x23b75c12e3e89f2ef000564498faa8c2
+M/structural=M/Structural 21|2|vef|1776903402144|../src/PWMHL.vhd|0*77217*0xd3c78c8129dd8d752ef9f719abfcffec7857ec86|0*78407*0x20116f55b147878295aeff36dce7fc50
 R=../src/PWMHL.vhd|3
-Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|39a4da2556e076b152f7064522cd6ff027b8e5efac0a103def7cf8c6389757e3
-Version/structural=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3ebea7e6126683c078997d4634ea98a660b
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|39a4da2556e076b152f7064522cd6ff0724a51778cda05d3c3f2427725270de3
+Version/structural=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb2b5fe6963f4e06313b367da375196b94
 
 [pwmmodule]
-A/structural=A/Structural 21|../src/PWMModule.vhd|17|1*285865
-BinW64/structural=3*160866
+A/structural=A/Structural 21|../src/PWMModule.vhd|17|1*297991
+BinW64/structural=3*165818
 I=0*59241
-I/structural=I/Structural 0*76654
+I/structural=I/Structural 0*79540
 M=11|2|vef|1773416151477|../src/PWMModule.vhd|0*58818*0xa7dc8c4d8c3b93c6c9905037dc384a147deca9de|0*59158*0x23b75c12e3e89f2ef000564498faa8c2
-M/structural=M/Structural 21|2|vef|1773418182031|../src/PWMModule.vhd|0*59444*0xa4988c3564b4c1e6bbcd2e846878bb0d453b87fe|0*60319*0x20116f55b147878295aeff36dce7fc50
+M/structural=M/Structural 21|2|vef|1776903402047|../src/PWMModule.vhd|0*59444*0xa4988c3564b4c1e6bbcd2e846878bb0d453b87fe|0*60319*0x20116f55b147878295aeff36dce7fc50
 R=../src/PWMModule.vhd|6
 Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|fb6406da52901815fb96162e27f47bff0f35ea33f062537ade0f669a8850af9526cf1856cba8bed05d4843107c59469b
-Version/structural=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb37b2435630f7a7e1d9cb1a6969b25348
+Version/structural=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb2dd351806bc8e08c4785de2f08dd4aae
 
 [timer]
-A/behavioral=A/Behavioral 21|../src/Timer.vhd|14|1*282144
-BinW64/behavioral=3*157264
+A/behavioral=A/Behavioral 21|../src/Timer.vhd|14|1*294270
+BinW64/behavioral=3*162191
 I=0*3153
-I/behavioral=I/Behavioral 0*75170
+I/behavioral=I/Behavioral 0*78779
 M=11|2|vef|1772681028647|../src/Timer.vhd|0*2803*0xfdc44f1b4a45cc44944fe7289341311f76d8b625|0*3078*0x23b75c12e3e89f2ef000564498faa8c2
-M/behavioral=M/Behavioral 21|2|vef|1773418181825|../src/Timer.vhd|0*3392*0xd2d258f8caf910031df3d9daa62a6d6ad7bce969|0*3811*0x20116f55b147878295aeff36dce7fc50
+M/behavioral=M/Behavioral 21|2|vef|1776903401732|../src/Timer.vhd|0*3392*0xd2d258f8caf910031df3d9daa62a6d6ad7bce969|0*3811*0x20116f55b147878295aeff36dce7fc50
 R=../src/Timer.vhd|5
 Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|c2ae8f0b7b95b6d69da7be83d99f8f49ce60cf55a7ac56315ba82e51fdb03424
-Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff49a286e610cfb5b451a4897e9f7af3e98
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4915572a15d3f7012cddd40714eb980cc
 
 [~U]
 deathtimegen=DeathTimeGen 11|0*56496|
 frcounter=FrCounter 11|0*873|
-pwmhl=PWMHL 11|0*60696|
+pwmhl=PWMHL 11|0*79820|
 pwmmodule=PWMModule 11|0*58571|
 timer=Timer 11|0*2604|

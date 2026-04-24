@@ -5,9 +5,11 @@ entity PureSineInverter is
     port (
         CLK : in std_logic;
         RST : in std_logic;
-		DIR : out std_logic;
-        PWM_OUT1 : out std_logic;
-        PWM_OUT2 : out std_logic
+		SD: out std_logic;
+        PWM_OUT1H : out std_logic;
+		PWM_OUT1L: out std_logic;
+        PWM_OUT2H : out std_logic;
+		PWM_OUT2L:out std_logic
     );
 end PureSineInverter;
 Architecture Structural of PureSineInverter is 
@@ -59,9 +61,26 @@ Architecture Structural of PureSineInverter is
 	);
 	end component;
 	for all: SineLUT use entity work.SineLUT(DataFlow);
-    signal SYN : std_logic;
+ 
+		-- Component declaration of the "DeathTimeGen(Behavioral)"
+	component DeathTimeGen
+	generic(
+		DTCycles : INTEGER := 10
+	);
+	port(
+		CLK : in STD_LOGIC;
+		RST : in STD_LOGIC;
+		XIN : in STD_LOGIC;
+		XOUT : out STD_LOGIC
+	);
+	end component;
+	for all: DeathTimeGen use entity work.DeathTimeGen(Behavioral);
+
+	signal SYN,DIR : std_logic;
     signal FULL_ANGLE : std_logic_vector(7 downto 0); -- AHORA ES DE 8 BITS
     signal SIN, CNT : std_logic_vector(11 downto 0);
+	signal pwm_aux, pwm_auxN,pwmd,pwmNd : std_logic; -- Señales auxiliares para PWM
+		
 begin
 
 Timer1: Timer
@@ -108,8 +127,50 @@ port map(
 
 -- El bit 7 (MSB) nos da el cambio de polaridad a los 180 grados exactos
 DIR <= FULL_ANGLE(7); 
+-- Generamos las señales PWM comparando el contador con el valor del seno
+	pwm_aux <= '1' when CNT < SIN else '0'; -- Salida alta para el primer transistor
+	pwm_auxN <= not pwm_aux; -- Salida alta para el segundo transistor (complementaria)
 
-PWM_OUT1 <= '1' when unsigned(SIN) > unsigned(CNT) else '0';
-PWM_OUT2 <= '0';
+	Label1 : DeathTimeGen
+	generic map(
+		DTCycles => 50
+	)
+	port map(
+		CLK => CLK,
+		RST => RST,
+		XIN => pwm_aux,
+		XOUT => pwmd
+	);
+	label2 : DeathTimeGen
+	generic map(
+		DTCycles => 50
+	)
+	port map(
+		CLK => CLK,
+		RST => RST,
+		XIN => pwm_auxN,
+		XOUT =>pwmNd
+	);
+
+PWMproces: process(CNT, SIN, DIR)
+begin
+	if DIR = '1' then
+		PWM_OUT1H <= pwmd; -- Transistor 1
+		PWM_OUT1L <= pwmNd;
+		PWM_OUT2H <= '0';
+		PWM_OUT2L <= '1'; -- Transistor 2
+	
+	else
+		PWM_OUT1H <= '0';
+		PWM_OUT1L <= '1'; -- Transistor 1
+		PWM_OUT2H <= pwmd; -- Transistor 2
+		PWM_OUT2L <= pwmNd;
+
+	end if;
+end process;
+
+--SHUTDOWN PIN FROM IR2110
+SD <=not RST; -- El pin de shutdown se activa con un '0', por lo que invertimos el reset
+
 
 end Structural;

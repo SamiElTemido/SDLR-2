@@ -1,7 +1,7 @@
 [COMPILESTATUS|.\src\PWMHL.vhd]
-FileTimeLow=3991815374
-FileTimeHigh=31240964
-Status=Modified
+FileTimeLow=762537820
+FileTimeHigh=31240968
+Status=Compiled
 [COMPILESTATUS|.\src\PWMModule.vhd]
 FileTimeLow=2249213691
 FileTimeHigh=31239453

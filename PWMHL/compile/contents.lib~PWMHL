@@ -1,4 +1,4 @@
-38
+39
 ~E 1 "../src/DeathTimeGen.vhd" 5 DeathTimeGen
 ~A 1 "../src/DeathTimeGen.vhd" 16 Behavioral
 ~E 1 "../src/FrCounter.vhd" 5 FrCounter

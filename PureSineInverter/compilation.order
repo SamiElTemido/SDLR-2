@@ -1,5 +1,6 @@
-.\src\Timer.vhd
-.\src\SineLUT.vhd
-.\src\CounterMN.vhd
 .\src\FrCounter.vhd
+.\src\SineLUT.vhd
+.\src\Timer.vhd
+.\src\CounterMN.vhd
+.\src\DeathTimeGen.vhd
 .\src\PureSineInverter.vhd

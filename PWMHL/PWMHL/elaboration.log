@@ -1,4 +1,4 @@
-Active-HDL 13.0.375.8320 2026-03-20 09:39:07
+Active-HDL 13.0.375.8320 2026-04-22 18:16:44
 
 Elaboration top modules:
 Architecture                  Structural(PWMHL)
@@ -30,3 +30,7 @@ ieee                        | Standard IEEE packages library
 pwmhl                       | None
 std                         | Standard VHDL library
 -----------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+PWMHL PWMHL Structural
+

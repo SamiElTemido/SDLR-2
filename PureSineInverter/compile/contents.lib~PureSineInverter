@@ -1,10 +1,12 @@
-27
+50
 ~E 1 "../src/CounterMN.vhd" 5 CounterMN
 ~A 1 "../src/CounterMN.vhd" 19 Behavioral
+~E 1 "../src/DeathTimeGen.vhd" 5 DeathTimeGen
+~A 1 "../src/DeathTimeGen.vhd" 16 Behavioral
 ~E 1 "../src/FrCounter.vhd" 5 FrCounter
 ~A 1 "../src/FrCounter.vhd" 17 Behavioral
 ~E 1 "../src/PureSineInverter.vhd" 4 PureSineInverter
-~A 1 "../src/PureSineInverter.vhd" 13 Structural
+~A 1 "../src/PureSineInverter.vhd" 15 Structural
 ~E 1 "../src/SineLUT.vhd" 4 SineLUT
 ~A 1 "../src/SineLUT.vhd" 11 DataFlow
 ~E 1 "../src/Timer.vhd" 5 Timer

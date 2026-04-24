@@ -1,10 +1,66 @@
+acom -reorder -O3 -e 100 -work PWMHL -2002  $dsn/src/Timer.vhd $dsn/src/DeathTimeGen.vhd $dsn/src/FrCounter.vhd $dsn/src/PWMModule.vhd $dsn/src/PWMHL.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/SDLR2_std/PWMHL/src/Timer.vhd
+# Compile Entity "Timer"
+# Compile Architecture "Behavioral" of Entity "Timer"
+# File: C:/My_Designs/SDLR2_std/PWMHL/src/DeathTimeGen.vhd
+# Compile Entity "DeathTimeGen"
+# Compile Architecture "Behavioral" of Entity "DeathTimeGen"
+# File: C:/My_Designs/SDLR2_std/PWMHL/src/FrCounter.vhd
+# Compile Entity "FrCounter"
+# Compile Architecture "Behavioral" of Entity "FrCounter"
+# File: C:/My_Designs/SDLR2_std/PWMHL/src/PWMModule.vhd
+# Compile Entity "PWMModule"
+# Compile Architecture "Structural" of Entity "PWMModule"
+# File: C:/My_Designs/SDLR2_std/PWMHL/src/PWMHL.vhd
+# Compile Entity "PWMHL"
+# Compile Architecture "Structural" of Entity "PWMHL"
+# Top-level unit(s) detected:
+# Entity => PWMHL
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+asim -O5 +access +r +m+PWMHL PWMHL Structural
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-# Design: Design "PWMHL" has been set as active.
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6606 kB (elbread=427 elab2=6039 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\SDLR2_std\PWMHL\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  06:16 p. m., miércoles, 22 de abril de 2026
+#  Simulation has been initialized
+# VSIM: 9 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/SDLR2_std/PWMHL/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /PWMModule/CLK
+# VSIM: Error: Cannot force signal "/PWMModule/CLK" with formula "0 0fs, 1 10ns -r 20ns".
+# KERNEL: Error: Cannot find signal /Timer/CLK
+# VSIM: Error: Cannot force signal "/Timer/CLK" with formula "0 0fs, 1 10ns -r 20ns".
+# KERNEL: Error: Cannot find signal /FrCounter/CLK
+# VSIM: Error: Cannot force signal "/FrCounter/CLK" with formula "0 0fs, 1 10ns -r 20ns".
+# KERNEL: Error: Cannot find signal /Timer/RST
+# VSIM: Error: Cannot force signal "/Timer/RST" with formula "0 0fs, 1 20ns".
+# KERNEL: Error: Cannot find signal /FrCounter/RST
+# VSIM: Error: Cannot force signal "/FrCounter/RST" with formula "0 0fs, 1 20ns".
+# KERNEL: Error: Cannot find signal /PWMModule/RST
+# VSIM: Error: Cannot force signal "/PWMModule/RST" with formula "0 0fs, 1 20ns".
+# KERNEL: Error: Cannot find signal /PWMModule/DUTY
+# VSIM: Error: Cannot force signal "/PWMModule/DUTY" with formula "10#126".
+# KERNEL: Error: Cannot find signal /FrCounter/INC
+# VSIM: Error: Cannot force signal "/FrCounter/INC" with formula "2#1".
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+endsim
+# VSIM: Simulation has finished.
+# Design: Design "PureSineInverter" has been set as active.
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-# Design: 09:39 a. m., viernes, 20 de marzo de 2026
-# Design: Opening design "C:\My_Designs\SDLR2_std\LoadRegister\LoadRegister.adf"
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# Design: Design "LoadRegister" has been set as active.

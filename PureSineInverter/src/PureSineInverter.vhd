@@ -125,11 +125,11 @@ port map(
     CNT => CNT
 );   
 
--- El bit 7 (MSB) nos da el cambio de polaridad a los 180 grados exactos
+-- El bit 7  nos da el cambio de polaridad a los 180 
 DIR <= FULL_ANGLE(7); 
--- Generamos las seÃ±ales PWM comparando el contador con el valor del seno
-	pwm_aux <= '1' when CNT < SIN else '0'; -- Salida alta para el primer transistor
-	pwm_auxN <= not pwm_aux; -- Salida alta para el segundo transistor (complementaria)
+-- Generamos las señales PWM comparando el contador con el valor de la lut
+	pwm_aux <= '1' when CNT < SIN else '0'; -- pwm sin dt 
+	pwm_auxN <= not pwm_aux; -- complemento sin dt
 
 	Label1 : DeathTimeGen
 	generic map(
@@ -155,22 +155,22 @@ DIR <= FULL_ANGLE(7);
 PWMproces: process(CNT, SIN, DIR)
 begin
 	if DIR = '1' then
-		PWM_OUT1H <= pwmd; -- Transistor 1
+		PWM_OUT1H <= pwmd; 
 		PWM_OUT1L <= pwmNd;
 		PWM_OUT2H <= '0';
-		PWM_OUT2L <= '1'; -- Transistor 2
+		PWM_OUT2L <= '1'; 
 	
 	else
 		PWM_OUT1H <= '0';
-		PWM_OUT1L <= '1'; -- Transistor 1
-		PWM_OUT2H <= pwmd; -- Transistor 2
+		PWM_OUT1L <= '1'; 
+		PWM_OUT2H <= pwmd;
 		PWM_OUT2L <= pwmNd;
 
 	end if;
 end process;
 
---SHUTDOWN PIN FROM IR2110
-SD <=not RST; -- El pin de shutdown se activa con un '0', por lo que invertimos el reset
+--SHUTDOWN PIN 
+SD <=not RST; 
 
 
 end Structural;

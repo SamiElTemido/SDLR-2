@@ -1,0 +1,6 @@
+i<>.\src\GenericFIR.vhd
+i<>.\src\CountDown.vhd
+i<>.\src\LatchSR.vhd
+i<>.\src\LoadRegister.vhd
+i<>.\src\CoefficientROM.vhd
+i<>.\src\CounterMN.vhd

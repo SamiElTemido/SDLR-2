@@ -1,0 +1,13 @@
+75
+~E 1 "../src/CoefficientROM.vhd" 5 CoefficientROM
+~A 1 "../src/CoefficientROM.vhd" 15 DataFlow
+~E 1 "../src/CountDown.vhd" 4 CountDown
+~A 1 "../src/CountDown.vhd" 16 Behavioral
+~E 1 "../src/CounterMN.vhd" 5 CounterMN
+~A 1 "../src/CounterMN.vhd" 19 Behavioral
+~E 1 "../src/GenericFIR.vhd" 4 GenericFIR
+~A 1 "../src/GenericFIR.vhd" 17 structural
+~E 1 "../src/LatchSR.vhd" 4 LatchSR
+~A 1 "../src/LatchSR.vhd" 14 Behavioral
+~E 1 "../src/LoadRegister.vhd" 4 LoadRegister
+~A 1 "../src/LoadRegister.vhd" 16 Behavioral
